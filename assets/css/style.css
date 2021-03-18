@@ -1,15 +1,28 @@
 body {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;    
 }
 
-#main-section {
-       
-    background-color: rgba(1, 0, 1, .2);
 
+/*--Nav bar styling----------colors and fonts to be updated*/
+nav{
+    background-color: rgb(230, 194, 193);
+    color: seashell;
 }
-/* footer */
+
+nav a {
+    color: snow;
+    border-radius: 10px;
+}
+
+nav .active{
+    background-color: rgb(239, 242, 243);
+    color:#d11e1e;
+}
+
+
+
+/*--footer ----------*/
 footer{
     border: 2px solid #e65858;
   
