@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#main-section {
+       
+    background-color: rgba(1, 0, 1, .2);
+
+}
+/* footer */
+footer{
+    border: 2px solid #e65858;
+  
+}
+
