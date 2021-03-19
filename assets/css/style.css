@@ -7,53 +7,84 @@ body {
 }
 
 
-/*--Nav bar styling----------colors and fonts to be updated*/
+/*------Nav bar styling------*/
 nav{
     background-color: #f0e965cb;
     font-family: Lora, serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 25px;s
 }
 
+.navbar {
+    padding: 5px 15px;
+    margin-bottom: 0;
+}
+
+
+
+/*------Menu-bar styling------*/
 nav a {
-    border-radius: 5px;
+    border-radius: 25px;
     font-size:15px;
 }
 
-nav .active{
-    background-color: #5959599f;
+nav .active{    
+    color: #595959;
+    border:solid 2px #5959599f;
+}
+
+.navbar-nav a:hover {
     color: #f0e965cb;
+    background-color: #5959599f; 
 }
 
 
-#main-icon {
-    
-    border:2px solid #595959;
-    border-radius: 50%;
-    padding:0;
-    margin: 0;
-    align-items: center;
+.navbar-toggler-icon {
+    display: inline;
 }
 
-.fa.fa-paw {
-    
-    margin-left: 15px;
-}
-
-
-
-
-
-
-
-
+.fa.fa-bars {font-size: 50px;}
 
 .navbar-style{
     color: #595959;
+    font-size: 1.2rem;
 }
 
-.my-icon{
-font-size: 40px;}
+/*------Nav Icon styling------*/
+.navbar-brand{
+    color: #595959;
+    font-size:  2rem;
+}
+
+.navbar-brand i:hover{color: #f0e965cb;
+    background-color: #5959599f; 
+
+}
+
+nav a:hover{color: #5959599f;
+    background-color: #f0e9652f; 
+
+}
+
+.fa-border {
+    border-radius: 50%;
+    border-color: #595959;
+}
+
+#business-name {
+    font-family: 'open sans' sans-serif;
+    font: weight 400;
+    font-size: 25px;
+}
+
+/*------NavBar Text styling------*/
+.navbar-text {
+font-family: Lora, serif;
+    font-weight: 800;
+    font-size: 25px;
+    font-style: oblique;
+}
+
 
 /*--footer ----------*/
 footer{
