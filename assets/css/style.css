@@ -3,13 +3,21 @@
 
 body {
     margin: 0;
-    padding: 0;    
+    padding: 0;  
+     
 }
+#main-section{
+    background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
+
+    height: 100vh;
+    background-size: cover;
+}
+
 
 
 /*------Nav bar styling------*/
 nav{
-    background-color: #f0e965cb;
+    background-color: #81b3d5b2;
     font-family: Lora, serif;
     font-weight: 600;
     font-size: 25px;s
@@ -29,13 +37,13 @@ nav a {
 }
 
 nav .active{    
-    color: #595959;
-    border:solid 2px #5959599f;
+    color: #8B2760;
+    border:solid 2px #8B2760;
 }
 
 .navbar-nav a:hover {
-    color: #f0e965cb;
-    background-color: #5959599f; 
+    color: #81b3d5b2;
+    background-color: #8B2760; 
 }
 
 
@@ -46,29 +54,29 @@ nav .active{
 .fa.fa-bars {font-size: 50px;}
 
 .navbar-style{
-    color: #595959;
+    color: rgb(139, 39, 96);
     font-size: 1.2rem;
 }
 
 /*------Nav Icon styling------*/
 .navbar-brand{
-    color: #595959;
+    color: #8B2760;
     font-size:  2rem;
 }
 
-.navbar-brand i:hover{color: #f0e965cb;
-    background-color: #5959599f; 
+.navbar-brand i:hover{color: #81b3d5b2;
+    background-color: #8B2760; 
 
 }
 
-nav a:hover{color: #5959599f;
-    background-color: #f0e9652f; 
+nav a:hover{color: #8B2760;
+    background-color: #81b3d5b2; 
 
 }
 
 .fa-border {
     border-radius: 50%;
-    border-color: #595959;
+    border-color: #8B2760;
 }
 
 #business-name {
@@ -88,7 +96,32 @@ font-family: Lora, serif;
 
 /*--footer ----------*/
 footer{
-    border: 2px solid #e65858;
-  
+    
+    background-color: #81b3d5b2;
+    font-family: Lora, serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(99, 41, 74);
 }
+#social-links a {
+    
+    color: #8B2760;
+    padding: 2px;
+    margin:5px;
+    font-size: 25px;
+}
+
+#social-links a:hover{
+    background-color: #8B2760;
+    color: #81b3d5b2;
+
+}
+
+footer p {
+    margin: 0;
+    padding-bottom: 0;
+    
+}
+
+  
 
