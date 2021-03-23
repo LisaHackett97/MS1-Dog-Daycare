@@ -44,6 +44,7 @@ nav a {
 nav .active{    
     color: #8B2760;
     border:solid 1px #8B2760;
+    
 }
 
 .navbar-nav a:hover {
@@ -60,7 +61,8 @@ nav .active{
 
 #navbarNav{
     margin-right:15px;
-;}
+}
+
 
 /*------Nav Icon styling------*/
 .navbar-brand{

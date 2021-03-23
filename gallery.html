@@ -6,59 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freyas Dog Daycare</title>
 
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
-  
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="container-fluid">
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">Hidden brand</a>
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      
-    </ul>
-    
-  </div>
-</nav>
+        <!--navbar section-->
+        <nav class="navbar navbar-expand-lg row">
+            <!--navbar Paw Icon-->
+
+            <a class="navbar-brand col-1" href="index.html"><i class="fa fa-paw fa-border"></i>
+                <div id="business-name">Freya's</div>
+            </a>
+
+
+<!--Business Details
+full name and address lg screens only
+-->
+            <div class="navbar-text navbar-style col-7">
+                <div class="d-none d-lg-block text-center"><strong>Freya's</strong> Doggy Daycare, Sea Street. <smaller><em>Ph:01-555 1234</em></smaller> 
+                </div>
+                <div class="d-none d-md-block d-lg-none"> Sea Street. Co Wicklow <em>Ph:01-555 1234</em>
+                </div>
+            </div>
+
+            <!--Menu-Collapse for medium screens and under-->
+            <button class="navbar-toggler my-icon" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars navbar-style my-icon"></i></span>
+            </button>
+            <div class="collapse navbar-collapse col-3 col-md-4 text-center" id="navbarNav">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link navbar-style" href="index.html"> Home</a>
+                    <a class="nav-link navbar-style active" href="gallery.html">Gallery<span
+                            class="sr-only">(current)</span></a>
+                    <a class="nav-link navbar-style" href="services.html"> More Info</a>
+                </div>
+            </div>
+        </nav>
+
 
     </header>
 
 
+<!--main content of page-->
+    <div class="container-fluid" id="main-section">
+        <h1>Gallery Page</h1>
+    </div>
 
-
-
-
-    
-Gallery
-
-
-
-
-    <footer class="fixed-bottom">Footer: To be set up</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>        
-
+<!--footer containing contact options-->
+    <footer class="fixed-bottom container-fluid">
+        <div class="row bottom-container">
+            <div class="col-xs-3"> <i class="fa fa-phone"></i> <em>01-555 1234</em>
+            </div>
+<!--address only visible on lg screens-->
+            <div class="col-3 d-none d-lg-block footer-address">Sea Street, Co Wicklow
+            </div>
+            <div class="col-md-5 d-none d-md-block text-right">Contact us on Social media:
+            </div>
+<!--Social Media links-->
+            <div id="social-links" class="col-xs-3">
+                <a href="https://www.facebook.com" target="_blank" rel="nofollow"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="nofollow"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.twitter.com" target="_blank" rel="nofollow"><i class="fa fa-twitter"></i></a>
+             </div>
+        </div>
+    </footer>
 </body>
+
+<!--navbar scripts-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
 
 </html>
