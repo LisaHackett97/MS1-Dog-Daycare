@@ -39,17 +39,20 @@ nav{
 /*--Menu-bar styling--*/
 nav a {
     border-radius: 25px;
+   
+    
 }
 
 nav .active{    
-    color: #8B2760;
-    border:solid 1px #8B2760;
-    
+      border-bottom:solid 2px #8B2760;   
+      font-weight: 800;
+      color: #0e4749;
 }
 
 .navbar-nav a:hover {
     color: #81b3d5;
     background-color: #8B2760; 
+    
 }
 
 
@@ -99,9 +102,15 @@ nav a:hover{
     font-family: 'lora', sans-serif;
     font-weight: 800;
     font-size: 1.4rem;
-   
-   
+        
+}
+
+
+.home-image {
     
+    border-radius: 25%;
+    
+
 }
 
 
@@ -131,7 +140,7 @@ footer{
     
     color: #8B2760;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 15px;
     
 }
 
