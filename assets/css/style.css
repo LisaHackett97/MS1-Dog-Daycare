@@ -9,7 +9,7 @@ body {
 
 #main-section{
     background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
-    height: 100vh;
+    min-height: 100vh;
     background-size: cover;
 }
 
@@ -106,10 +106,18 @@ nav a:hover{
 }
 
 
-.home-image {
+.home-image1 {    
+    border-radius: 25%;
+    height:300px; 
+    width: 350px;
+
+}
+
+.home-image2 {
     
     border-radius: 25%;
-    
+    height: 300px;
+    width: 350px;
 
 }
 
