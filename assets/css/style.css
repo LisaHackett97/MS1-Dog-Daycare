@@ -4,11 +4,7 @@
 body {
     margin: 0;
     padding: 0;  
-     
-}
-
-#main-section{
-    background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
+     background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
     min-height: 100vh;
     background-size: cover;
 }
@@ -22,6 +18,27 @@ body {
     /* color: #0a2229; */
 }
 
+h1{
+    font-family: lora, sans-serif;
+    font-size: 200%;
+    font-style: italic;
+    padding:10px;
+    margin:25px 0;
+    text-align: center;
+}
+#motto{font-family: lora, sans-serif;
+    font-size: 1.5rem;
+    font-style: bold;
+    padding-left: 10px;
+
+}
+h2{
+    font-family: lora, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    color: #8B2760;
+
+}
 
 
 
@@ -99,7 +116,7 @@ nav a:hover{
     border-radius: 50%;
     border-color: #8B2760;
 }
-
+/*--business name text under icon--*/
 #business-name {
     font-family: 'lora' sans-serif;
     font: weight 400;
@@ -115,7 +132,7 @@ nav a:hover{
         
 }
 
-
+/*--images on home page--*/
 .home-image1 {    
     border-radius: 25%;
     height:300px; 
@@ -128,11 +145,13 @@ nav a:hover{
     border-radius: 25%;
     height: 300px;
     width: 350px;
-
 }
 
-.logolinks{
-    padding-bottom: 30px;}
+.home-image-container{
+    padding-bottom: 25px;
+}
+
+/*logos on main content page which have links to other pages--*/
 
 .logo {
     color:#8B2760;
@@ -142,10 +161,21 @@ nav a:hover{
 .logoright{
     height:4.5rem;  
 }
-.logo-text{
+
+.logolinks{
+    padding-bottom: 30px;
+}
+
+.icon-label {
+    color:#373f47;
+    font-size: 120%;
+    font-family: lora, sans-serif;
+    font-style: bold;
+
+}
+.icon-label:hover{
+    font-weight: 900;
     color: #373f47;
-    text-align: center;
-    vertical-align: bottom;
 }
 
 /* --Form-- */
@@ -193,9 +223,9 @@ legend{
         }
 /*--contact form reasons section--*/
 .reason{
-            color:#8B2760;
+            color:#373f47;
             padding-left: 10px;
-            font-family: 'open-sans', serif;
+            font-family: 'lora', serif;
             font-weight: 500;
           
         }
@@ -221,11 +251,10 @@ button {
     color: silver;
     font-family: open-sans, sans-serif;
     font-weight: 700;
-
 }
 /*--map on larger screens--*/
 iframe{
-    height:30%;
+    height:40%;
     margin-top: 10px;
     padding-right: 5px; 
     align-self: center;

@@ -58,10 +58,12 @@ full name and address lg screens only
 
     <!--main content of page-->
     <div class="container-fluid" id="main-section">
-        <h1>Wake up. Hug dog. Have a good day. – Anonymous</h1>
+        <h1>Welcome to Freyas Doggy Day Care.</h1>
+        <p id="motto">Wake up. Hug dog. Have a good day. – Anonymous</p>
+    <!--Image container-->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-sm-8 col-md-8 col-lg-5 d-md-block">
+                <div class="col-sm-6 col-md-8 col-lg-5 d-md-block home-image-container">
 
 
                     <img src="./assets/images/dog-in-cup .jpg" alt="dog-in-cup" class="home-image1 img-fluid">
@@ -73,12 +75,17 @@ full name and address lg screens only
         </div>
 
         <!--section giving overview of the business-->
+        
+
+        <h2><i class="fa fa-paw"></i> What we do?</h2>
+
+
         <p>We specialise in the care and socialisation of small dogs.Dogs that are highly socialised and exercised are
             happier, healthier and less aggressive. They are less likey to display destructive behaviours -
             Dog daycare provides a safe and controlled environment for your dog to play with other dogs of all breeds,
             and personalities. </p>
         <!--who we are section details-->
-        <h3>Who we are?</h3>
+        <h2><i class="fa fa-users"></i> Who we are?</h2>
 
         <p>well versed in dog behaviour and body language. They work hard to ensure each dog is having a positive
             experience
@@ -88,10 +95,19 @@ full name and address lg screens only
 
         <!--icons with links to other pages-->
         <div class="row justify-content-center logolinks">
-            <div class="col-4 offset-1"><a href="services.html" class="logo-text"><i class="fa fa-info-circle logo"></i>services</a></div>
+            <div class="col-4 offset-1">
+                <a href="services.html">
+                    <i class="fa fa-info-circle logo"></i>
+                        <div class="icon-label">More Info & Price list</div></a>
+            </div>
 
-            <div class="col-4 offset-1"><a href="gallery.html" class="logo-text"><img src="./assets/icons/puppy.png" alt=""
-                        class="logoright">Gallery</a></div>
+            <div class="col-4 offset-1">
+                <a href="gallery.html">
+                    <img src="./assets/icons/puppy.png" alt=""
+                        class="logoright">
+                        <div class="icon-label">Gallery</div>
+                </a>
+            </div>
         </div>
 
         <!--contact form-->
@@ -133,8 +149,7 @@ full name and address lg screens only
 
                         <textarea placeholder="Please enter any other infomation here"></textarea>
 
-                        <!-- <input type="submit" id="submit" value="click here">
-                        <label for="submit"></label> -->
+                        
                         <button>
                             <input class="btn active" type="submit" value="click here" />
                         </button>
@@ -146,9 +161,11 @@ full name and address lg screens only
 
 
             <!--google maps location large screen-->
-            <iframe src="https://www.google.com" class="col-lg-4 offset-lg-1 d-none d-lg-block">
-                <p>No map</p>
+            
+            <iframe title="google maps" aria-lable="google maps" src="https://www.google.ie/maps/place/" class="col-lg-4 offset-lg-1 d-none d-lg-block">
+                <p>Browser does not support</p>
             </iframe>
+            
 
         </div>
     </div>
