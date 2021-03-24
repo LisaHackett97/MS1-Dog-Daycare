@@ -35,5 +35,13 @@ Primary goal of the site owner to encourage visitors to make contact and book se
 - To show where business is located and show services offered.
 
 
+###credits
+
+002-puppy
+Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+
+All images from pexels.com
+
+
 
 
