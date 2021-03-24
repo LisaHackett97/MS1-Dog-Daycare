@@ -136,10 +136,29 @@ nav a:hover{
     font-size: 4.5rem;    
 }
 .logo-right{
-    height:4.5rem;
-   
-    
+    height:4.5rem;  
 }
+#logo-links{padding-bottom: 30px;}
+
+/*--Form--*/
+
+
+#field-set{
+    border: solid thin #8b2760;
+}
+
+legend{
+        width:auto;
+        margin-left: 20px;  
+        font-size: 25px;      
+    }
+
+    lable{
+        width:50%;
+    }
+
+
+
 
 
 

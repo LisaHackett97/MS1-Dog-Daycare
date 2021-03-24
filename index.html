@@ -85,22 +85,57 @@ full name and address lg screens only
             Weekly or even daily daycare sessions will keep your dog active both physically and mentally.</p>
 
         <div class="row justify-content-center" id="logo-links">
-        <div class="col-4 offset-1"><a href="services.html"><i class="fa fa-info-circle logo"></i>services</a></div>
+            <div class="col-4 offset-1"><a href="services.html"><i class="fa fa-info-circle logo"></i>services</a></div>
 
-        <div class="col-4 offset-1"><a href="gallery.html"><img src="./assets/icons/puppy.png" alt="" class="logo-right">Gallery</a></div>
-</div>
-        
-<form>
-<fieldset>
-    <legend>
-        Contact us for more information or to book in:
-    </legend>
+            <div class="col-4 offset-1"><a href="gallery.html"><img src="./assets/icons/puppy.png" alt=""
+                        class="logo-right">Gallery</a></div>
+        </div>
 
-    <input type="text"><input type="submit" value="Submit">
+        <!-- <hr> -->
 
-</fieldset>
-</form>
-        
+        <form action="#" method="POST" class="form-group">
+            <fieldset id="field-set">
+                <legend>
+                    Contact us:
+                </legend>
+                <div>
+
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" id="name" class="form-control">
+                </div>
+                <div>
+                    <label for="email">Your email</label>
+                    <input type="email" name="email" id="email" class="form-control">
+                </div>
+                <div>
+                    <label for="contact-number">Contact number</label>
+                    <input type="tel" name="contact-number" id="contact-number" class="form-control">
+                </div>
+
+                <p>Reason for contact</p>
+
+                <input id="booking" name="contact-reason" value="booking" type="radio">
+                <label for="booking">Book Day Care</label>
+
+                <input id="assessment" name="contact-reason" value="assessment" type="radio">
+                <label for="assessment">Book assessment</label>
+
+                <input id="query" name="contact-reason" value="query" type="radio">
+                <label for="query">Ask us about our services</label>
+
+                <input id="other" name="contact-reason" value="other" type="radio">
+                <label for="other">Other</label>
+                <div></div>
+
+                <textarea placeholder="Please enter any other infomation here" class="form-control"></textarea>
+
+                <input type="submit" id="submit" value="click here">
+                <label for="submit"></label>
+               
+
+            </fieldset>
+        </form>
+
 
     </div>
 
