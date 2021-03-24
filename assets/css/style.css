@@ -131,31 +131,107 @@ nav a:hover{
 
 }
 
+.logolinks{
+    padding-bottom: 30px;}
+
 .logo {
     color:#8B2760;
     font-size: 4.5rem;    
 }
-.logo-right{
+
+.logoright{
     height:4.5rem;  
 }
-#logo-links{padding-bottom: 30px;}
+.logo-text{
+    color: #373f47;
+    text-align: center;
+    vertical-align: bottom;
+}
 
-/*--Form--*/
+/* --Form-- */
 
-
-#field-set{
-    border: solid thin #8b2760;
+form{
+    display:inline-block;
 }
 
 legend{
         width:auto;
         margin-left: 20px;  
-        font-size: 25px;      
+        font-size: 25px;  
+        color:#8B2760;
+        font-family: lora, serif;
+        font-weight: 600;    
     }
 
-    lable{
-        width:50%;
-    }
+#field-set{
+    border: solid thin #8b2760;
+    border-radius: 2%;
+    max-width:100%;
+    padding : 5px;
+    margin:0;   
+}
+
+/*--contact form input boxes--*/
+ textarea, #name, #email, #contact-number{
+        font: .8em;
+        min-width: 95%;
+        margin-left: 5px;}
+
+ textarea{
+            height:10rem;
+        }
+
+.details-labels{
+        color:#8B2760;
+        font-family: lora, serif;
+        font-weight: 600;
+        
+        margin-top: 5px;
+        margin-bottom: 1px;
+        margin-left: 5px;
+
+        }
+/*--contact form reasons section--*/
+.reason{
+            color:#8B2760;
+            padding-left: 10px;
+            font-family: 'open-sans', serif;
+            font-weight: 500;
+          
+        }
+fieldset h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    color:#8B2760;
+    font-family: lora, serif;
+            font-weight: 600;
+}
+input[type='radio'] {
+    margin-left: 5px;
+}
+
+button {
+    border-radius:10%;
+    background-color:#8B2760 ;
+    margin-left: 5px;   
+}
+
+.btn {
+    color: silver;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+
+}
+/*--map on larger screens--*/
+iframe{
+    height:30%;
+    margin-top: 10px;
+    padding-right: 5px; 
+    align-self: center;
+}
+
+
 
 
 
