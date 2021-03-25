@@ -181,16 +181,44 @@ nav a:hover{
 .home-image-container{
     padding-bottom: 25px;
 }
-
+/*--gallery images and icons--*/
 .gallery-image{
     border-radius: 40%;
-    overflow: hidden;
-    width: 90%;
-  
-    
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    padding:10px;
+}
+/*--make images smaller size for small screens--*/
+.gallery-image-small{
+    border-radius: 40%;
+    width: 200px;
+    height:200px;
+    object-fit: cover;
+}
+
+.gallery-heart-icon{
+    color: #cbc0d3;
+    font-size: 200%;
+    margin-left: 25%;
+}
+
+.gallery-paw-icon{
+    color: #dee2ff;
+    font-size: 200%;
+    margin-left: 25%;
+    margin-top: 25%;
 
 }
 
+/*--Text for gallery page--*/
+.recommendations{
+    font-style: italic;
+    font-size: 100%;
+    
+     /* position: absolute; */
+
+}
 
 
 
