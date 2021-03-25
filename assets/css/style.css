@@ -182,6 +182,17 @@ nav a:hover{
     padding-bottom: 25px;
 }
 
+.gallery-image{
+    border-radius: 40%;
+    overflow: hidden;
+    width: 90%;
+  
+    
+
+}
+
+
+
 
 /*logos on main content page which have links to other pages--*/
 
