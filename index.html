@@ -30,7 +30,8 @@
 full name and address lg screens only
 -->
             <div class="navbar-text navbar-style col-7">
-                <div class="d-none d-lg-block text-center"><strong>Freya's</strong> Doggy Daycare, Sea Street. <smaller>
+                <div class="d-none d-lg-block text-center"><strong class="navtitle">Freya's</strong> Doggy Daycare, Sea
+                    Street. <smaller>
                         <em>Ph:01-555 1234</em></smaller>
                 </div>
                 <div class="d-none d-md-block d-lg-none"> Sea Street. Co Wicklow <em>Ph:01-555 1234</em>
@@ -58,24 +59,31 @@ full name and address lg screens only
 
     <!--main content of page-->
     <div class="container-fluid" id="main-section">
-        <h1>Welcome to Freyas Doggy Day Care.</h1>
+        <!--heading and quote-->
+
+        <h1>Welcome to Freyas Doggy Day Care. </h1>
+
+
         <p id="motto">Wake up. Hug dog. Have a good day. – Anonymous</p>
-    <!--Image container-->
+        <!--Image container-->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-6 col-md-8 col-lg-5 d-md-block home-image-container">
-
-
-                    <img src="./assets/images/dog-in-cup .jpg" alt="dog-in-cup" class="home-image1 img-fluid">
+                    <img src="./assets/images/dog-in-cup .jpg" alt="dog-in-cup" class="home-images img-fluid">
                 </div>
-                <div class="col-lg-5 d-none d-lg-block"><img src="./assets/images/two dogs.jpg" alt="two dogs playing"
-                        class=" home-image2 img-fluid">
+                <!--to add more space between images on large screen-->
+                <div class="col-lg-2 d-none d-lg-block">
+
+                </div>
+
+                <!--second image for large screens-->
+                <div class="col-lg-5 d-none d-lg-block">
+                    <img src="./assets/images/two dogs.jpg" alt="two dogs playing" class=" home-images img-fluid">
                 </div>
             </div>
         </div>
 
         <!--section giving overview of the business-->
-        
 
         <h2><i class="fa fa-paw"></i> What we do?</h2>
 
@@ -83,7 +91,9 @@ full name and address lg screens only
         <p>We specialise in the care and socialisation of small dogs.Dogs that are highly socialised and exercised are
             happier, healthier and less aggressive. They are less likey to display destructive behaviours -
             Dog daycare provides a safe and controlled environment for your dog to play with other dogs of all breeds,
-            and personalities. </p>
+            and personalities.
+        </p>
+
         <!--who we are section details-->
         <h2><i class="fa fa-users"></i> Who we are?</h2>
 
@@ -91,21 +101,27 @@ full name and address lg screens only
             experience
             They allow dogs to engage in supervised playtime at their own pace. For shy dogs, this routine can help
             build confidence and good manners.
-            Weekly or even daily daycare sessions will keep your dog active both physically and mentally.</p>
+            Weekly or even daily daycare sessions will keep your dog active both physically and mentally.
+        </p>
 
-        <!--icons with links to other pages-->
+        <!--icons with links to other pages Image for large screens-->
         <div class="row justify-content-center logolinks">
-            <div class="col-4 offset-1">
+            <div class="col-4 col-lg-3 offset-sm-1">
                 <a href="services.html">
                     <i class="fa fa-info-circle logo"></i>
-                        <div class="icon-label">More Info & Price list</div></a>
+                    <div class="icon-label">More Info & Price list
+                    </div>
+                </a>
             </div>
 
-            <div class="col-4 offset-1">
+            <div class="col-lg-4 d-none d-lg-block">
+                <img src="./assets/images/Human and dog.jpg" alt="Person and dog" class="home-images1 img-fluid">
+            </div>
+
+            <div class="col-4 col-lg-3 offset-sm-1">
                 <a href="gallery.html">
-                    <img src="./assets/icons/puppy.png" alt=""
-                        class="logoright">
-                        <div class="icon-label">Gallery</div>
+                    <img src="./assets/icons/puppy.png" alt="" class="logoright">
+                    <div class="icon-label">Gallery</div>
                 </a>
             </div>
         </div>
@@ -113,7 +129,7 @@ full name and address lg screens only
         <!--contact form-->
         <div class="container-fluid contact-section">
             <div class="row justify-content-center">
-                <form action="?"  method="POST" class="col-sm-4 offset-sm-2 col-md-6 offset-md-0">
+                <form action="?" method="POST" class="col-sm-4 offset-sm-2 col-md-6 offset-md-0">
                     <fieldset id="field-set">
                         <legend>
                             Contact us:
@@ -149,26 +165,31 @@ full name and address lg screens only
 
                         <textarea placeholder="Please enter any other infomation here"></textarea>
 
-                        
+
                         <button>
                             <input class="btn active" type="submit" value="click here" />
                         </button>
 
+                    </fieldset>
+                </form>
 
+                <!--google maps location large screen-->
+                <div class="col-lg-4 offset-lg-1 d-none d-lg-block">
+                    <div class="col-4 map-title">
+                       <i class="fa fa-map"></i><h6>Find us here!</h6>
+
+                            
                         
-                     </fieldset>
-                 </form>
+                        </div>
+                    <iframe title="google maps" aria-lable="google maps" src="https://www.google.ie/maps/">
+                        
+                        
+                        <p>Browser does not support</p>
+                    </iframe>
+                </div>
 
-
-            <!--google maps location large screen-->
-            
-            <iframe title="google maps" aria-lable="google maps" src="https://www.google.ie/maps/place/" class="col-lg-4 offset-lg-1 d-none d-lg-block">
-                <p>Browser does not support</p>
-            </iframe>
-            
-
+            </div>
         </div>
-    </div>
     </div>
     <br>
 

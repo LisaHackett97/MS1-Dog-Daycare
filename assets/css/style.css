@@ -25,18 +25,39 @@ h1{
     padding:10px;
     margin:25px 0;
     text-align: center;
+   
 }
-#motto{font-family: lora, sans-serif;
+#motto{
+    font-family: lora, sans-serif;
     font-size: 1.5rem;
     font-style: bold;
     padding-left: 10px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+        }
 
-}
+/*--code for animations from article on https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css--*/
+ @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
 h2{
     font-family: lora, sans-serif;
     font-weight: 700;
     font-size: 150%;
     color: #8B2760;
+
+}
+
+.fa-bone{font-size: 150%;
+    color: #8B2760;
+    background-color: beige;
 
 }
 
@@ -132,24 +153,35 @@ nav a:hover{
         
 }
 
+.navtitle{
+    font-size: 1.7rem;
+}
+
 /*--images on home page--*/
-.home-image1 {    
+.home-images {    
     border-radius: 25%;
     height:300px; 
     width: 350px;
+    
 
 }
 
-.home-image2 {
+.home-images1 {
     
     border-radius: 25%;
     height: 300px;
-    width: 350px;
+    width: auto;
+    /* transition:width 5s ease-in 1s; */
+    object-fit: cover;
+    
 }
+
+
 
 .home-image-container{
     padding-bottom: 25px;
 }
+
 
 /*logos on main content page which have links to other pages--*/
 
@@ -177,6 +209,8 @@ nav a:hover{
     font-weight: 900;
     color: #373f47;
 }
+
+
 
 /* --Form-- */
 
@@ -260,6 +294,14 @@ iframe{
     align-self: center;
 }
 
+
+.fa-map{
+    vertical-align: middle;
+    font-size: 40px;
+    color: rgba(139,39,96,.8);
+    padding-bottom:10px;
+
+}
 
 
 
