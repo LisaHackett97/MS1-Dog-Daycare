@@ -342,21 +342,30 @@ iframe{
 
 }
 
+/*--contact form link section: on gallery and services pages--*/
 
-
-
-
+.contact-link{
+    height: 120px;
+    width:200px;
+    color: #373f47;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #fdffb6;
+    border-radius: 35%;
+   
+}
 
 
 /*--footer ----------*/
 footer{
     
-    background-color: #81b3d5b2;
+    background-color: #81b3d5;
     font-family: lora, serif;
     font-weight: 600;
     font-size: 1.1rem;
     color: #8B2760;
     height: 3rem;
+  
     
 }
 
