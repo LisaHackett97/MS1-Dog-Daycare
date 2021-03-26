@@ -24,8 +24,11 @@ h1{
     font-style: italic;
     padding:10px;
     margin:25px 0;
-    text-align: center;
-   
+    text-align: center;  
+}
+
+#main-section #motto{
+    color: #8b2760;
 }
 #motto{
     font-family: lora, sans-serif;
@@ -348,10 +351,12 @@ iframe{
     height: 120px;
     width:200px;
     color: #373f47;
+    font-family: opens-sans, serif;
     font-size: 30px;
-    font-weight: 900;
+    font-weight: 700;
     background-color: #fdffb6;
     border-radius: 35%;
+    text-align: center;
    
 }
 
