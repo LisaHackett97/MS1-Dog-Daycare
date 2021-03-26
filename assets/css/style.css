@@ -179,26 +179,18 @@ nav a:hover{
     
 }
 
-
-
 .home-image-container{
     padding-bottom: 25px;
 }
 /*--gallery images and icons--*/
 .gallery-image{
     border-radius: 40%;
-    width: 250px;
-    height:250px;
-    object-fit: cover;
-    padding:10px;
-}
-/*--make images smaller size for small screens--*/
-.gallery-image-small{
-    border-radius: 40%;
     width: 200px;
     height:200px;
     object-fit: cover;
+    
 }
+
 
 .gallery-heart-icon{
     color: #cbc0d3;
@@ -207,7 +199,7 @@ nav a:hover{
 }
 
 .gallery-paw-icon{
-    color: #dee2ff;
+    color: #acb0cc;
     font-size: 200%;
     margin-left: 25%;
     margin-top: 25%;
@@ -218,9 +210,7 @@ nav a:hover{
 .recommendations{
     font-style: italic;
     font-size: 100%;
-    
-     /* position: absolute; */
-
+ 
 }
 
 
@@ -231,7 +221,7 @@ nav a:hover{
     color:#8B2760;
     font-size: 4.5rem;    
 }
-
+/*--icon to link to gallery page adjust height so in line with logo on left--*/
 .logoright{
     height:4.5rem;  
 }
@@ -268,7 +258,7 @@ legend{
         font-family: lora, serif;
         font-weight: 600;    
     }
-
+/*--to set border colour and visibility of fieldset box on form--*/
 #field-set{
     border: solid thin #8b2760;
     border-radius: 2%;
@@ -317,17 +307,14 @@ input[type='radio'] {
     margin-left: 5px;
 }
 
+/*stylng of button on form--*/
 button {
     border-radius:10%;
     background-color:#8B2760 ;
     margin-left: 5px;   
 }
 
-.btn {
-    color: silver;
-    font-family: open-sans, sans-serif;
-    font-weight: 700;
-}
+
 /*--map on larger screens--*/
 iframe{
     height:40%;
@@ -359,6 +346,7 @@ iframe{
     text-align: center;
    
 }
+
 
 
 /*--footer ----------*/
@@ -396,8 +384,61 @@ footer{
     color: #81b3d5b2;
 
 }
-
+/*--to give some spacing on address in footer--*/
 .footer-address{margin-left: 50px;}
+
+
+/*--media queries medium screens: to improve layout and spacing of images-more on medium screens--*/
+@media screen and (min-width:768px){
+    .gallery-image{
+    border-radius: 40%;
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    padding-right: 0;
+    padding-left: 0;
+   
+    
+}
+.gallery-heart-icon{
+    color: #cbc0d3;
+    font-size: 275%;
+    padding-top: 35%;
+}
+
+.gallery-paw-icon{
+    color: #acb0cc;
+    font-size: 300%;
+    margin-left: 5%;
+    margin-top: 25%;
+    margin-right:10%;
+
+}
+}
+
+/*--media queries large screens: to improve layout and spacing of images-more on large screens--*/
+@media screen and (min-width:992px){
+    .gallery-image{
+    border-radius: 40%;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    padding-right: 0;
+    padding-left: 0;
+   
+    
+}
+.gallery-heart-icon{
+    color: #cbc0d3;
+    font-size: 275%;
+    padding-top: 60%;
+}
+
+
+
+
+}
+
 
 
 
