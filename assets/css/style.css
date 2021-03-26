@@ -389,11 +389,11 @@ footer{
 
 
 /*--media queries medium screens: to improve layout and spacing of images-more on medium screens--*/
-@media screen and (min-width:768px){
+@media screen and (min-width:810px){
     .gallery-image{
     border-radius: 40%;
-    width: 250px;
-    height:250px;
+    width: 230px;
+    height:240px;
     object-fit: cover;
     padding-right: 0;
     padding-left: 0;
@@ -402,8 +402,8 @@ footer{
 }
 .gallery-heart-icon{
     color: #cbc0d3;
-    font-size: 275%;
-    padding-top: 35%;
+    font-size: 270%;
+    padding-top: 40%;
 }
 
 .gallery-paw-icon{
