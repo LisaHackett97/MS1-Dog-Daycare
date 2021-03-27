@@ -8,6 +8,11 @@ body {
     min-height: 100vh;
     background-size: cover;
 }
+/*--margin top to main section after fixing header--*/
+#main-section{
+   
+    margin-top: 100px;
+}
 
 #main-section p{
     font-family: lora, serif;
@@ -15,7 +20,7 @@ body {
     color: #373f47;
     padding-bottom: 30px;
     padding-top: 25px;
-    /* color: #0a2229; */
+    
 }
 
 h1{
@@ -29,6 +34,7 @@ h1{
 
 #main-section #motto{
     color: #8b2760;
+   
 }
 #motto{
     font-family: lora, sans-serif;
@@ -58,13 +64,6 @@ h2{
 
 }
 
-.fa-bone{font-size: 150%;
-    color: #8B2760;
-    background-color: beige;
-
-}
-
-
 
 /*--Nav bar styling--*/
 nav{
@@ -78,6 +77,7 @@ nav{
     padding: 5px 15px;
     margin-bottom: 0;
     padding-bottom: 0;
+    
 }
 
 .navbar-style{
@@ -320,7 +320,16 @@ button {
     border-radius:10%;
     background-color:#8B2760 ;
     margin-left: 5px;   
+     color: #81b3d5;
 }
+
+input[type=submit] {
+
+  color: #fff;
+  font-weight: 700;
+}
+
+
 
 
 /*--map on larger screens--*/
@@ -399,6 +408,12 @@ footer{
 @media only screen and (min-width:768px){
 .images-outer{
     margin-top: 100px;
+}
+}
+
+@media only screen and (min-width:1200px){
+.rowxl{
+    padding-left: 30px;
 }
 }
 
