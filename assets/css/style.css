@@ -363,7 +363,12 @@ iframe{
     text-align: center;
    
 }
-
+/*--Price List table--*/
+table{
+    background-color: #cbc0d3;
+    margin:10px;
+    border: solid 2px #8B2760;
+}
 
 
 /*--footer ----------*/
