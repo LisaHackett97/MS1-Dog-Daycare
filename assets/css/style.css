@@ -28,7 +28,7 @@ h1{
     font-size: 200%;
     font-style: italic;
     padding:10px;
-    margin:25px 0;
+    margin:25px 0 0;
     text-align: center;  
 }
 
@@ -41,6 +41,7 @@ h1{
     font-size: 1.5rem;
     font-style: bold;
     padding-left: 10px;
+    padding-top: 0;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -365,9 +366,18 @@ iframe{
 }
 /*--Price List table--*/
 table{
-    background-color: #cbc0d3;
+    /* background-color: #cbc0d3; */
     margin:10px;
     border: solid 2px #8B2760;
+    background: url(/assets/icons/cartoon-dog-bg.jpg) center center / contain no-repeat;
+    
+    
+
+}
+
+table tr {
+    background-color: rgba(203, 192, 211, .8);
+  
 }
 
 
@@ -421,7 +431,6 @@ footer{
     padding-left: 30px;
 }
 }
-
 
 
 
