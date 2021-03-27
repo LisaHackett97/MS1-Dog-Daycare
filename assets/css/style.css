@@ -188,14 +188,22 @@ nav a:hover{
     width: 200px;
     height:200px;
     object-fit: cover;
-    
+   
 }
+
+/*--middle image on medium screens, push down alignment--*/
+.middle-image-lg{
+    margin-top: 100px;
+}
+
+
 
 
 .gallery-heart-icon{
     color: #cbc0d3;
     font-size: 200%;
-    margin-left: 25%;
+   padding-left: 10px;
+    padding-top:100px;
 }
 
 .gallery-paw-icon{
@@ -388,59 +396,12 @@ footer{
 .footer-address{margin-left: 50px;}
 
 
-/*--media queries medium screens: to improve layout and spacing of images-more on medium screens--*/
-@media screen and (min-width:810px){
-    .gallery-image{
-    border-radius: 40%;
-    width: 230px;
-    height:240px;
-    object-fit: cover;
-    padding-right: 0;
-    padding-left: 0;
-   
-    
-}
-.gallery-heart-icon{
-    color: #cbc0d3;
-    font-size: 270%;
-    padding-top: 40%;
-}
-
-.gallery-paw-icon{
-    color: #acb0cc;
-    font-size: 300%;
-    margin-left: 5%;
-    margin-top: 25%;
-    margin-right:10%;
-
+@media only screen and (min-width:768px){
+.images-outer{
+    margin-top: 100px;
 }
 }
 
-/*--media queries large screens: to improve layout and spacing of images-more on large screens--*/
-@media screen and (min-width:992px){
-    .gallery-image{
-    border-radius: 40%;
-    width: 300px;
-    height:300px;
-    object-fit: cover;
-    padding-right: 0;
-    padding-left: 0;
-   
-    
-}
-.gallery-heart-icon{
-    color: #cbc0d3;
-    font-size: 275%;
-    padding-top: 60%;
-}
 
 
-
-
-}
-
-
-
-
-  
 
