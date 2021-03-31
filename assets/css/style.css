@@ -346,7 +346,7 @@ table{
     /* background-color: #cbc0d3; */
     margin:10px;
     border: solid 2px #8B2760;
-    background: url(./assets/icons/cartoon-dog-bg.jpg) center center / contain no-repeat;
+    background: url("../icons/cartoon-dog-bg.jpg") center center / contain no-repeat;
     
     
 
@@ -364,31 +364,26 @@ footer{
     background-color: #81b3d5;
     font-family: lora, serif;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #8B2760;
-    height: 3rem;
-  
-    
+    padding: 10px;   
 }
 
-.bottom-container{
-    padding-left:10px;
-    margin-left: 10px;;
+.social-links {     
+    display: flex;
+    justify-content: flex-end;
 }
 
-#social-links {
-    font-size:1.3rem;
-    margin-left:20px;
-}
-#social-links a {
-    
+.social-links a {
+    font-size: 1.3rem;
     color: #8B2760;
-    padding-left: 10px;
-    padding-right: 15px;
-    
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50%;
+   
 }
 
-#social-links a:hover{
+.social-links a:hover{
     background-color: #8B2760;
     color: #81b3d5b2;
 
