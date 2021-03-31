@@ -175,7 +175,6 @@ nav a:hover{
     border-radius: 25%;
     height: 300px;
     width: auto;
-    /* transition:width 5s ease-in 1s; */
     object-fit: cover;
     
 }
@@ -183,48 +182,26 @@ nav a:hover{
 .home-image-container{
     padding-bottom: 25px;
 }
-/*--gallery images and icons--*/
+/*--gallery images--*/
 .gallery-image{
-    border-radius: 40%;
-    width: 200px;
-    height:200px;
+    border-radius: 10%;
+    width: 300px;
+    height:300px;
     object-fit: cover;
-   
+   margin-top: 15px;
+  margin-bottom: 15px;
 }
-
-/*--middle image on medium screens, push down alignment--*/
-.middle-image-lg{
-    margin-top: 100px;
+.main-gallery{
+    display: flex;
+    justify-content: center;
 }
-
-
-
-
-.gallery-heart-icon{
-    color: #cbc0d3;
-    font-size: 200%;
-   padding-left: 10px;
-    padding-top:100px;
-}
-
-.gallery-paw-icon{
-    color: #acb0cc;
-    font-size: 200%;
-    margin-left: 25%;
-    margin-top: 25%;
-
-}
-
 /*--Text for gallery page--*/
 .recommendations{
     font-style: italic;
-    font-size: 100%;
+    font-size: 100%; 
  
 }
-
-
-
-/*logos on main content page which have links to other pages--*/
+/*--logos on main content page which have links to other pages--*/
 
 .logo {
     color:#8B2760;
@@ -369,7 +346,7 @@ table{
     /* background-color: #cbc0d3; */
     margin:10px;
     border: solid 2px #8B2760;
-    background: url(/assets/icons/cartoon-dog-bg.jpg) center center / contain no-repeat;
+    background: url(./assets/icons/cartoon-dog-bg.jpg) center center / contain no-repeat;
     
     
 
@@ -418,19 +395,4 @@ footer{
 }
 /*--to give some spacing on address in footer--*/
 .footer-address{margin-left: 50px;}
-
-
-@media only screen and (min-width:768px){
-.images-outer{
-    margin-top: 100px;
-}
-}
-
-@media only screen and (min-width:1200px){
-.rowxl{
-    padding-left: 30px;
-}
-}
-
-
 
