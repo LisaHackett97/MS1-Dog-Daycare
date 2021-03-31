@@ -4,40 +4,44 @@
 body {
     margin: 0;
     padding: 0;  
-     background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
+    background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
     min-height: 100vh;
     background-size: cover;
 }
 /*--margin top to main section after fixing header--*/
-#main-section{
-   
+#main-section{   
     margin-top: 100px;
 }
 
 #main-section p{
-    font-family: lora, serif;
+    font-family: 'lora', serif;
     font-weight: 500;
     color: #373f47;
     padding-bottom: 30px;
-    padding-top: 25px;
-    
+    padding-top: 25px;    
 }
 
 h1{
-    font-family: lora, sans-serif;
+    font-family: 'Lora', serif;
     font-size: 200%;
     font-style: italic;
     padding:10px;
     margin:25px 0 0;
     text-align: center;  
 }
+h3{
+     font-family: 'Lora', serif;
+}
 
+td{font-family: 'Open-sans', serif;
+font-weight:400;}
+
+/*--motto below heading on each page--*/
 #main-section #motto{
-    color: #8b2760;
-   
+    color: #8b2760;   
 }
 #motto{
-    font-family: lora, sans-serif;
+    font-family: lora, serif;
     font-size: 1.5rem;
     font-style: bold;
     padding-left: 10px;
@@ -62,7 +66,6 @@ h2{
     font-weight: 700;
     font-size: 150%;
     color: #8B2760;
-
 }
 
 
@@ -70,8 +73,7 @@ h2{
 nav{
     background-color: #81b3d5;
     font-family: Lora, serif;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .navbar {
@@ -85,14 +87,12 @@ nav{
     color: #8B2760;
     font-size: 1.2rem;
     overflow: none;
-  }
+}
 
 
 /*--Menu-bar styling--*/
 nav a {
-    border-radius: 25px;
-   
-    
+    border-radius: 25px; 
 }
 
 nav .active{    
@@ -103,8 +103,7 @@ nav .active{
 
 .navbar-nav a:hover {
     color: #81b3d5;
-    background-color: #8B2760; 
-    
+    background-color: #8B2760;     
 }
 
 
@@ -134,7 +133,6 @@ nav .active{
 nav a:hover{
     color: #8B2760;
     background-color: #81b3d5b2; 
-
 }
 
 .fa-border {
@@ -153,8 +151,7 @@ nav a:hover{
 .navbar-text {
     font-family: 'lora', sans-serif;
     font-weight: 800;
-    font-size: 1.4rem;
-        
+    font-size: 1.4rem;        
 }
 
 .navtitle{
@@ -165,18 +162,14 @@ nav a:hover{
 .home-images {    
     border-radius: 25%;
     height:300px; 
-    width: 350px;
-    
-
+    width: 350px;   
 }
 
-.home-images1 {
-    
+.home-images1 {    
     border-radius: 25%;
     height: 300px;
     width: auto;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
 
 .home-image-container{
@@ -188,8 +181,8 @@ nav a:hover{
     width: 300px;
     height:300px;
     object-fit: cover;
-   margin-top: 15px;
-  margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .main-gallery{
     display: flex;
@@ -201,6 +194,7 @@ nav a:hover{
     font-size: 100%; 
  
 }
+
 /*--logos on main content page which have links to other pages--*/
 
 .logo {
@@ -227,8 +221,6 @@ nav a:hover{
     font-weight: 900;
     color: #373f47;
 }
-
-
 
 /* --Form-- */
 
@@ -266,8 +258,7 @@ legend{
 .details-labels{
         color:#8B2760;
         font-family: lora, serif;
-        font-weight: 600;
-        
+        font-weight: 600;        
         margin-top: 5px;
         margin-bottom: 1px;
         margin-left: 5px;
@@ -341,20 +332,29 @@ iframe{
     text-align: center;
    
 }
+/*--Services/More Info Page--*/
+
 /*--Price List table--*/
 table{
-    /* background-color: #cbc0d3; */
     margin:10px;
     border: solid 2px #8B2760;
     background: url("../icons/cartoon-dog-bg.jpg") center center / contain no-repeat;
-    
-    
-
 }
 
 table tr {
-    background-color: rgba(203, 192, 211, .8);
-  
+    background-color: rgba(203, 192, 211, .8);  
+}
+
+.table-data-65{
+    width:65%;
+}
+.table-data-35{
+    width:35%;
+}
+
+#main-section li{
+    font-family: 'lora' serif;
+    font-size:10px;
 }
 
 
