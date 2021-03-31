@@ -388,6 +388,11 @@ footer{
     color: #81b3d5b2;
 
 }
+
+.footer-text{
+    font-style: italic;
+    font-size:1rem;
+}
 /*--to give some spacing on address in footer--*/
 .footer-address{margin-left: 50px;}
 
