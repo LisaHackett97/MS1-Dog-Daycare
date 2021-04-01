@@ -376,13 +376,14 @@ li{
 .puppy-icon{
     height:60px;
     width:60px;
-    margin-right:25px;
+    margin-right:20px;
 }
 .badge{
     padding:5px;
     height:30px;
-    width:175px;
-    margin-left: 25px;
+    width:160px;
+    margin-left: 20px;
+    justify-content: end;
 }
 .did-you-know{
     padding-bottom: 30px;
