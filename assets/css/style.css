@@ -305,14 +305,11 @@ input[type=submit] {
   font-weight: 700;
 }
 
-
-
-
 /*--map on larger screens--*/
 iframe{
     height:40%;
     margin-top: 10px;
-    padding-right: 5px; 
+    padding-right: 30px; 
     align-self: center;
 }
 
@@ -348,10 +345,11 @@ table{
     background: url("../icons/cartoon-dog-bg.jpg") center center / contain no-repeat;
 }
 
-table tr {
-    background-color: rgba(203, 192, 211, .8);  
+table tr {     
+    background-color: rgba(245, 230, 244, 0.8);  
 }
 
+/*--set width same on both table--*/
 .table-data-65{
     width:65%;
 }
@@ -363,7 +361,7 @@ table tr {
     font-family: 'lora' serif;
     font-size:10px;
 }
-/*--style list on services page--*/
+/*--style list on services page Did you know section--*/
 li{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
@@ -385,6 +383,9 @@ li{
     height:30px;
     width:175px;
     margin-left: 25px;
+}
+.did-you-know{
+    padding-bottom: 30px;
 }
 
 /*--footer ----------*/

@@ -213,7 +213,7 @@ full name and address lg screens only
         </section>
 
         <!--section for more info on dog body language and links to charities: large screens only-->
-        <section class="d-none d-md-block">
+        <section class="d-none d-md-block did-you-know">
             <h3>Did you know?</h3>
 
             <h5> What body signals mean:</h5>
@@ -238,28 +238,86 @@ full name and address lg screens only
                 </li>
             </ul>
 
-            <!--section for links to animal charities-->
+            <!--with links to animal charities-->
             <h5>Charities you can help:</h5>
             <p>There are lots of great animals charities, dedicated to resucing, rehabbing and rehoming dogs
                 and other animals. If you can help in any way, below are four charities we work with:
             </p>
             <img src="./assets/icons/puppy.png" alt="cartoon puppy icon" class="puppy-icon">
-           
+
             <a href="https://www.wicklowspca.org/" target="_blank" class="badge badge-info">Wicklow SPCA</a>
             <a href="https://www.dspca.ie/" target="_blank" class="badge badge-info">DSPA</a>
-            <a href="https://www.wicklowanimalwelfare.ie/" target="_blank" class="badge badge-info">Wicklow Animal Welfare</a>
+            <a href="https://www.wicklowanimalwelfare.ie/" target="_blank" class="badge badge-info">Wicklow Animal
+                Welfare</a>
             <a href="https://www.dogstrust.ie/" target="_blank" class="badge badge-info">Dogs Trust</a>
-         </section>
+        </section>
 
+        <!--contact form-->
+        <div class="container contact-section" id="contact-form">
+            <div class="row justify-content-center">
+                <form action="?" method="POST" class="col-sm-4 offset-sm-2 col-md-6 offset-md-0">
+                    <fieldset id="field-set">
+                        <legend>
+                            Contact us:
+                        </legend>
 
+                        <!--required details section on form-->
+                        <label for="name" class="details-labels">Name</label>
+                        <input type="text" name="name" id="name" required aria-required="true" placeholder="Name">
+                        <br>
+                        <label for="email" class="details-labels">Your email</label>
+                        <input type="email" name="email" id="email" required aria-required="true"
+                            placeholder="email address">
+                        <br>
+                        <label for="contact-number" class="details-labels">Contact number</label>
+                        <input type="tel" name="contact-number" id="contact-number" required aria-required="true"
+                            placeholder="Phone number">
+                        <br>
 
-        <!--credit for how to link to id on another page: Tutorial html links https://www.quackit.com/-->
-        <div class="row justify-content-center">
-            <div class="col-xs-3 offset-xs-3">
-                <a href="./index.html#contact-form" class="btn contact-link align-bottom h-100" role="button">Contact
-                    us</a>
+                        <!--reason for contact section-->
+                        <h5>Reason for contact</h5>
+                        <input id="booking" name="contact-reason" value="booking" type="radio">
+                        <label for="booking" class="reason align-items-center">Book Day Care</label>
+                        <br>
+                        <input id="assessment" name="contact-reason" value="assessment" type="radio">
+                        <label for="assessment" class="reason">Book assessment</label>
+                        <br>
+                        <input id="query" name="contact-reason" value="query" type="radio">
+                        <label for="query" class="reason">Ask us about our services</label>
+                        <br>
+                        <input id="other" name="contact-reason" value="other" type="radio">
+                        <label for="other" class="reason">Other</label>
+                        <div></div>
+
+                        <textarea placeholder="Please enter any other infomation here">
+                        </textarea>
+                        <button>
+                            <input class="btn" type="submit" value="Send Form" />
+                        </button>
+
+                    </fieldset>
+                </form>
+
+                <!--google maps location large screen-->
+                <div class="col-lg-4 offset-lg-1 d-none d-lg-block">
+                    <div class="col-4 map-title">
+                        <i class="fa fa-map"></i>
+                        <h6>Find us here!</h6>
+                    </div>
+                <!--maps linked from settings on google maps-->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13537.704603233597!2d-6.061830386757101!3d53.14339023410205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1616866569241!5m2!1sen!2sie"
+                        width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                        <p>Browser does not support this map</p>
+                    </iframe>
+                </div>
+
             </div>
         </div>
+
+
+
+
     </div>
     <!--div to create spacing between contact button and footer-->
     <div>
