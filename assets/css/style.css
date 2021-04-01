@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Slab:wght@100;300;400;500&display=swap');
 
 
 body {
@@ -14,11 +14,12 @@ body {
 }
 
 #main-section p{
-    font-family: 'lora', serif;
-    font-weight: 500;
-    color: #373f47;
-    padding-bottom: 30px;
-    padding-top: 25px;    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    /* color: #08090a; */
+    padding-bottom: 10px;
+     color: #373f47;
+      
 }
 
 h1{
@@ -29,8 +30,18 @@ h1{
     margin:25px 0 0;
     text-align: center;  
 }
+h2{
+    font-family: lora, sans-serif;
+    font-weight: 700;
+    font-size: 150%;
+    color: #8B2760;
+    padding-top: 20px;
+}
+
 h3{
      font-family: 'Lora', serif;
+      color: #8B2760;
+      font-weight: 700;
 }
 
 td{font-family: 'Open-sans', serif;
@@ -61,12 +72,6 @@ font-weight:400;}
             }
         }
 
-h2{
-    font-family: lora, sans-serif;
-    font-weight: 700;
-    font-size: 150%;
-    color: #8B2760;
-}
 
 
 /*--Nav bar styling--*/
@@ -161,19 +166,21 @@ nav a:hover{
 /*--images on home page--*/
 .home-images {    
     border-radius: 25%;
-    height:300px; 
-    width: 350px;   
+    height:350px; 
+    width: 400px;
+    object-fit: cover;
+    
+    
+}
+.image-container{
+     display:flex;
+    align-items: center;
 }
 
-.home-images1 {    
-    border-radius: 25%;
-    height: 300px;
-    width: auto;
-    object-fit: cover;    
-}
 
 .home-image-container{
     padding-bottom: 25px;
+   
 }
 /*--gallery images--*/
 .gallery-image{
