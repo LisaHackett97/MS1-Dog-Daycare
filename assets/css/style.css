@@ -359,11 +359,22 @@ table tr {
     width:35%;
 }
 
-#main-section li{
+.list-inline-item{
     font-family: 'lora' serif;
     font-size:10px;
 }
 
+li{
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    color: #373f47;
+    font-size: 15px;
+}
+
+.body-signals{
+    list-style: none;
+}
 
 /*--footer ----------*/
 footer{
