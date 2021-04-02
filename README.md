@@ -64,7 +64,7 @@ On the strategy plane, I did some research looking at similar business types, an
 One main difference between sites was how easy it was to find relevant information. For my site, I listed out the opportunities/problems and how each of these might be addressed. 
 And for the scope plane, I planned out the content and functional requirements.
 
-[![strategy and scope tables](readme-assets/strategy%20and%20scope.pdf)]
+[strategy and scope tables](readme-assets/strategy%20and%20scope.pdf)
 
 
 ## Structure of the website
@@ -76,7 +76,7 @@ Some information, such as maps to be hidden on smaller screen sizes so as not to
 
 ## Wireframes
 These were built using balsamiq.
-![Wireframe Link](readme-assets/Wireframe%20Doggy%20day%20care.pdf)
+[Wireframe Link](readme-assets/Wireframe%20Doggy%20day%20care.pdf)
 
 ## Surface
 
@@ -104,60 +104,60 @@ The number of images and decision to hide or not on smaller screens changed duri
 # Features
 
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
-### Website has the following features:
-#### Header which contains the following:
+#### Website has the following features:
+##### Header which contains the following:
 * Icon for business, which is a clickable link to bring user back to home page.
 * Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
 * Navigation menu. Allows user to navigate to all pages on the site.
 
-#### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
+##### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
     *Home: allows user to click and go to the main home page.
     *Gallery:allows user to click and go to gallery page to view images.
     *More Info: This page was renamed more info on the nav menu, to be more intuive for users. 
         The html page which more info menu item is linked to is called services.
 
-#### Footer: contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
+##### Footer: contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
     *A short message is included on large screens.
     *Users can click on social media links for the business (generic websites used.). 
     *Links will open in seperate pages.
 
-#### Title and short quote on each page. The quote transitions in when page is opened.
+##### Title and short quote on each page. The quote transitions in when page is opened.
 
-#### CTA button: "Contact us" button is contained on all three pages. 
+##### CTA button: "Contact us" button is contained on all three pages. 
     * allows user to click and go to the contact form, contained on the services page.
     * It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
       if their goal is simply to contact the business.
 
-## Above features are consistent across all three pages.
+#### Above features are consistent across all three pages.
 
-### Home page
+#### Home page
 
-#### Three images included, aligned to left. One imge for each section of content.
+##### Three images included, aligned to left. One imge for each section of content.
     
-#### Three sections covering why, what business does and who the people are. 
+##### Three sections covering why, what business does and who the people are. 
     * allows the user to read more about the business and what it does.
 
-#### The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
+##### The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
      The why section has a home icon, the who we are section has a people icon and the what we do has a paw icon.
 
-### Gallery page
-#### Allows users to view dog images with some recommendations throughout the page.
+#### Gallery page
+    * Allows users to view dog images with some recommendations throughout the page.
 
 #### Services page.
-This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
+    * This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
 
-#### Tables- allows user to view options for daycare and the relevant prices.
+##### Tables- allows user to view options for daycare and the relevant prices.
     * allows user to view drop off/pick up times.
 
-#### CTA button included near top of page.
+##### CTA button included near top of page.
     * allows user to go to contact form.
 
-#### Contact form
+##### Contact form
     *allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
 
-#### Iframes: google map to business location. Map used is my local town/beach. It is only visible on large screens.
+##### Iframes: google map to business location. Map used is my local town/beach. It is only visible on large screens.
 
-#### Links to animal charities included, with dog icon to left of text for visual appeal.It is only visible on large screens.Links will open in seperate pages.
+##### Links to animal charities included, with dog icon to left of text for visual appeal.It is only visible on large screens.Links will open in seperate pages.
 
 # Future Features
 Modal pop up when form submitted.
@@ -205,54 +205,55 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 # Credits
 
 ### Media
-    ##### icons
-        * Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
-        * All other icons, including burgr menu icon,taken from fontawesome. 
-    ##### Images
+##### icons
+    * Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
+    * All other icons, including burgr menu icon,taken from fontawesome. 
+##### Images
     [Pexels Images](https://pexels.com)
-            Image Name | Photo credit
-            ---------- | ------------
-            dog in cup | Photo: Pixabay        
+
+        Image Name | Photo credit
+        ---------- | ------------
+        dog in cup | Photo: Pixabay        
         gallery small dog playing | Pixabay
-            two dogs  | Sebastian Coman Travel
+        two dogs  | Sebastian Coman Travel
         Gallery dog and paw | Karolina Grabowska
     
     [Unsplash Images](https://unsplash.com)
-            Image Name | Photo credit
-            ---------- | ------------
-            g2-dog and woman | Photo by Tamas Pap
-            g2-white-dog-running  | Joe Caione
-            gallery-dog-on-grass  | anaminella
-            gallery-dog-run | arjan_stalpers
-            gallery-dogs-sleeping | BRUNO EMMANUELLE
-            gallery-pug-yawning  | Charles Deluvio
-            human and dog  | Anna Dudkova
+        Image Name|Photo credit
+        ----------|------------
+        g2-dog and woman|Photo by Tamas Pap
+        g2-white-dog-running  | Joe Caione
+        gallery-dog-on-grass  | anaminella
+        gallery-dog-run | arjan_stalpers
+        gallery-dogs-sleeping | BRUNO EMMANUELLE
+        gallery-pug-yawning  | Charles Deluvio
+        human and dog  | Anna Dudkova
 
     gallery Freya1 my own photo
 
 
-### content
-Inspiration for content:
+#### content
+##### Inspiration for content:
     * (https://blog.homesalive.ca/dog-blog/benefits-of-dog-daycare)
     * (https://pawcastle.com/benefits-of-doggy-day-care/)
     * (https://www.thebalancecareers.com/how-to-start-a-doggie-day-care-business-125525)
     * (https://www.pets4homes.co.uk/pet-advice/doggy-daycare-what-is-it-and-is-it-a-good-idea-for-your-own-dog.html)
 
-Quotes
+##### Quotes
     * (https://sharpquotes.com/dog-quotes/)
     * (https://www.shutterfly.com/ideas/dog-quotes/)  
 
 
-### Code
-How to link to id on another page: Tutorial html links on [quackit.com](https://www.quackit.com/)
-Code for animations from article on [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css)
+#### Code
+* How to link to id on another page: Tutorial html links on [quackit.com](https://www.quackit.com/)
+* Code for animations from article on [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css)
 
-### Map
+#### Map
 Source code taken from settings on google maps.
 * [Google Maps]("https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13537.704603233597!2d-6.061830386757101!3d53.14339023410205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1616866569241!5m2!1sen!2sie")
 
-### Acknowledgements
-    * Knowledge and help. 
+#### Acknowledgements
+    ##### Knowledge and help. 
         * Code Institute course material
         * [w3schools.com](https://www.w3schools.com)
         * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
@@ -260,7 +261,6 @@ Source code taken from settings on google maps.
         * Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
         * StackoverFlow - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
 
-    *
 
 
 
