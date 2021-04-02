@@ -51,7 +51,7 @@ Some information, wuch as maps to be hidden on smaller screen sizes so as not to
 
 ## Wireframes
 These were built using balsamiq.
-[![Wireframe Link](readme-assets/Wireframe Doggy day care.pdf)]
+![Wireframe Link](readme-assets/Wireframe Doggy day care.pdf)
 
 ## Surface
 
@@ -82,57 +82,60 @@ The number of images and wheather or not to hide on smaller screens changed duri
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
 ### Website has the following features:
 
-#### Header containing the following:
-    - Icon for business, which is a clickable link to bring user back to home page.
-    - Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
-    - Navigation menu. Allows user to navigate to all pages on the site.
+#### Header contains the following:
+* Icon for business, which is a clickable link to bring user back to home page.
+* Address and phone number for business, which is hidden on some screen sizes.Allows user to quickly view where business is located.
+* Navigation menu. Allows user to navigate to all pages on the site.
 
 #### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
-        -Home: allows user to click and go to the main home page.
-        -Gallery:allows user to click and go to gallery page to view images.
-        -More Info: This page was renamed more info on the nav menu, to be more intuive for users. The html page is called services.
+    *Home: allows user to click and go to the main home page.
+    *Gallery:allows user to click and go to gallery page to view images.
+    *More Info: This page was renamed more info on the nav menu, to be more intuive for users. 
+        The html page which more info menu item is linked to is called services.
 
 #### Footer: contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
-A short message is included on large screens.
-            -Users can click on social media links for the business (generic websites used.). Links will open in seperate pages.
+    *A short message is included on large screens.
+    *Users can click on social media links for the business (generic websites used.). 
+    *Links will open in seperate pages.
 
 #### Title and short quote on each page. The quote transitions in when page is opened.
 
 #### CTA button: "Contact us" button is contained on all three pages. 
-        -allows user to click and go to the contact form, contained on the services page.
-        - It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, if their goal is simply to contact the business.
+    *allows user to click and go to the contact form, contained on the services page.
+    *It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
+      if their goal is simply to contact the business.
 
-### Above features are consistent across all three pages.
+## Above features are consistent across all three pages.
 
 ### Home page
 
 #### Three images included, aligned to left. One imge for each section of content.
     
 #### Three sections covering why, what business does and who the people are. 
-    -allows the user to read more about the business and what it does.
+    *allows the user to read more about the business and what it does.
 
 #### The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
-     The why section has a home icone, the who we are section has a people icon and the what we do has a paw icon.
+     The why section has a home icon, the who we are section has a people icon and the what we do has a paw icon.
 
 ### Gallery page
 
 #### Allows users to view dog images with some recommendations throughout the page.
 
 #### Services page.
-This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user. The page gives additional information as well as list of prices/times.
+This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
 
 #### Tables- allows user to view options for daycare and the relevant prices.
-            - allows user to view drop off/pick up times.
+    *allows user to view drop off/pick up times.
 
 #### CTA button included near top of page.
-            -allows user to go to contact form.
+    *allows user to go to contact form.
 
 #### Contact form
-        -allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
+    *allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
 
 #### Iframes: google map to business location. Map used is my local town/beach. It is only visible on large screens.
 
-#### Links to animal charities included, with dog icon to left of text for visual appeal. It is only visible on large screens.Links will open in seperate pages.
+#### Links to animal charities included, with dog icon to left of text for visual appeal.It is only visible on large screens.Links will open in seperate pages.
 
 # Future Features
 Modal pop up when form submitted.
