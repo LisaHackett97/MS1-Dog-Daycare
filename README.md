@@ -40,7 +40,7 @@ On the strategy plane, I did some research looking at similar business types, an
 One main difference between sites was how easy it was to find relevant information. For my site, I listed out the opportunities/problems and how each of these might be addressed. 
 And for the scope plane, I planned out the content and functional requirements.
 
-![strategy and scope tables](./readme-assets/strategy and scope.pdf)
+[![strategy and scope tables](./readme-assets/strategy and scope.pdf)]
 
 
 ## Structure of the website
@@ -50,8 +50,8 @@ Address of the business to be included in the header/nav bar to highlight locati
 Some information, wuch as maps to be hidden on smaller screen sizes so as not to present user with overload of info on the small screen.
 
 ## Wireframes
-These were build using balsamiq.
-![Link:](./readme-assets/Wireframe Doggy day care.pdf)
+These were built using balsamiq.
+[![Link:](./readme-assets/Wireframe Doggy day care.pdf)]
 
 ## Surface
 
@@ -144,16 +144,16 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 
 * HTML5 - Programming language for structuring the site.
 * CSS3- Style sheet programming language
-* [Bootstrap] (https://getbootstrap.com/docs/4.5/getting-started/introduction/) Use as a framework for layout and responsiveness.
-* [Font Awesome] (https://fontawesome.com/) -used to provide icons across the site.
-* [Google fonts:] (https://fonts.google.com/) -used to select and provide typography.
-* [Github] (https://github.com/)-  software hosting platform to keep project in a remote location
-* [Gitpod] (https://gitpod.io/) - a development hosting platform
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Use as a framework for layout and responsiveness.
+* [Font Awesome](https://fontawesome.com/) -used to provide icons across the site.
+* [Google fonts](https://fonts.google.com/) -used to select and provide typography.
+* [Github](https://github.com/)-  software hosting platform to keep project in a remote location
+* [Gitpod](https://gitpod.io/) - a development hosting platform
 * Git - used for version-control.
-* [balsamiq] (https://balsamiq.com/) - used to build wireframes. Downloaded software to use.
+* [Balsamiq](https://balsamiq.com/) - used to build wireframes. Downloaded software to use.
 * Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
-* [Image optimizer] (http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
-* [Tinypng] (https://tinypng.com/) - used to optimize size of images used on the site
+* [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
+* [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
 
 # Testing
 
