@@ -40,7 +40,7 @@ On the strategy plane, I did some research looking at similar business types, an
 One main difference between sites was how easy it was to find relevant information. For my site, I listed out the opportunities/problems and how each of these might be addressed. 
 And for the scope plane, I planned out the content and functional requirements.
 
-[![strategy and scope tables](./readme-assets/strategy and scope.pdf)]
+[![strategy and scope tables](/readme-assets/strategy and scope.pdf)]
 
 
 ## Structure of the website
@@ -51,7 +51,7 @@ Some information, wuch as maps to be hidden on smaller screen sizes so as not to
 
 ## Wireframes
 These were built using balsamiq.
-[![Link:](./readme-assets/Wireframe Doggy day care.pdf)]
+[![Link:](/readme-assets/Wireframe Doggy day care.pdf)]
 
 ## Surface
 
@@ -83,9 +83,9 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
 ### Website has the following features:
 
 #### Header containing the following:
-        - Icon for business, which is a clickable link to bring user back to home page.
-        - Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
-        - Navigation menu. Allows user to navigate to all pages on the site.
+    - Icon for business, which is a clickable link to bring user back to home page.
+    - Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
+    - Navigation menu. Allows user to navigate to all pages on the site.
 
 #### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
         -Home: allows user to click and go to the main home page.
@@ -93,7 +93,7 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
         -More Info: This page was renamed more info on the nav menu, to be more intuive for users. The html page is called services.
 
 #### Footer: contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
-            A short message is included on large screens.
+A short message is included on large screens.
             -Users can click on social media links for the business (generic websites used.). Links will open in seperate pages.
 
 #### Title and short quote on each page. The quote transitions in when page is opened.
@@ -102,7 +102,7 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
         -allows user to click and go to the contact form, contained on the services page.
         - It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, if their goal is simply to contact the business.
 
-###Above features are consistent across all three pages.
+### Above features are consistent across all three pages.
 
 ### Home page
 
@@ -138,7 +138,7 @@ This page is called More Info in the Navigation menu, as I felt it would be more
 Modal pop up when form submitted.
 Gallery: Images are clickable and recommendation pop up when each clicked.
 
-
+[Back to table of contents](#table-of-contents)
 
 # Technologies Used
 
@@ -155,6 +155,7 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 * [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
 * [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
 
+[Back to table of contents](#table-of-contents)
 # Testing
 
 ## Functionality Testing
