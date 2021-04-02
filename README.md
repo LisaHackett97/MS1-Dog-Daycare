@@ -7,6 +7,30 @@ Primary goal of the site owner to encourage visitors to make contact and book se
 
 # Table of Contents
 - [UX](#ux)
+    - [External User Goals](#external-user-goals)
+    - [Site Owner Goals](#site-owner-goals)
+    - [Strategy and Scope](#strategy-and-scope)
+    - [Structure](#structure-of-the-website)
+    - [Wireframes](#wireframes)
+    - [Surface](#surface)
+        - [Colors](#colors)
+        - [Typography](#typography)
+        - [Images](#images)
+- [Features](#features)
+- [Technologies](#technologies-used)
+- [Testing](#testing)    
+    - [Functionality testing](#functionality-testing)
+    - [Compatibility testing](#compatibility-testing)    
+    - [User stories testing](#user-stories-testing)
+    - [Issues found during site development](#issues-during-development)
+    - [Bugs](#bugs)
+    - [Performance testing](#performance-testing)
+    - [Code Validation](#code-validation)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+
+
 
 ---
 
@@ -40,18 +64,19 @@ On the strategy plane, I did some research looking at similar business types, an
 One main difference between sites was how easy it was to find relevant information. For my site, I listed out the opportunities/problems and how each of these might be addressed. 
 And for the scope plane, I planned out the content and functional requirements.
 
-![strategy and scope tables](readme-assets/strategy%20and%20scope.pdf)
+[![strategy and scope tables](readme-assets/strategy%20and%20scope.pdf)]
 
 
 ## Structure of the website
 The structure of the site is designed to be easy to navigate, on all device sizes. The nav bar includes an icon identifying the business, which will bring user back to home page, and a menu to link to all pages.
-As one of the main of the site owner is to encourage contact to increase business, an easy to use contact form is included. each page will include a CTA button, which will bring user to the contact form.
-Address of the business to be included in the header/nav bar to highlight location and contact phone number
-Some information, wuch as maps to be hidden on smaller screen sizes so as not to present user with overload of info on the small screen.
+As one of the main goals of the site owner is to encourage contact, to increase business, an easy to use contact form is included. Each page will include a CTA button, 
+which will bring user to the contact form.
+Address of the business to be included in the header/nav bar to highlight location and contact phone number, but some information to be hidden on small screen sizes.
+Some information, such as maps to be hidden on smaller screen sizes so as not to present user with overload of info on the small screen.
 
 ## Wireframes
 These were built using balsamiq.
-![Wireframe Link](readme-assets/Wireframe Doggy day care.pdf)
+![Wireframe Link](readme-assets/Wireframe%20Doggy%20day%20care.pdf)
 
 ## Surface
 
@@ -65,26 +90,24 @@ The main colours I used are:
 * Hover on menu items #81b3d5, with background #8B2760.
 
 
-### Fonts
+### Typography
 I had planned to use Open Sans as a header and Lora for main text. I made a design decision during implementation and have decided to use the following fonts:
 * Roboto Slab for main content.
 * Lora for headers and nav bar text content.
 * The font serif was used as a backup.
 
 ### Images
-
 I used images from unsplash.com and pexels.com. Credited in the credits section.
 One image was my own. 
-The number of images and wheather or not to hide on smaller screens changed during the development of the site. All images are visible on all screens.
+The number of images and decision to hide or not on smaller screens changed during the development of the site. All images are visible on all screens.
 
 # Features
 
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
 ### Website has the following features:
-
-#### Header contains the following:
+#### Header which contains the following:
 * Icon for business, which is a clickable link to bring user back to home page.
-* Address and phone number for business, which is hidden on some screen sizes.Allows user to quickly view where business is located.
+* Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
 * Navigation menu. Allows user to navigate to all pages on the site.
 
 #### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
@@ -101,8 +124,8 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
 #### Title and short quote on each page. The quote transitions in when page is opened.
 
 #### CTA button: "Contact us" button is contained on all three pages. 
-    *allows user to click and go to the contact form, contained on the services page.
-    *It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
+    * allows user to click and go to the contact form, contained on the services page.
+    * It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
       if their goal is simply to contact the business.
 
 ## Above features are consistent across all three pages.
@@ -112,23 +135,22 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
 #### Three images included, aligned to left. One imge for each section of content.
     
 #### Three sections covering why, what business does and who the people are. 
-    *allows the user to read more about the business and what it does.
+    * allows the user to read more about the business and what it does.
 
 #### The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
      The why section has a home icon, the who we are section has a people icon and the what we do has a paw icon.
 
 ### Gallery page
-
 #### Allows users to view dog images with some recommendations throughout the page.
 
 #### Services page.
 This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
 
 #### Tables- allows user to view options for daycare and the relevant prices.
-    *allows user to view drop off/pick up times.
+    * allows user to view drop off/pick up times.
 
 #### CTA button included near top of page.
-    *allows user to go to contact form.
+    * allows user to go to contact form.
 
 #### Contact form
     *allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
@@ -183,17 +205,62 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 # Credits
 
 ### Media
-puppy icon
-Icons made by <a href="https://www.flaticon.com/authors/creaticca-creative-agency" title="Creaticca Creative Agency">Creaticca Creative Agency</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    ##### icons
+        * Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
+        * All other icons, including burgr menu icon,taken from fontawesome. 
+    ##### Images
+    [Pexels Images](https://pexels.com)
+            Image Name | Photo credit
+            ---------- | ------------
+            dog in cup | Photo: Pixabay        
+        gallery small dog playing | Pixabay
+            two dogs  | Sebastian Coman Travel
+        Gallery dog and paw | Karolina Grabowska
+    
+    [Unsplash Images](https://unsplash.com)
+            Image Name | Photo credit
+            ---------- | ------------
+            g2-dog and woman | Photo by Tamas Pap
+            g2-white-dog-running  | Joe Caione
+            gallery-dog-on-grass  | anaminella
+            gallery-dog-run | arjan_stalpers
+            gallery-dogs-sleeping | BRUNO EMMANUELLE
+            gallery-pug-yawning  | Charles Deluvio
+            human and dog  | Anna Dudkova
+
+    gallery Freya1 my own photo
 
 
+### content
+Inspiration for content:
+    * (https://blog.homesalive.ca/dog-blog/benefits-of-dog-daycare)
+    * (https://pawcastle.com/benefits-of-doggy-day-care/)
+    * (https://www.thebalancecareers.com/how-to-start-a-doggie-day-care-business-125525)
+    * (https://www.pets4homes.co.uk/pet-advice/doggy-daycare-what-is-it-and-is-it-a-good-idea-for-your-own-dog.html)
 
-### contents
+Quotes
+    * (https://sharpquotes.com/dog-quotes/)
+    * (https://www.shutterfly.com/ideas/dog-quotes/)  
+
+
 ### Code
+How to link to id on another page: Tutorial html links on [quackit.com](https://www.quackit.com/)
+Code for animations from article on [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css)
 
 ### Map
+Source code taken from settings on google maps.
+* [Google Maps]("https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13537.704603233597!2d-6.061830386757101!3d53.14339023410205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1616866569241!5m2!1sen!2sie")
 
 ### Acknowledgements
+    * Knowledge and help. 
+        * Code Institute course material
+        * [w3schools.com](https://www.w3schools.com)
+        * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+        * [Inspiration and help for gallery layout](https://bootsnipp.com/search?q=gallery)
+        * Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
+        * StackoverFlow - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
+
+    *
 
 
 
