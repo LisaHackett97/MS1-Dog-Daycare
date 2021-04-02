@@ -36,8 +36,9 @@ Primary goal of the site owner to encourage visitors to make contact and book se
 
 # UX
 
-## External User goals
-### As a prospective user, I want to
+##User Stories
+### External User goals
+#### As a prospective user, I want to
 - Be able to view the site on mobile/desktop/tablet.
 - Be able to access all pages and navigate without confusion, without too many clicks.
 - Be able to find information about services offered.
@@ -49,8 +50,8 @@ Primary goal of the site owner to encourage visitors to make contact and book se
 
 
 
-## Site Owner goals
-### As site owner I want: 
+### Site Owner goals
+#### As site owner I want: 
 - Users to contact us: either online or telephone.
 - Users to contact us to book 1 or more dogs into the day care.
 - Users to be able to view recommendations. 
@@ -104,64 +105,74 @@ The number of images and decision to hide or not on smaller screens changed duri
 # Features
 
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
-#### Website has the following features:
-##### Header which contains the following:
+## Website has the following features:
+### Header
+contains the following:
 * Icon for business, which is a clickable link to bring user back to home page.
 * Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
 * Navigation menu. Allows user to navigate to all pages on the site.
 
-##### Navigation menu: contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
-    *Home: allows user to click and go to the main home page.
-    *Gallery:allows user to click and go to gallery page to view images.
-    *More Info: This page was renamed more info on the nav menu, to be more intuive for users. 
+### Navigation menu: 
+* Contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
+* Home: allows user to click and go to the main home page.
+* Gallery:allows user to click and go to gallery page to view images.
+* More Info: This page was renamed more info on the nav menu, to be more intuive for users. 
         The html page which more info menu item is linked to is called services.
 
-##### Footer: contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
-    *A short message is included on large screens.
-    *Users can click on social media links for the business (generic websites used.). 
-    *Links will open in seperate pages.
+### Footer: 
+* Contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
+* A short message is included on large screens.
+* Users can click on social media links for the business (generic websites used.). 
+* Links will open in seperate pages.
 
-##### Title and short quote on each page. The quote transitions in when page is opened.
+### Title:
+- The page title and short quote on each page. The quote transitions in when page is opened.
 
-##### CTA button: "Contact us" button is contained on all three pages. 
-    * allows user to click and go to the contact form, contained on the services page.
-    * It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
+### CTA button: 
+#### "Contact us" button is contained on all three pages. 
+* Allows user to click and go to the contact form, contained on the services page.
+* It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
       if their goal is simply to contact the business.
 
-#### Above features are consistent across all three pages.
+##### Above features are consistent across all three pages.
 
-#### Home page
+## Home page
 
-##### Three images included, aligned to left. One imge for each section of content.
+#### Three images included.
+These are aligned to left. One image for each section of content.
     
-##### Three sections covering why, what business does and who the people are. 
-    * allows the user to read more about the business and what it does.
+#### Three content sections 
+These cover why, what business does and who the people are. 
+* Allows the user to read more about the business and what it does.
 
-##### The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
-     The why section has a home icon, the who we are section has a people icon and the what we do has a paw icon.
+#### Icons
+* The header for each section has an icon to draw the eye in and give a visual clue as what the content is about. 
+* The why section has a home icon, the who we are section has a people icon and the what we do has a paw icon.
 
-#### Gallery page
-    * Allows users to view dog images with some recommendations throughout the page.
+## Gallery page
+* Allows users to view dog images with some recommendations throughout the page.
 
-#### Services page.
-    * This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
+## Services page.
+* This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
 
-##### Tables- allows user to view options for daycare and the relevant prices.
-    * allows user to view drop off/pick up times.
+#### Tables.
+* Allows user to view options for daycare and the relevant prices.
+* Allows user to view drop off/pick up times.
 
-##### CTA button included near top of page.
-    * allows user to go to contact form.
+#### CTA button included near top of page.
+* Allows user to go to contact form.
 
-##### Contact form
-    *allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
+#### Contact form
+* Allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
 
-##### Iframes: google map to business location. Map used is my local town/beach. It is only visible on large screens.
+#### Iframes: 
+* google map to business location. Map used is my local town/beach. It is only visible on large screens.
+#### External Links: 
+* Links to animal charities included, with dog icon to left of text for visual appeal. It is only visible on large screens.Links will open in seperate pages.
 
-##### Links to animal charities included, with dog icon to left of text for visual appeal.It is only visible on large screens.Links will open in seperate pages.
-
-# Future Features
-Modal pop up when form submitted.
-Gallery: Images are clickable and recommendation pop up when each clicked.
+## Future Features
+- Modal pop up when form submitted.
+- Gallery: Images are clickable and recommendation pop up when each clicked.
 
 [Back to table of contents](#table-of-contents)
 
@@ -179,6 +190,7 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 * Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
 * [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
 * [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
+* jquery.com - script included to enable menu on small screens to work as expected.
 
 [Back to table of contents](#table-of-contents)
 # Testing
@@ -186,10 +198,35 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 ## Functionality Testing
 
 ## Compatibility Testing
+
 ## User stories Testing
 
 
 ## Issues during development
+
+At the beginning of the project I had issues using bootstrap to make the pages responsive on different screens. I needed to look again at bootstrap videos to aid my understanding.
+As development on the site progresses, issues decreased as my knowledge and understanding increased.
+
+Burger menu was not appearing after I had added a background color to the nav bar. An icon was needed, which I took from fontawesome.
+Buger menu was not opening and showing menu links as expected. Scripts for jsquery/popper needed to be added to end of HTML page.
+Both these issues were resolved after searching slack and stackoverflow, where other users previously had same issues.
+
+Layout of gallery page was an issue. I had tried to layout the page as per the wireframe. 
+However, the icons and images did not look well on different screens. 
+While a second layout looked better and was more responsive, after advice from my mentor I looked at snippets for inspiration. 
+Decided to use a simpler, more structured layout.Removed icons which I orignally had included on the page.
+
+Footer contents on small screens were wrapping and not staying inline. 
+After inspecting it with chrome dev tools, I realised the screen size I was looking at was under the px size for the breakpoint for sm screens. Needed to take into account XS size screens, for older phones.
+
+Use dev tools to check placement of items in Header and footer
+Decided to use obligue on brand name text,and not on main business name. Decided to keep brand name on smaller sizes, to keep the business name on screen for user.
+I orignally wanted to use a warm yellow colour for the head/footers. However this colour did not view well on a higher resolution screens. #
+Could not find an appropriate shde with contrasting colour for text that worked well on all screens. Therefore decided to change the yellow for a blue shade.
+
+Following advice from my mentor, I moved the contact form and iframe maps to the more info page, and re-arranged layout of elements on home page. 
+Home page looks visually better, and structure makes more sense.
+
 
 ## Bugs
 
@@ -204,64 +241,71 @@ Gallery: Images are clickable and recommendation pop up when each clicked.
 
 # Credits
 
-### Media
-##### icons
-    * Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
-    * All other icons, including burgr menu icon,taken from fontawesome. 
-##### Images
-    [Pexels Images](https://pexels.com)
+## Media
+### Icons
+* Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
+* All other icons, including burgr menu icon,taken from fontawesome. 
+### Images
+[Pexels Images](https://pexels.com)
 
-        Image Name | Photo credit
-        ---------- | ------------
-        dog in cup | Photo: Pixabay        
-        gallery small dog playing | Pixabay
-        two dogs  | Sebastian Coman Travel
-        Gallery dog and paw | Karolina Grabowska
+Image Name | Photo credit
+---------- | ------------
+dog in cup | Photo: Pixabay        
+gallery small dog playing | Pixabay
+two dogs  | Sebastian Coman Travel
+Gallery dog and paw | Karolina Grabowska
     
-    [Unsplash Images](https://unsplash.com)
-        Image Name|Photo credit
-        ----------|------------
-        g2-dog and woman|Photo by Tamas Pap
-        g2-white-dog-running  | Joe Caione
-        gallery-dog-on-grass  | anaminella
-        gallery-dog-run | arjan_stalpers
-        gallery-dogs-sleeping | BRUNO EMMANUELLE
-        gallery-pug-yawning  | Charles Deluvio
-        human and dog  | Anna Dudkova
+[Unsplash Images](https://unsplash.com)
 
-    gallery Freya1 my own photo
+Image Name | Photo credit
+----------|------------
+g2-dog and woman|Photo by Tamas Pap
+g2-white-dog-running  | Joe Caione
+gallery-dog-on-grass  | ana minella
+gallery-dog-run | arjan_stalpers
+gallery-dogs-sleeping | Bruno Emmanuelle
+gallery-pug-yawning  | Charles Deluvio
+human and dog  | Anna Dudkova
 
-
-#### content
-##### Inspiration for content:
-    * (https://blog.homesalive.ca/dog-blog/benefits-of-dog-daycare)
-    * (https://pawcastle.com/benefits-of-doggy-day-care/)
-    * (https://www.thebalancecareers.com/how-to-start-a-doggie-day-care-business-125525)
-    * (https://www.pets4homes.co.uk/pet-advice/doggy-daycare-what-is-it-and-is-it-a-good-idea-for-your-own-dog.html)
-
-##### Quotes
-    * (https://sharpquotes.com/dog-quotes/)
-    * (https://www.shutterfly.com/ideas/dog-quotes/)  
+Image called "gallery Freya1" my own photo.
 
 
-#### Code
+## Content
+### Inspiration for content:
+* https://blog.homesalive.ca/dog-blog/benefits-of-dog-daycare
+* https://pawcastle.com/benefits-of-doggy-day-care
+* https://www.thebalancecareers.com/how-to-start-a-doggie-day-care-business-125525
+* https://www.pets4homes.co.uk/pet-advice/doggy-daycare-what-is-it-and-is-it-a-good-idea-for-your-own-dog.html
+
+### Quotes
+* https://sharpquotes.com/dog-quotes/
+* https://www.shutterfly.com/ideas/dog-quotes/
+
+### Colours
+coolors.co was originally used to pick colours.
+Color picker then used and adjust and pick colours which I felt worked with the site.
+
+
+## Code
 * How to link to id on another page: Tutorial html links on [quackit.com](https://www.quackit.com/)
 * Code for animations from article on [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css)
+* Code for nav bar and burger menu taken from bootstrap documentation and customized for the site.
 
-#### Map
+## Map
 Source code taken from settings on google maps.
 * [Google Maps]("https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13537.704603233597!2d-6.061830386757101!3d53.14339023410205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1616866569241!5m2!1sen!2sie")
 
-#### Acknowledgements
-    ##### Knowledge and help. 
-        * Code Institute course material
-        * [w3schools.com](https://www.w3schools.com)
-        * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-        * [Inspiration and help for gallery layout](https://bootsnipp.com/search?q=gallery)
-        * Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
-        * StackoverFlow - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
+## Acknowledgements
+I use the following to add to my knowledge and for help.
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* Code Institute course material
+* [w3schools.com](https://www.w3schools.com)
+* [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [Inspiration and help for gallery layout](https://bootsnipp.com/search?q=gallery)
+* Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
+* Stackoverflow - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
 
-
+[Back to table of contents](#table-of-contents)
 
 
 
