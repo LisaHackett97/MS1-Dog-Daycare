@@ -40,7 +40,7 @@ On the strategy plane, I did some research looking at similar business types, an
 One main difference between sites was how easy it was to find relevant information. For my site, I listed out the opportunities/problems and how each of these might be addressed. 
 And for the scope plane, I planned out the content and functional requirements.
 
-[![strategy and scope tables](/readme-assets/strategy and scope.pdf)]
+![strategy and scope tables](readme-assets/strategy%20and%20scope.pdf)
 
 
 ## Structure of the website
@@ -51,7 +51,7 @@ Some information, wuch as maps to be hidden on smaller screen sizes so as not to
 
 ## Wireframes
 These were built using balsamiq.
-[![Link:](/readme-assets/Wireframe Doggy day care.pdf)]
+[![Wireframe Link](readme-assets/Wireframe Doggy day care.pdf)]
 
 ## Surface
 
