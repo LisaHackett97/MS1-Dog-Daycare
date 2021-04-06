@@ -246,6 +246,9 @@ Home page looks visually better, and structure makes more sense.
 - Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
 - There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
 
+-Review of image attributes:
+    Updated the alt attributes to be more descriptive
+
 
 
 ## Performance Testing
