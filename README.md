@@ -200,9 +200,13 @@ These cover why choose this type of business, what business does and who the peo
 
 [Back to table of contents](#table-of-contents)
 # Testing
-## Functionality Testings
+## Functionality Testing
+
+    dev tools testing and unicorn revealer
 
 ## Compatibility Testing
+
+cross browser testing
 
 ## User stories Testing
 
@@ -222,7 +226,8 @@ While a second layout looked better and was more responsive, after advice from m
 Decided to use a simpler, more structured layout.Removed icons which I orignally had included on the page.
 
 Footer contents on small screens were wrapping and not staying inline. 
-After inspecting it with chrome dev tools, I realised the screen size I was looking at was under the px size for the breakpoint for sm screens. Needed to take into account XS size screens, for older phones.
+After inspecting it with chrome dev tools, I realised the screen size I was looking at was under the px size for the breakpoint for sm screens. 
+Needed to take into account XS size screens, for older phones and display the contact number as block, and only display the text on larger screens.
 
 Use dev tools to check placement of items in Header and footer
 Decided to use obligue on brand name text,and not on main business name. Decided to keep brand name on smaller sizes, to keep the business name on screen for user.
@@ -235,7 +240,17 @@ Home page looks visually better, and structure makes more sense.
 [Back to table of contents](#table-of-contents)
 ## Bugs
 
+- I did a manual review of css code. The hover of the brand icon was not sorking as expected. background colour was not changing. I has a linear gradient defined inthe rule. Once this was removed, and background colour set to the #8B2760, icon displays as expected on hover.
+
+- After adding a 4th social media icon to the footer, there was overlap of elements on xs screen sizes. I have hidden the youtube icon link on these screen sizes.
+- Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
+- There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
+
+
+
 ## Performance Testing
+
+lighthouse testing
 
 ## Code Validation
 

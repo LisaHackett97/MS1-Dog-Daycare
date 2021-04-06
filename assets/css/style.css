@@ -134,7 +134,7 @@ nav .active{
 /*--icon Hover,required so that text color doesn't change on hover--*/
 nav a:hover{
     color: #8B2760;
-    background-color: #81b3d5b2; 
+    background-color: #81b3d5; 
 }
 
 .fa-border {
@@ -364,7 +364,7 @@ footer{
     background-color: #81b3d5;
     font-family: 'Lora', serif;
     font-weight: 600;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: #8B2760;
     padding: 10px;   
 }
