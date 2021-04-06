@@ -19,7 +19,7 @@ body {
     padding-bottom: 10px;
     color: #373f47;      
 }
-
+/*--styling of main headers--*/
 h1{
     font-family: 'Lora', serif;
     font-size: 200%;
@@ -41,14 +41,13 @@ h3{
       color: #8B2760;
       font-weight: 700;
 }
-
-td{font-family: 'Open-sans', serif;
-font-weight:400;}
-
 /*--motto below heading on each page--*/
+
+/*--change colour of text on motto--*/
 #main-section #motto{
     color: #8b2760;   
 }
+/*--style font and animation onn motto--*/
 #motto{
     font-family: lora, serif;
     font-size: 1.5rem;
@@ -58,7 +57,7 @@ font-weight:400;}
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-        }
+    }
 
 /*--code for animations from article on https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css--*/
  @keyframes fadeInAnimation {
@@ -69,8 +68,6 @@ font-weight:400;}
                 opacity: 1;
             }
         }
-
-
 
 /*--Nav bar styling--*/
 nav{
@@ -83,7 +80,6 @@ nav{
     padding: 5px 15px;
     margin-bottom: 0;
     padding-bottom: 0;
-    
 }
 
 .navbar-style{
@@ -92,8 +88,7 @@ nav{
     overflow: none;
 }
 
-
-/*--Menu-bar styling--*/
+/*--Section for Nav/Menu-bar styling--*/
 nav a {
     border-radius: 25px; 
 }
@@ -109,7 +104,7 @@ nav .active{
     background-color: #8B2760;     
 }
 
-
+/*--styling of burger icon for smaller screens--*/ 
 .navbar-toggler-icon {
     display: inline;
 }
@@ -120,8 +115,7 @@ nav .active{
     margin-right:15px;
 }
 
-
-/*------Nav Icon styling------*/
+/*--Nav Icon styling Left side--*/
 .navbar-brand{
     color: #8B2760;
     font-size:  2rem;
@@ -150,7 +144,7 @@ nav a:hover{
     font-style: italic ;
 }
 
-/*------NavBar Text styling------*/
+/*--NavBar Text styling--*/
 .navbar-text {
     font-family: 'lora', sans-serif;
     font-weight: 800;
@@ -161,25 +155,21 @@ nav a:hover{
     font-size: 1.7rem;
 }
 
+/*--End of Section for Nav/Menu-bar styling--*/
+
 /*--images on home page--*/
 .home-images {    
     border-radius: 25%;
     height:350px; 
     width: 400px;
-    object-fit: cover;
-    
-    
+    object-fit: cover;   
 }
+
 .image-container{
      display:flex;
     align-items: center;
 }
 
-
-.home-image-container{
-    padding-bottom: 25px;
-   
-}
 /*--gallery images--*/
 .gallery-image{
     border-radius: 10%;
@@ -189,6 +179,7 @@ nav a:hover{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+/*--to align content, images and text in divs to center--*/
 .main-gallery{
     display: flex;
     justify-content: center;
@@ -196,144 +187,11 @@ nav a:hover{
 /*--Text for gallery page--*/
 .recommendations{
     font-style: italic;
-    font-size: 100%; 
- 
-}
-
-/*--logos on main content page which have links to other pages--*/
-
-.logo {
-    color:#8B2760;
-    font-size: 4.5rem;    
-}
-/*--icon to link to gallery page adjust height so in line with logo on left--*/
-.logoright{
-    height:4.5rem;  
-}
-
-.logolinks{
-    padding-bottom: 30px;
-}
-
-.icon-label {
-    color:#373f47;
-    font-size: 120%;
-    font-family: lora, sans-serif;
-    font-style: bold;
-
-}
-.icon-label:hover{
-    font-weight: 900;
-    color: #373f47;
-}
-
-/* --Form-- */
-
-form{
-    display:inline-block;
-}
-
-legend{
-        width:auto;
-        margin-left: 20px;  
-        font-size: 25px;  
-        color:#8B2760;
-        font-family: lora, serif;
-        font-weight: 600;    
-    }
-/*--to set border colour and visibility of fieldset box on form--*/
-#field-set{
-    border: solid thin #8b2760;
-    border-radius: 2%;
-    max-width:100%;
-    padding : 5px;
-    margin:0;   
-}
-
-/*--contact form input boxes--*/
- textarea, #name, #email, #contact-number{
-        font: .8em;
-        min-width: 95%;
-        margin-left: 5px;}
-
- textarea{
-            height:10rem;
-        }
-
-.details-labels{
-        color:#8B2760;
-        font-family: lora, serif;
-        font-weight: 600;        
-        margin-top: 5px;
-        margin-bottom: 1px;
-        margin-left: 5px;
-
-        }
-/*--contact form reasons section--*/
-.reason{
-            color:#373f47;
-            padding-left: 10px;
-            font-family: 'lora', serif;
-            font-weight: 500;
-          
-        }
-fieldset h5{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 5px;
-    color:#8B2760;
-    font-family: lora, serif;
-            font-weight: 600;
-}
-input[type='radio'] {
-    margin-left: 5px;
-}
-
-/*stylng of button on form--*/
-button {
-    border-radius:10%;
-    background-color:#8B2760 ;
-    margin-left: 5px;   
-     color: #81b3d5;
-}
-
-input[type=submit] {
-
-  color: #fff;
-  font-weight: 700;
-}
-
-/*--map on larger screens--*/
-iframe{
-    height:40%;
-    margin-top: 10px;
-    padding-right: 30px; 
-    align-self: center;
+    font-size: 100%;  
 }
 
 
-.fa-map{
-    vertical-align: middle;
-    font-size: 40px;
-    color: rgba(139,39,96,.8);
-    padding-bottom:10px;
 
-}
-
-/*--contact form link section: on gallery and services pages--*/
-
-.contact-link{
-    height: 120px;
-    width:200px;
-    color: #373f47;
-    font-family: opens-sans, serif;
-    font-size: 30px;
-    font-weight: 700;
-    background-color: #fdffb6;
-    border-radius: 35%;
-    text-align: center;
-   
-}
 /*--Services/More Info Page--*/
 
 /*--Price List table--*/
@@ -346,6 +204,9 @@ table{
 table tr {     
     background-color: rgba(245, 230, 244, 0.8);  
 }
+td{
+    font-family: 'Open-sans', serif;
+    font-weight:400;}
 
 /*--set width same on both table--*/
 .table-data-65{
@@ -387,9 +248,116 @@ li{
     padding-bottom: 30px;
 }
 
-/*--footer ----------*/
-footer{
+/* --Section to style Form-- */
+form{
+    display:inline-block;
+}
+
+legend{
+        width:auto;
+        margin-left: 20px;  
+        font-size: 25px;  
+        color:#8B2760;
+        font-family: lora, serif;
+        font-weight: 600;    
+    }
     
+/*--to set border colour and visibility of fieldset box on form--*/
+#field-set{
+    border: solid thin #8b2760;
+    border-radius: 2%;
+    max-width:100%;
+    padding : 5px;
+    margin:0;   
+}
+
+/*--contact form input boxes--*/
+ textarea, #name, #email, #contact-number{
+        font: .8em;
+        min-width: 95%;
+        margin-left: 5px;}
+
+ textarea{
+        height:10rem;
+}
+
+.details-labels{
+        color:#8B2760;
+        font-family: lora, serif;
+        font-weight: 600;        
+        margin-top: 5px;
+        margin-bottom: 1px;
+        margin-left: 5px;
+}
+
+/*--contact form reason selection text--*/
+.reason{
+        color:#373f47;
+        padding-left: 10px;
+        font-family: 'lora', serif;
+        font-weight: 500;
+}
+
+/*--Reason for contact heading within form--*/
+fieldset h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    color:#8B2760;
+    font-family: lora, serif;
+    font-weight: 600;
+}
+input[type='radio'] {
+    margin-left: 5px;
+}
+
+/*stylng of button on form--*/
+button {
+    border-radius:10%;
+    background-color:#8B2760 ;
+    margin-left: 5px;   
+     color: #81b3d5;
+}
+
+input[type=submit] {
+  color: #fff;
+  font-weight: 700;
+}
+/*--End of form Section--*/
+
+/*--contact form link section: on gallery and home pages--*/
+
+.contact-link{
+    height: 120px;
+    width:200px;
+    color: #373f47;
+    font-family: opens-sans, serif;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: #fdffb6;
+    border-radius: 35%;
+    text-align: center;
+   
+}
+/*--map on larger screens--*/
+iframe{
+    height:40%;
+    margin-top: 10px;
+    padding-right: 30px; 
+    align-self: center;
+}
+
+.fa-map{
+    vertical-align: middle;
+    font-size: 40px;
+    color: rgba(139,39,96,.8);
+    padding-bottom:10px;
+}
+
+/*--end of services page--*/
+
+/*--footer on all pages --*/
+footer{    
     background-color: #81b3d5;
     font-family: lora, serif;
     font-weight: 600;
@@ -409,13 +377,11 @@ footer{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 50%;
-   
 }
 
 .social-links a:hover{
     background-color: #8B2760;
     color: #81b3d5b2;
-
 }
 
 .footer-text{
