@@ -12,14 +12,12 @@ body {
 #main-section{   
     margin-top: 100px;
 }
-
+/*--style main content of pages--*/
 #main-section p{
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    /* color: #08090a; */
     padding-bottom: 10px;
-     color: #373f47;
-      
+    color: #373f47;      
 }
 
 h1{

@@ -36,7 +36,7 @@ Primary goal of the site owner to encourage visitors to make contact and book se
 
 # UX
 
-##User Stories
+## User Stories
 ### External User goals
 #### As a prospective user, I want to
 - Be able to view the site on mobile/desktop/tablet.
@@ -102,6 +102,8 @@ I used images from unsplash.com and pexels.com. Credited in the credits section.
 One image was my own. 
 The number of images and decision to hide or not on smaller screens changed during the development of the site. All images are visible on all screens.
 
+[Back to table of contents](#table-of-contents)
+
 # Features
 
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
@@ -142,7 +144,7 @@ contains the following:
 These are aligned to left. One image for each section of content.
     
 #### Three content sections 
-These cover why, what business does and who the people are. 
+These cover why choose this type of business, what business does and who the people are. 
 * Allows the user to read more about the business and what it does.
 
 #### Icons
@@ -190,12 +192,15 @@ These cover why, what business does and who the people are.
 * Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
 * [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
 * [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
-* jquery.com - script included to enable menu on small screens to work as expected.
+* Scripts included to enable menu on small screens to work as expected.
+    - jquery.com
+    - [bootstrap cdn js](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js)
+    - [js popper](https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js)
+
 
 [Back to table of contents](#table-of-contents)
 # Testing
-
-## Functionality Testing
+## Functionality Testings
 
 ## Compatibility Testing
 
@@ -221,13 +226,13 @@ After inspecting it with chrome dev tools, I realised the screen size I was look
 
 Use dev tools to check placement of items in Header and footer
 Decided to use obligue on brand name text,and not on main business name. Decided to keep brand name on smaller sizes, to keep the business name on screen for user.
-I orignally wanted to use a warm yellow colour for the head/footers. However this colour did not view well on a higher resolution screens. #
-Could not find an appropriate shde with contrasting colour for text that worked well on all screens. Therefore decided to change the yellow for a blue shade.
+I orignally wanted to use a warm yellow colour for the header/footers. However this colour did not view well on a higher resolution screens.
+Could not find an appropriate shade with contrasting colour for text that worked well on all screens. Therefore decided to change the yellow for a blue shade.
 
 Following advice from my mentor, I moved the contact form and iframe maps to the more info page, and re-arranged layout of elements on home page. 
 Home page looks visually better, and structure makes more sense.
 
-
+[Back to table of contents](#table-of-contents)
 ## Bugs
 
 ## Performance Testing
@@ -300,10 +305,9 @@ I use the following to add to my knowledge and for help.
 * [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * Code Institute course material
 * [w3schools.com](https://www.w3schools.com)
-* [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 * [Inspiration and help for gallery layout](https://bootsnipp.com/search?q=gallery)
 * Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
-* Stackoverflow - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
+* Stackoverflow.com - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
 
 [Back to table of contents](#table-of-contents)
 
