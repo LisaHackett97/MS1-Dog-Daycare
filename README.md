@@ -193,9 +193,9 @@ These cover why choose this type of business, what business does and who the peo
 * [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
 * [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
 * Scripts included to enable menu on small screens to work as expected.
-    - jquery.com
+    - http://code.jquery.com/
     - [bootstrap cdn js](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js)
-    - [js popper](https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js)
+    -
 
 
 [Back to table of contents](#table-of-contents)
@@ -246,8 +246,26 @@ Home page looks visually better, and structure makes more sense.
 - Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
 - There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
 
--Review of image attributes:
+
+#### HTML Code Validation
+- Review of image attributes:
     Updated the alt attributes to be more descriptive
+
+- Image names: I had spaces in names of images. These showed as errors on the W3 validator check.
+    Removed spaces from image names and updated file path in the index.html page.
+    Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file pathos on the gallery.html page.
+    Checked all images to ensure they were still displaying correctly.
+
+- Element smaller was used on text in the heading and caused a validation error.
+    The element was not changing anything on the text and as text looked ok, I removed the tag <smaller>.
+
+-Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
+    - Moved scripts on gallery.html and services.html. Tested burger menu, and it is still working as expected.
+
+Iframes validation error if there is text between the iframe tags. I had included text to cover if map did not load.
+    - to correct validation error: removed text from iframe tag. Added a link below map for users to click on
+
+
 
 
 
@@ -256,6 +274,14 @@ Home page looks visually better, and structure makes more sense.
 lighthouse testing
 
 ## Code Validation
+
+I used the following to validate code by direct input:
+- html https://validator.w3.org/
+    - index.html validation. Errors/bugs found and corrected. documented in bugs section. Errors also applied to gallery and services pages.
+    - gallery.html valiation. No errors.
+    - services.html validation
+
+
 
 
 [Back to table of contents](#table-of-contents)
