@@ -286,7 +286,18 @@ I used the following to validate code by direct input:
     - services.html validation. Errors on iframe and button. Corrected.
 -Ran the three html pages through the validator again and no issues.
 
--css 
+-css http://jigsaw.w3.org/css-validator/
+    - three errors: font-style rule and overflow rule removed. Not required. Font-family error needed a comma after first font-family was declared
+    - Two warnings: 
+        - one was related to imported style sheets not being checked. no action to be taken.
+        - Second warning was related to the rgba colour selected for background. Decided to change to simple one colour background.
+    Re-run file through validator: no errors.
+
+- Contrast Checker  https://webaim.org/resources/contrastchecker/
+    - Contrast between content text and background: no issue.
+    - Contrast between headings colours and background: no issue.
+    - Contrast between navbar elements and navbar background: Some fails on contrastchecker.
+
 
 
 

@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;  
-    background: linear-gradient(rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)) ;
+    background-color: rgba(221, 229, 240, 0.6);   
     min-height: 100vh;
     background-size: cover;
 }
@@ -55,9 +55,9 @@ h3{
 #motto{
     font-family: 'Lora', serif;
     font-size: 1.5rem;
-    font-style: bold;
+    font-weight:bold;
     padding-left: 10px;
-    padding-top: 0;
+    padding-top: 10px;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -90,7 +90,6 @@ nav{
 .navbar-style{
     color: #8B2760;
     font-size: 1.2rem;
-    overflow: none;
 }
 
 nav a {
@@ -220,7 +219,7 @@ td{
 }
 
 .list-inline-item{
-    font-family: 'lora' serif;
+    font-family: 'lora', serif;
     font-size:10px;
 }
 /*--style list on services page Did you know section--*/
