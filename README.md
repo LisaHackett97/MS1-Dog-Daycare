@@ -265,6 +265,10 @@ Home page looks visually better, and structure makes more sense.
 Iframes validation error if there is text between the iframe tags. I had included text to cover if map did not load.
     - to correct validation error: removed text from iframe tag. Added a link below map for users to click on
 
+Error on contact form button: Input not allowed as a descendant.
+    - Removed input element and added class and type to the button.
+    - Had to add id to the element in order for it to style as required
+
 
 
 
@@ -279,7 +283,10 @@ I used the following to validate code by direct input:
 - html https://validator.w3.org/
     - index.html validation. Errors/bugs found and corrected. documented in bugs section. Errors also applied to gallery and services pages.
     - gallery.html valiation. No errors.
-    - services.html validation
+    - services.html validation. Errors on iframe and button. Corrected.
+-Ran the three html pages through the validator again and no issues.
+
+-css 
 
 
 

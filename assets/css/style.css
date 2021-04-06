@@ -315,17 +315,13 @@ input[type='radio'] {
 }
 
 /*stylng of button on form--*/
-button {
+#form-button {
     border-radius:10%;
     background-color:#8B2760 ;
     margin-left: 5px;   
-    color: #81b3d5;
+    color: #fff;
 }
 
-input[type=submit] {
-  color: #fff;
-  font-weight: 700;
-}
 /*--End of form Section--*/
 
 /*--contact form link section: on gallery and home pages--*/
