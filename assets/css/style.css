@@ -125,12 +125,13 @@ nav .active{
     font-size:  2rem;
 }
 
+/*--hover on paw icon--*/
 .navbar-brand i:hover{
     color: #81b3d5;
-    background-color: linear-gradient#8B2760; 
+    background-color: #8B2760; 
 }
 
-/*--icon Hover--*/
+/*--icon Hover,required so that text color doesn't change on hover--*/
 nav a:hover{
     color: #8B2760;
     background-color: #81b3d5b2; 
@@ -143,7 +144,6 @@ nav a:hover{
 /*--business name text under icon--*/
 #business-name {
     font-family: 'Lora', serif;
-    font: weight 400;
     font-size: 1.2rem;
     font-style: italic ;
 }
