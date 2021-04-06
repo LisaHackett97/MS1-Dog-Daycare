@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
     background-size: cover;
 }
-/*--margin top to main section after fixing header--*/
+/*--margin top to main section after fixing header-all pages-*/
 #main-section{   
     margin-top: 100px;
 }
@@ -19,7 +19,7 @@ body {
     padding-bottom: 10px;
     color: #373f47;      
 }
-/*--styling of main headers--*/
+/*--styling of main headers all pages--*/
 h1{
     font-family: 'Lora', serif;
     font-size: 200%;
@@ -29,7 +29,7 @@ h1{
     text-align: center;  
 }
 h2{
-    font-family: lora, sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 150%;
     color: #8B2760;
@@ -38,18 +38,22 @@ h2{
 
 h3{
      font-family: 'Lora', serif;
-      color: #8B2760;
-      font-weight: 700;
+     color: #8B2760;
+     font-weight: 700;
 }
-/*--motto below heading on each page--*/
+
+/*--end of main header styling section--*/
+
+
+/*--Section for motto below heading all pages--*/
 
 /*--change colour of text on motto--*/
 #main-section #motto{
     color: #8b2760;   
 }
-/*--style font and animation onn motto--*/
+/*--style font and animation on motto--*/
 #motto{
-    font-family: lora, serif;
+    font-family: 'Lora', serif;
     font-size: 1.5rem;
     font-style: bold;
     padding-left: 10px;
@@ -68,11 +72,12 @@ h3{
                 opacity: 1;
             }
         }
+/*--end of motto section--*/
 
-/*--Nav bar styling--*/
+/*--Section for Nav bar styling for all pages--*/
 nav{
     background-color: #81b3d5;
-    font-family: Lora, serif;
+    font-family: 'Lora', serif;
     font-weight: 600;    
 }
 
@@ -88,7 +93,6 @@ nav{
     overflow: none;
 }
 
-/*--Section for Nav/Menu-bar styling--*/
 nav a {
     border-radius: 25px; 
 }
@@ -138,7 +142,7 @@ nav a:hover{
 }
 /*--business name text under icon--*/
 #business-name {
-    font-family: 'lora' sans-serif;
+    font-family: 'Lora', serif;
     font: weight 400;
     font-size: 1.2rem;
     font-style: italic ;
@@ -146,7 +150,7 @@ nav a:hover{
 
 /*--NavBar Text styling--*/
 .navbar-text {
-    font-family: 'lora', sans-serif;
+    font-family: 'lora', serif;
     font-weight: 800;
     font-size: 1.4rem;        
 }
@@ -190,8 +194,6 @@ nav a:hover{
     font-size: 100%;  
 }
 
-
-
 /*--Services/More Info Page--*/
 
 /*--Price List table--*/
@@ -204,8 +206,9 @@ table{
 table tr {     
     background-color: rgba(245, 230, 244, 0.8);  
 }
+
 td{
-    font-family: 'Open-sans', serif;
+    font-family: 'Roboto slab', serif;
     font-weight:400;}
 
 /*--set width same on both table--*/
@@ -258,10 +261,10 @@ legend{
         margin-left: 20px;  
         font-size: 25px;  
         color:#8B2760;
-        font-family: lora, serif;
+        font-family: 'Lora', serif;
         font-weight: 600;    
     }
-    
+
 /*--to set border colour and visibility of fieldset box on form--*/
 #field-set{
     border: solid thin #8b2760;
@@ -283,7 +286,7 @@ legend{
 
 .details-labels{
         color:#8B2760;
-        font-family: lora, serif;
+        font-family: 'Lora', serif;
         font-weight: 600;        
         margin-top: 5px;
         margin-bottom: 1px;
@@ -316,7 +319,7 @@ button {
     border-radius:10%;
     background-color:#8B2760 ;
     margin-left: 5px;   
-     color: #81b3d5;
+    color: #81b3d5;
 }
 
 input[type=submit] {
@@ -331,7 +334,7 @@ input[type=submit] {
     height: 120px;
     width:200px;
     color: #373f47;
-    font-family: opens-sans, serif;
+    font-family: 'Lora', serif;
     font-size: 30px;
     font-weight: 700;
     background-color: #fdffb6;
@@ -359,7 +362,7 @@ iframe{
 /*--footer on all pages --*/
 footer{    
     background-color: #81b3d5;
-    font-family: lora, serif;
+    font-family: 'Lora', serif;
     font-weight: 600;
     font-size: 1.2rem;
     color: #8B2760;
