@@ -285,6 +285,7 @@ Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/
 ## Performance Testing
 
 lighthouse testing
+- First report run showed issued with images on home page. These were re-optimized and uploaded
 
 ## Code Validation
 
