@@ -288,7 +288,8 @@ lighthouse testing
 - First report run showed issued with images on home page. These were re-optimized and uploaded
 - rel attribute added to footer links and meta description added to all 3 pages
 - Unresolved Issues affecting Best Practice score
-    unload listener/runtime error when testing/issues with cookies: I do not currently have the knowledge to fix these issues. Score for page is 80.
+    unload listener/runtime error when testing/issues with cookies: I do not currently have the knowledge to fix these issues. Score for page is 80. However when report is re-run at a later time, issue is resolved and score is higher.
+Attached are the audit reports (https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
 
 ## Code Validation
 
