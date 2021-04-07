@@ -254,6 +254,7 @@ Home page looks visually better, and structure makes more sense.
 - Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
 - There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
 
+Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf))
 
 #### HTML Code Validation
 - Review of image attributes:
@@ -267,17 +268,17 @@ Home page looks visually better, and structure makes more sense.
 - Element smaller was used on text in the heading and caused a validation error.
     The element was not changing anything on the text and as text looked ok, I removed the tag <smaller>.
 
--Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
+- Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
     - Moved scripts on gallery.html and services.html. Tested burger menu, and it is still working as expected.
 
-Iframes validation error if there is text between the iframe tags. I had included text to cover if map did not load.
+- Iframes validation error if there is text between the iframe tags. I had included text to cover if map did not load.
     - to correct validation error: removed text from iframe tag. Added a link below map for users to click on
 
-Error on contact form button: Input not allowed as a descendant.
+- Error on contact form button: Input not allowed as a descendant.
     - Removed input element and added class and type to the button.
     - Had to add id to the element in order for it to style as required
 
-
+Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf)
 
 
 
@@ -292,9 +293,11 @@ I used the following to validate code by direct input:
     - index.html validation. Errors/bugs found and corrected. documented in bugs section. Errors also applied to gallery and services pages.
     - gallery.html valiation. No errors.
     - services.html validation. Errors on iframe and button. Corrected.
--Ran the three html pages through the validator again and no issues.
+- Ran the three html pages through the validator again and no issues.
+-
 
-- css http://jigsaw.w3.org/css-validator/
+
+- css http://jigsaw.w3.org/css-validator
     - three errors: font-style rule and overflow rule removed. Not required. Font-family error needed a comma after first font-family was declared
     - Two warnings: 
         - one was related to imported style sheets not being checked. no action to be taken.
@@ -309,7 +312,7 @@ I used the following to validate code by direct input:
         For the fails, I used lightness adjusteer o the contrast checker to select colors that contrasted better and updated CSS code.
         I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
-- [Screenshots for CSS and Color contrasr checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf)
+- [Screenshots for CSS and Color contrast checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf)
 
 
 
