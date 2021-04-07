@@ -1,4 +1,5 @@
 # Freyas Dog Daycare
+
 Code Institute User centric module milestone project MS1
 
 Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone who wants to socialise their dog and provide company so dog is not alone. Focus is on small dogs and puppies.
@@ -6,16 +7,17 @@ Primary goal of the site for a user to find out details of the service offered, 
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
 
 # Table of Contents
+
 - [UX](#ux)
-    - [External User Goals](#external-user-goals)
-    - [Site Owner Goals](#site-owner-goals)
-    - [Strategy and Scope](#strategy-and-scope)
-    - [Structure](#structure-of-the-website)
-    - [Wireframes](#wireframes)
-    - [Surface](#surface)
-        - [Colors](#colors)
-        - [Typography](#typography)
-        - [Images](#images)
+   * [External User Goals](#external-user-goals)
+   * [Site Owner Goals](#site-owner-goals)
+   * [Strategy and Scope](#strategy-and-scope)
+   - [Structure](#structure-of-the-website)
+   - [Wireframes](#wireframes)
+   - [Surface](#surface)
+     - [Colors](#colors)
+     - [Typography](#typography)
+     - [Images](#images)
 - [Features](#features)
 - [Technologies](#technologies-used)
 - [Testing](#testing)    
@@ -109,12 +111,14 @@ The number of images and decision to hide or not on smaller screens changed duri
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
 ## Website has the following features:
 ### Header
+
 contains the following:
 * Icon for business, which is a clickable link to bring user back to home page.
 * Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
 * Navigation menu. Allows user to navigate to all pages on the site.
 
 ### Navigation menu: 
+
 * Contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
 * Home: allows user to click and go to the main home page.
 * Gallery:allows user to click and go to gallery page to view images.
@@ -122,16 +126,20 @@ contains the following:
         The html page which more info menu item is linked to is called services.
 
 ### Footer: 
+
 * Contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
 * A short message is included on large screens.
 * Users can click on social media links for the business (generic websites used.). 
 * Links will open in seperate pages.
 
 ### Title:
+
 - The page title and short quote on each page. The quote transitions in when page is opened.
 
 ### CTA button: 
-#### "Contact us" button is contained on all three pages. 
+#### "Contact us" button is contained on all three pages.
+
+
 * Allows user to click and go to the contact form, contained on the services page.
 * It is included at top of services/more info page, so that user does not have to scroll through all the content on the page, 
       if their goal is simply to contact the business.
@@ -301,7 +309,7 @@ I used the following to validate code by direct input:
         For the fails, I used lightness adjusteer o the contrast checker to select colors that contrasted better and updated CSS code.
         I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
-- [Screenshots for CSS and Color contrasr checks]()
+- [Screenshots for CSS and Color contrasr checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf)
 
 
 
