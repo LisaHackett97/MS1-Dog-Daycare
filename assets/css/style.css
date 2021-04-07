@@ -32,13 +32,13 @@ h2{
     font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 150%;
-    color: #8B2760;
+    color: #771851;
     padding-top: 20px;
 }
 
 h3{
      font-family: 'Lora', serif;
-     color: #8B2760;
+     color: #771851;
      font-weight: 700;
 }
 
@@ -49,7 +49,7 @@ h3{
 
 /*--change colour of text on motto--*/
 #main-section #motto{
-    color: #8b2760;   
+    color: #771851;   
 }
 /*--style font and animation on motto--*/
 #motto{
@@ -76,7 +76,7 @@ h3{
 
 /*--Section for Nav bar styling for all pages--*/
 nav{
-    background-color: #81b3d5;
+    background-color: #C4D7ED;
     font-family: 'Lora', serif;
     font-weight: 600;    
 }
@@ -88,7 +88,7 @@ nav{
 }
 
 .navbar-style{
-    color: #8B2760;
+    color: #771851;
     font-size: 1.2rem;
 }
 
@@ -97,14 +97,14 @@ nav a {
 }
 
 nav .active{    
-      border-bottom:solid 2px #8B2760;   
+      border-bottom:solid 5px #fdffb6;   
       font-weight: 800;
-      color: #0a2229;
+      color: #373f47;
 }
 
 .navbar-nav a:hover {
-    color: #81b3d5;
-    background-color: #8B2760;     
+    color: #C4D7ED;
+    background-color: #771851;     
 }
 
 /*--styling of burger icon for smaller screens--*/ 
@@ -120,25 +120,25 @@ nav .active{
 
 /*--Nav Icon styling Left side--*/
 .navbar-brand{
-    color: #8B2760;
+    color: #771851;
     font-size:  2rem;
 }
 
 /*--hover on paw icon--*/
 .navbar-brand i:hover{
-    color: #81b3d5;
-    background-color: #8B2760; 
+    color: #C4D7ED;
+    background-color: #771851; 
 }
 
 /*--icon Hover,required so that text color doesn't change on hover--*/
 nav a:hover{
-    color: #8B2760;
-    background-color: #81b3d5; 
+    color: #771851;
+    background-color: #C4D7ED; 
 }
 
 .fa-border {
     border-radius: 50%;
-    border-color: #8B2760;
+    border-color: #771851;
 }
 /*--business name text under icon--*/
 #business-name {
@@ -245,6 +245,8 @@ li{
     width:160px;
     margin-left: 20px;
     justify-content: end;
+    background-color: #0c616e;
+    
 }
 .did-you-know{
     padding-bottom: 30px;
@@ -356,11 +358,10 @@ iframe{
 
 /*--footer on all pages --*/
 footer{    
-    background-color: #81b3d5;
+    background-color: #C4D7ED;
     font-family: 'Lora', serif;
     font-weight: 600;
-    /* font-size: 1.2rem; */
-    color: #8B2760;
+    color: #771851;
     padding: 10px;   
 }
 
@@ -371,15 +372,15 @@ footer{
 
 .social-links a {
     font-size: 1.3rem;
-    color: #8B2760;
+    color: #771851;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 50%;
 }
 
 .social-links a:hover{
-    background-color: #8B2760;
-    color: #81b3d5b2;
+    background-color: #771851;
+    color: #C4D7ED;
 }
 
 .footer-text{

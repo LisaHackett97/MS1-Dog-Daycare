@@ -84,11 +84,11 @@ These were built using balsamiq.
 ### Colors
 The main colours I used are:
 * Main text content  #373f47
-* Other text #8B2760
-* Background of pages  rgba(143, 160, 260, .1), rgba(74, 220, 226, 0.2)
-* Other background #81b3d5
+* Other text was #771851.
+* Background of pages  rgba(221, 229, 240, 0.6)
+* Other background #C4D7ED
 * Table background rgba(245, 230, 244, 0.8)
-* Hover on menu items #81b3d5, with background #8B2760.
+* Hover on menu items #C4D7ED, with background #771851.
 
 
 ### Typography
@@ -286,7 +286,7 @@ I used the following to validate code by direct input:
     - services.html validation. Errors on iframe and button. Corrected.
 -Ran the three html pages through the validator again and no issues.
 
--css http://jigsaw.w3.org/css-validator/
+- css http://jigsaw.w3.org/css-validator/
     - three errors: font-style rule and overflow rule removed. Not required. Font-family error needed a comma after first font-family was declared
     - Two warnings: 
         - one was related to imported style sheets not being checked. no action to be taken.
@@ -296,9 +296,12 @@ I used the following to validate code by direct input:
 - Contrast Checker  https://webaim.org/resources/contrastchecker/
     - Contrast between content text and background: no issue.
     - Contrast between headings colours and background: no issue.
-    - Contrast between navbar elements and navbar background: Some fails on contrastchecker.
+    - Contrast between navbar elements and navbar background: Some fails on contrastchecker. (same applied to footers)
+    - Contrast colours on charity links buttons had some fails on contrastchecker.
+        For the fails, I used lightness adjusteer o the contrast checker to select colors that contrasted better and updated CSS code.
+        I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
-
+- [Screenshots for CSS and Color contrasr checks]()
 
 
 
