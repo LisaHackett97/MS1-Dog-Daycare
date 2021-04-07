@@ -210,12 +210,11 @@ These cover why choose this type of business, what business does and who the peo
 # Testing
 ## Functionality Testing
 
-Chrome Dev tools was used to view site on diff screen sizes.
-    - Site was viewed in xs, small, medium, large and extra large sizes. 
-    - Site rendering as expected, but with 1 bug where the active menu item is not showing as expected. Document in Bugs section
-
-Site also viewed on Edge browser
+ - Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers
     - One image not displaying
+    - Site rendering as expected.
+    - Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue
+
 #UPDATE NOTE ON BUG
 
     dev tools testing and unicorn revealer
@@ -289,6 +288,11 @@ Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets
     - Had to add id to the element in order for it to style as required
 
 Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf)
+
+
+#### Bugs when viewing in Chrome and Edge Browsers
+- One image not displaying on live site in Edge. checked and was the same issue in Chrome
+- Resolved as file path was not correct.
 
 #### Bugs not Fixed
 
