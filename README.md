@@ -173,7 +173,7 @@ These cover why choose this type of business, what business does and who the peo
 * Allows user to go to contact form.
 
 #### Contact form
-* Allows user to get contact, with options for why they are getting in contact. Submit button will bing user back to home page. Name/email/phone number are required.
+* Allows user to get contact, with options for why they are getting in contact. Submit button will bring user back to home page. Name/email/phone number are required.
 
 #### Iframes: 
 * google map to business location. Map used is my local town/beach. It is only visible on large screens.
@@ -183,6 +183,7 @@ These cover why choose this type of business, what business does and who the peo
 ## Future Features
 - Modal pop up when form submitted.
 - Gallery: Images are clickable and recommendation pop up when each clicked.
+- Contact Form: Make reason for booking (radio items) required so that user must select one option.
 
 [Back to table of contents](#table-of-contents)
 
@@ -203,21 +204,43 @@ These cover why choose this type of business, what business does and who the peo
 * Scripts included to enable menu on small screens to work as expected.
     - http://code.jquery.com/
     - [bootstrap cdn js](https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js)
-    -
+* Unicorn revealer extension was helpful when developing the site
+* WAVE extension for reviewing accessibility and colour contrasts in testing.
 
 
 [Back to table of contents](#table-of-contents)
 # Testing
 ## Functionality Testing
 
- - Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers
-    - One image not displaying
-    - Site rendering as expected.
+ - Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers, using dev tools.
+    - One image not displaying. Issue resolved by correcting file path.
+    - Site now rendering as expected.
     - Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue
 
-#UPDATE NOTE ON BUG
+- Menu/Nav bar items manually tested on all pages
+    Paw/business icon on left: click and will brings user back to home page
+    Home menu item: click and will brings user back to home page
+    Gallery menu item: click and will brings user to gallery page
+    More Info menu item: click and will brings user services/more info page.
 
-    dev tools testing and unicorn revealer
+- Footer social media links tested on all pages.
+    Click and each opens to the correct web page, and opens in a new tab.
+
+- Contact Us button on all pages.
+    Click and brings user to the contact form on the services page.
+
+- Four links to external animal charities on services page, only on larger sized screens
+    Click and each opens to the correct web page, and in a new tab.
+
+- Form on services page.
+    Negative testing by clicking Send Form button without fields being updated.
+    Form will not "send" unless Name, Email and Phone Number are updated.
+    Once these are updated, by clicking send form, user will be brought back to the home page.
+    "reason for contact" is not yet a required field.
+
+- Link under Iframes map: this is an alternative for user where the map does not load.
+    Link was opening in same page as site. target="_blank" added to link. Issue resolved.
+
 
 ## Compatibility Testing
 
