@@ -163,8 +163,8 @@ nav a:hover{
 /*--images on home page--*/
 .home-images {    
     border-radius: 25%;
-    height:350px; 
-    width: 400px;
+    height:300px; 
+    width: 350px;
     object-fit: cover;   
 }
 
