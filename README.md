@@ -210,6 +210,14 @@ These cover why choose this type of business, what business does and who the peo
 # Testing
 ## Functionality Testing
 
+Chrome Dev tools was used to view site on diff screen sizes.
+    - Site was viewed in xs, small, medium, large and extra large sizes. 
+    - Site rendering as expected, but with 1 bug where the active menu item is not showing as expected. Document in Bugs section
+
+Site also viewed on Edge browser
+    - One image not displaying
+#UPDATE NOTE ON BUG
+
     dev tools testing and unicorn revealer
 
 ## Compatibility Testing
@@ -256,13 +264,15 @@ Home page looks visually better, and structure makes more sense.
 
 Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf))
 
+
+
 #### HTML Code Validation
 - Review of image attributes:
     Updated the alt attributes to be more descriptive
 
 - Image names: I had spaces in names of images. These showed as errors on the W3 validator check.
     Removed spaces from image names and updated file path in the index.html page.
-    Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file pathos on the gallery.html page.
+    Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file paths on the gallery.html page.
     Checked all images to ensure they were still displaying correctly.
 
 - Element smaller was used on text in the heading and caused a validation error.
@@ -271,7 +281,7 @@ Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets
 - Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
     - Moved scripts on gallery.html and services.html. Tested burger menu, and it is still working as expected.
 
-- Iframes validation error if there is text between the iframe tags. I had included text to cover if map did not load.
+- Iframes validation error showing if there is text between the iframe tags. I had included text to cover if map did not load.
     - to correct validation error: removed text from iframe tag. Added a link below map for users to click on
 
 - Error on contact form button: Input not allowed as a descendant.
@@ -280,7 +290,9 @@ Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets
 
 Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf)
 
+#### Bugs not Fixed
 
+- Inspection of site of diff browser sizes shows that the bottom border on active menu bar was not responsive. Was too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
 
 ## Performance Testing
 

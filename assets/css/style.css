@@ -93,18 +93,19 @@ nav{
 }
 
 nav a {
-    border-radius: 25px; 
+    border-radius: 25%; 
 }
 
 nav .active{    
       border-bottom:solid 5px #fdffb6;   
-      font-weight: 800;
+      font-weight: 700;
       color: #373f47;
 }
 
 .navbar-nav a:hover {
     color: #C4D7ED;
-    background-color: #771851;     
+    background-color: #771851;   
+    width: auto;    
 }
 
 /*--styling of burger icon for smaller screens--*/ 
@@ -114,8 +115,9 @@ nav .active{
 
 .fa.fa-bars {font-size: 2.6rem;}
 
-#navbarNav{
-    margin-right:15px;
+#navbarNav{   
+    margin-right: 15%;
+    
 }
 
 /*--Nav Icon styling Left side--*/
@@ -132,8 +134,8 @@ nav .active{
 
 /*--icon Hover,required so that text color doesn't change on hover--*/
 nav a:hover{
-    color: #771851;
     background-color: #C4D7ED; 
+    color: #771851;
 }
 
 .fa-border {
