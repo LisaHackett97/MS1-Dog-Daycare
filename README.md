@@ -297,6 +297,8 @@ It was appearing too large in comparison to the menu text on some medium screens
     - resolved by changing div containing menu anchor elements from col-3 col-md-4 to col-3 col-md-2 col-lg-4
     col-3 col-md-4
 
+- Links in footer were showing as accessibility errors with WAVE. Added sr class with details to resolve. Footer appearing as expected.
+
 #### HTML Code Validation
 - Review of image attributes:
     Updated the alt attributes to be more descriptive
