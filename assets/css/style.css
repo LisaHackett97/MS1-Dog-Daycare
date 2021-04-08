@@ -272,9 +272,9 @@ legend{
 #field-set{
     border: solid thin #8b2760;
     border-radius: 2%;
-    max-width:100%;
     padding : 5px;
-    margin:0;   
+    margin:0; 
+     
 }
 
 /*--contact form input boxes--*/

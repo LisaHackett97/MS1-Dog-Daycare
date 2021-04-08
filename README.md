@@ -184,6 +184,7 @@ These cover why choose this type of business, what business does and who the peo
 - Modal pop up when form submitted.
 - Gallery: Images are clickable and recommendation pop up when each clicked.
 - Contact Form: Make reason for booking (radio items) required so that user must select one option.
+- Pop up modal when phone number in header and footer selected.
 
 [Back to table of contents](#table-of-contents)
 
@@ -215,7 +216,11 @@ These cover why choose this type of business, what business does and who the peo
  - Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers, using dev tools.
     - One image not displaying. Issue resolved by correcting file path.
     - Site now rendering as expected.
-    - Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue
+    - Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue.
+
+- Site then viewed in landscape mode on xs, small, medium, large and extra large sizes on chrome and edge.
+    - One issue: fieldset was showing too  narrow in landscape, with elements overflowing. 
+    - Resolved by changing the bootstrap class on fieldset to col-sm-8 and removing the max-width css property.
 
 - Menu/Nav bar items manually tested on all pages
     Paw/business icon on left: click and will brings user back to home page
@@ -244,7 +249,8 @@ These cover why choose this type of business, what business does and who the peo
 
 ## Compatibility Testing
 
-cross browser testing
+Site was manually tested on google chrome, microsoft edge and IW on windows 10. No issues.
+Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/. Browsers checked included firefox, opera, firefox and safari. Site displaying as expected.
 
 ## User stories Testing
 
@@ -315,7 +321,10 @@ Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/
 
 #### Bugs when viewing in Chrome and Edge Browsers
 - One image not displaying on live site in Edge. checked and was the same issue in Chrome
-- Resolved as file path was not correct.
+    - Resolved as file path was not correct.
+
+- Fieldset too narrow in landscape mode, elements were overflowing.
+    - Resolved by setting bootstrap columns to 8 on small screen sizes and removing max-width property from css rule.
 
 #### Bugs not Fixed
 
