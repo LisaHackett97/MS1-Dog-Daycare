@@ -335,7 +335,7 @@ Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/
 
 
 
-## Performance Testing
+## Performance and accessibility Testing
 
 lighthouse testing
 - First report run showed issued with images on home page. These were re-optimized and uploaded
@@ -343,6 +343,16 @@ lighthouse testing
 - Unresolved Issues affecting Best Practice score
     unload listener/runtime error when testing/issues with cookies: I do not currently have the knowledge to fix these issues. Score for page is 80. However when report is re-run at a later time, issue is resolved and score is higher.
 Attached are the audit reports (https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
+
+Accessibility
+Scores reviewed in lighthouse.
+WAVE extension for further accessibility testing.
+    - aria labels added to textare of form and to the alternative link provided for google maps loction.
+    - heading levels used on services page restrucutred. 
+    - As I heading levels were restructures, it made more sense for the reader to be shown charity links under h5 heading, and more info for dog body signals under h6, as this is providing more information if a user is interested. It might be more important to a user to see charity links first.
+    - There is an alert across the three pages. This in relation to adjacent links going to same url. These are the two links in the nav bar, which user can click to go to home page. Icon set to go to home page, and Home item in menu bar.
+    - No other WAVE errors or alerts
+    
 
 ## Code Validation
 

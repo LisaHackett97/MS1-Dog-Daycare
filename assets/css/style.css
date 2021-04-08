@@ -41,6 +41,12 @@ h3{
      color: #771851;
      font-weight: 700;
 }
+/*--styling of headings used in did you know section on services page--*/
+h4, h5 {
+    font-family: 'Lora', serif;
+    color: #771851;
+    font-size:1.2rem;
+}
 
 /*--end of main header styling section--*/
 
@@ -243,6 +249,10 @@ li{
 
 .body-signals{
     list-style: none;
+}
+/*--to create space above element--*/
+#signals-heading{
+    padding-top:10px;
 }
 
 .puppy-icon{
