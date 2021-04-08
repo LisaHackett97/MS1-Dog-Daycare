@@ -92,21 +92,24 @@ nav{
     font-size: 1.2rem;
 }
 
+/*--round the corners on menu items--*/
 nav a {
-    border-radius: 25%; 
+    border-radius: 25%;   
 }
 
 nav .active{    
-      border-bottom:solid 5px #fdffb6;   
+    border-bottom:solid 5px #fdffb6;   
       font-weight: 700;
       color: #373f47;
 }
 
 .navbar-nav a:hover {
     color: #C4D7ED;
-    background-color: #771851;   
-    width: auto;    
+    background-color: #771851;     
+    width:auto;     
+   
 }
+
 
 /*--styling of burger icon for smaller screens--*/ 
 .navbar-toggler-icon {
@@ -117,8 +120,14 @@ nav .active{
 
 #navbarNav{   
     margin-right: 15%;
-    
+    padding-left:0;
+    padding-right: 5px;
+    padding-bottom: 10px;
 }
+
+/* .nav-link{
+   font-size: 20px;
+} */
 
 /*--Nav Icon styling Left side--*/
 .navbar-brand{

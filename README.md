@@ -292,7 +292,10 @@ Home page looks visually better, and structure makes more sense.
 
 Bugs((https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf))
 
-
+- Inspection of site of diff browser sizes showed that the bottom border on active menu bar was not responsive, when menu collapsed. 
+It was appearing too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
+    - resolved by changing div containing menu anchor elements from col-3 col-md-4 to col-3 col-md-2 col-lg-4
+    col-3 col-md-4
 
 #### HTML Code Validation
 - Review of image attributes:
@@ -328,7 +331,7 @@ Validation of HTML(https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/
 
 #### Bugs not Fixed
 
-- Inspection of site of diff browser sizes shows that the bottom border on active menu bar was not responsive. Was too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
+
 
 ## Performance Testing
 
