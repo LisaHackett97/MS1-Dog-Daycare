@@ -219,7 +219,7 @@ These cover why choose this type of business, what business does and who the peo
 - Git - used for version-control.
 - [Balsamiq](https://balsamiq.com/) - used to build wireframes. Downloaded software to use.
 - Chrome Dev Tools - used to view responsiveness and layout as site was being developed. I found this very useful when developing the site, as it aided my learning throughout the project.
- [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
+- [Image optimizer](http://www.imageoptimizer.net/Home.aspx) -used to optimize size of images used on the site
 - [Tinypng](https://tinypng.com/) - used to optimize size of images used on the site
 - Scripts included to enable menu on small screens to work as expected.
 
@@ -234,34 +234,35 @@ These cover why choose this type of business, what business does and who the peo
 
 ### Functionality Testing
 
-- Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers, using dev tools.
-        - One image not displaying. Issue resolved by correcting file path.
-        - Site now rendering as expected.
-        - Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue.
+Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers, using dev tools.
+
+- One image not displaying. Issue resolved by correcting file path.
+- Site now rendering as expected.
+- Testing made 1 bug clear: active menu item is not showing as expected. Document in Bugs section. Not a browser issue.
 
 - Site then viewed in landscape mode on xs, small, medium, large and extra large sizes on chrome and edge.
         - One issue: fieldset was showing too  narrow in landscape, with elements overflowing.
         - Resolved by changing the bootstrap class on fieldset to col-sm-8 and removing the max-width css property.
 
 - Menu/Nav bar items manually tested on all pages
-    Paw/business icon on left: click and will brings user back to home page
-    Home menu item: click and will brings user back to home page
-    Gallery menu item: click and will brings user to gallery page
-    More Info menu item: click and will brings user services/more info page.
+        - Paw/business icon on left: click and will brings user back to home page
+        - Home menu item: click and will brings user back to home page
+        - Gallery menu item: click and will brings user to gallery page
+        - More Info menu item: click and will brings user services/more info page.
 
 - Footer social media links tested on all pages.
-    Click and each opens to the correct web page, and opens in a new tab.
+    -Click and each opens to the correct web page, and opens in a new tab.
 
 - Contact Us button on all pages.
-    Click and brings user to the contact form on the services page.
+    -Click and brings user to the contact form on the services page.
 
 - Four links to external animal charities on services page, only on larger sized screens
-    Click and each opens to the correct web page, and in a new tab.
+    -Click and each opens to the correct web page, and in a new tab.
 
 - Form on services page.
-    Negative testing by clicking Send Form button without fields being updated.
-    Form will not "send" unless Name, Email and Phone Number are updated.
-    Once these are updated, by clicking send form, user will be brought back to the home page.
+-Negative testing by clicking Send Form button without fields being updated.
+-Form will not "send" unless Name, Email and Phone Number are updated.
+-Once these are updated, by clicking send form, user will be brought back to the home page.
     "reason for contact" is not yet a required field.
 
 - Link under Iframes map: this is an alternative for user where the map does not load.
@@ -269,8 +270,8 @@ These cover why choose this type of business, what business does and who the peo
 
 ## Compatibility Testing
 
-Site was manually tested on google chrome, microsoft edge and IW on windows 10. No issues.
-Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari. Site displaying as expected.
+- Site was manually tested on google chrome, microsoft edge and IW on windows 10. No issues.
+- Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari. Site displaying as expected.
 
 ## User stories Testing
 
@@ -325,20 +326,24 @@ It was appearing too large in comparison to the menu text on some medium screens
     Updated the alt attributes to be more descriptive
 
 - Image names: I had spaces in names of images. These showed as errors on the W3 validator check.
-    Removed spaces from image names and updated file path in the index.html page.
-    Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file paths on the gallery.html page.
-    Checked all images to ensure they were still displaying correctly.
+
+    -Removed spaces from image names and updated file path in the index.html page.
+    -Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file paths on the gallery.html page.
+    -Checked all images to ensure they were still displaying correctly.
 
 - Element smaller was used on text in the heading and caused a validation error.
     The element was not changing anything on the text and as text looked ok, I removed the ***smaller*** tag.
 
 - Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
+
         - Moved scripts on gallery.html and services.html. Tested burger menu, and it is still working as expected.
 
 - Iframes validation error showing if there is text between the iframe tags. I had included text to cover if map did not load.
+
         - to correct validation error: removed text from iframe tag. Added a link below map for users to click on
 
 - Error on contact form button: Input not allowed as a descendant.
+
         - Removed input element and added class and type to the button.
         - Had to add id to the element in order for it to style as required
 
@@ -346,7 +351,7 @@ It was appearing too large in comparison to the menu text on some medium screens
 
 #### Bugs when viewing in Chrome and Edge Browsers
 
-- One image not displaying on live site in Edge. checked and was the same issue in Chrome
+- One image not displaying on live site in Edge. checked and was the same issue in Chrome.
         - Resolved as file path was not correct.
 
 - Fieldset too narrow in landscape mode, elements were overflowing.
@@ -365,7 +370,9 @@ Lighthouse testing
 Attached are the audit reports "https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf"
 
 Accessibility
+
 Scores reviewed in lighthouse.
+
 WAVE extension for further accessibility testing.
     - aria labels added to textare of form and to the alternative link provided for google maps loction.
     - heading levels used on services page restrucutred.
@@ -378,6 +385,7 @@ WAVE extension for further accessibility testing.
 I used the following to validate code by direct input:
 
 - html <https://validator.w3.org/>
+
         - index.html validation. Errors/bugs found and corrected. documented in bugs section. Errors also applied to gallery and services pages.
         - gallery.html valiation. No errors.
         - services.html validation. Errors on iframe and button. Corrected.
@@ -385,6 +393,7 @@ I used the following to validate code by direct input:
 - Ran the three html pages through the validator again and no issues.
 
 - css <http://jigsaw.w3.org/css-validator>
+
         - three errors: font-style rule and overflow rule removed. Not required. Font-family error needed a comma after first font-family was declared
         - Two warnings:
             - one was related to imported style sheets not being checked. no action to be taken.
@@ -392,12 +401,13 @@ I used the following to validate code by direct input:
     Re-run file through validator: no errors.
 
 - Contrast Checker  <https://webaim.org/resources/contrastchecker/>
+
         - Contrast between content text and background: no issue.
         - Contrast between headings colours and background: no issue.
         - Contrast between navbar elements and navbar background: Some fails on contrastchecker. (same applied to footers)
         - Contrast colours on charity links buttons had some fails on contrastchecker.
-        For the fails, I used lightness adjusteer o the contrast checker to select colors that contrasted better and updated CSS code.
-        I installed the WAVE extension and rechecked contrast on all three pages. No issues
+- For the fails, I used lightness adjusteer o the contrast checker to select colors that contrasted better and updated CSS code.
+- I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
 - [Screenshots for CSS and Color contrast checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf)
 
@@ -412,7 +422,7 @@ I used the following to validate code by direct input:
 ### Icons used
 
 - Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency)
-- All other icons, including burgr menu icon,taken from fontawesome.
+- All other icons, including burger menu icon,taken from fontawesome.
 
 ### Images used
 
