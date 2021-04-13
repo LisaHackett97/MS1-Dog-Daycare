@@ -307,6 +307,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   > Contact phone number is provided in the footer on all three pages, on all screen sizes
   > On large screen sizes, a map showing the business location is provided on the "more info" page
   > On medium and smaller sized screens, a link to the map is provided below the contact form.
+  > On xs and small screens, only business address is displayed
 
 - How my dog is cared for.
   > Home page gives on overview of what happens in dog daycare and the staff involved
@@ -347,6 +348,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   > Address provided in header on all three pages, on medium screen sizes and above.
   > Location map is provided on large screen size, on the more info/services page.
   > Link to location map is provided on medium and smaller sized screens, below the contact form
+  > On xs and small screens, only business address is displayed in header.
   > Table are provided at top of the more info page giving details of service and prices.
   > Contact form will also enable a user to get in touch if they have further questions on services.
 

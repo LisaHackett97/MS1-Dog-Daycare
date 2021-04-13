@@ -175,6 +175,12 @@ nav a:hover{
     font-size: 1.7rem;
 }
 
+/*--format business address for xs and sm screens only--*/
+.xs-screen-address{
+    font-size: 18px;
+    text-align: center;
+}
+
 /*--End of Section for Nav/Menu-bar styling--*/
 
 /*--images on home page--*/

@@ -21,18 +21,20 @@
         <!--navbar section-->
         <nav class="navbar navbar-expand-lg row">
             <!--navbar Paw Icon-->
-
             <a class="navbar-brand col-1" href="index.html"><i class="fa fa-paw fa-border"></i>
                 <div id="business-name">Freya's</div>
             </a>
 
             <!--Business Details full name and address lg screens only-->
             <div class="navbar-text navbar-style col-7">
-                <div class="d-none d-lg-block text-center"><strong class="navtitle">Freya's</strong> Doggy Daycare, Sea
-                    Street. 
-                        <em>Ph:01-555 1234</em>
+                <div class="d-none d-lg-block text-center"><strong>Freya's</strong> Doggy Daycare, Sea Street.
+                    <em>Ph:01-555 1234</em>
                 </div>
-                <div class="d-none d-md-block d-lg-none"> Sea Street. Co Wicklow <em>Ph:01-555 1234</em>
+                <!--address and phone number only on medium screens-->
+                <div class="d-none d-md-block d-lg-none"> Sea Street. Co Wicklow<br><em>Ph:01-555 1234</em>
+                </div>
+                <!--address only on small screens-->
+                <div class="d-xs-block d-md-none xs-screen-address"> Sea Street. Co Wicklow
                 </div>
             </div>
 
@@ -41,18 +43,17 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fa fa-bars navbar-style my-icon"></i></span>
             </button>
-            <!-- two columns on medium screens to ensure div is not showing much wider than content. Displays ok with 3 on small and 4 on large-->
             <div class="collapse navbar-collapse col-3 col-md-2 col-lg-4 text-center" id="navbarNav">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link navbar-style active" href="index.html">Home</a>
-                    <a class="nav-link navbar-style" href="gallery.html">Gallery<span
-                            class="sr-only">(current)</span></a>
-                            
-                    <a class="nav-link navbar-style" href="services.html"> More Info</a>
+                    <a class="nav-link navbar-style active" href="index.html">Home<span
+                        class="sr-only">(current)</span></a>
+                    <a class="nav-link navbar-style" href="gallery.html">Gallery</a>
+                    <a class="nav-link navbar-style" href="services.html">More Info</a>
                 </div>
             </div>
         </nav>
     </header>
+
 
     <!--main content of page-->
     <div class="container" id="main-section">
