@@ -2,7 +2,7 @@
 
 Code Institute User Centric Module: Milestone Project MS1
 
-![Site-Mockup](readme-assets/MS1-Mockup.pdf)
+![Site-Mockup](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/MS1-Mockup.pdf)
 
 Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone who wants to socialise their dog and provide company so dog is not alone. Focus is on small dogs and puppies.
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
@@ -165,7 +165,7 @@ These are aligned to left. One image for each section of content.
 
 These cover why choose this type of business, what business does and who the people are.
 
-  - Allows the user to read more about the business and what it does.
+Allow the user to read more about the business and what it does.
 
 - Icons
 
@@ -175,6 +175,7 @@ These cover why choose this type of business, what business does and who the peo
 ### Gallery page
 
 - Allows users to view dog images with some recommendations throughout the page.
+- CTA button included
 
 ### Services page
 
@@ -185,10 +186,7 @@ These cover why choose this type of business, what business does and who the peo
 - Allows user to view options for daycare and the relevant prices.
 - Allows user to view drop off/pick up times.
 
-#### CTA button included near top of page
-
-- Allows user to go to contact form.
-
+#### CTA button is included near top of page
 #### Contact form
 
 - Allows user to get contact, with options for why they are getting in contact. Submit button will bring user back to home page. Name/email/phone number are required.
