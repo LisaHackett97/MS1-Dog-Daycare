@@ -1,134 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Slab:wght@100;300;400;500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto+Slab:wght@100;300;400;500&display=swap");
 
 body {
-    margin: 0;
-    padding: 0;  
-    background-color: rgba(221, 229, 240, 0.6);   
-    min-height: 100vh;
-    background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(221, 229, 240, 0.6);
+  min-height: 100vh;
+  background-size: cover;
 }
 /*--margin top to main section after fixing header-all pages-*/
-#main-section{   
-    margin-top: 100px;
+#main-section {
+  margin-top: 100px;
 }
 /*--style main content of pages--*/
-#main-section p{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    padding-bottom: 10px;
-    color: #373f47;      
+#main-section p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: #373f47;
 }
 /*--styling of main headers all pages--*/
-h1{
-    font-family: 'Lora', serif;
-    font-size: 200%;
-    font-style: italic;
-    padding:10px;
-    margin:25px 0 0;
-    text-align: center;  
+h1 {
+  font-family: "Lora", serif;
+  font-size: 200%;
+  font-style: italic;
+  padding: 10px;
+  margin: 25px 0 0;
+  text-align: center;
 }
-h2{
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    font-size: 150%;
-    color: #771851;
-    padding-top: 20px;
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 150%;
+  color: #771851;
+  padding-top: 20px;
 }
 
-h3{
-     font-family: 'Lora', serif;
-     color: #771851;
-     font-weight: 700;
+h3 {
+  font-family: "Lora", serif;
+  color: #771851;
+  font-weight: 700;
 }
 /*--styling of headings used in did you know section on services page--*/
-h4, h5 {
-    font-family: 'Lora', serif;
-    color: #771851;
-    font-size:1.2rem;
+h4,
+h5 {
+  font-family: "Lora", serif;
+  color: #771851;
+  font-size: 1.2rem;
 }
 
 /*--end of main header styling section--*/
 
-
 /*--Section for motto below heading all pages--*/
 
 /*--change colour of text on motto--*/
-#main-section #motto{
-    color: #771851;   
+#main-section #motto {
+  color: #771851;
 }
 /*--style font and animation on motto--*/
-#motto{
-    font-family: 'Lora', serif;
-    font-size: 1.5rem;
-    font-weight:bold;
-    padding-left: 10px;
-    padding-top: 10px;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    }
+#motto {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 10px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
 
 /*--code for animations from article on https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css--*/
- @keyframes fadeInAnimation {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*--end of motto section--*/
 
 /*--Section for Nav bar styling for all pages--*/
-nav{
-    background-color: #C4D7ED;
-    font-family: 'Lora', serif;
-    font-weight: 600;    
+nav {
+  background-color: #c4d7ed;
+  font-family: "Lora", serif;
+  font-weight: 600;
 }
 
 .navbar {
-    padding: 5px 15px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+  padding: 5px 15px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.navbar-style{
-    color: #771851;
-    font-size: 1.2rem;
+.navbar-style {
+  color: #771851;
+  font-size: 1.2rem;
 }
 
 /*--round the corners on menu items--*/
 nav a {
-    border-radius: 25%;   
+  border-radius: 25%;
 }
 
-nav .active{    
-    border-bottom:solid 5px #fdffb6;   
-      font-weight: 700;
-      color: #373f47;
+nav .active {
+  border-bottom: solid 5px #fdffb6;
+  font-weight: 700;
+  color: #373f47;
 }
 
 .navbar-nav a:hover {
-    color: #C4D7ED;
-    background-color: #771851;     
-    width:auto;     
-   
+  color: #c4d7ed;
+  background-color: #771851;
+  width: auto;
 }
 
-
-/*--styling of burger icon for smaller screens--*/ 
+/*--styling of burger icon for smaller screens--*/
 .navbar-toggler-icon {
-    display: inline;
+  display: inline;
 }
 
-.fa.fa-bars {font-size: 2.6rem;}
+.fa.fa-bars {
+  font-size: 2.6rem;
+}
 
-#navbarNav{   
-    margin-right: 15%;
-    padding-left:0;
-    padding-right: 5px;
-    padding-bottom: 10px;
+#navbarNav {
+  margin-right: 15%;
+  padding-left: 0;
+  padding-right: 5px;
+  padding-bottom: 10px;
 }
 
 /* .nav-link{
@@ -136,284 +135,306 @@ nav .active{
 } */
 
 /*--Nav Icon styling Left side--*/
-.navbar-brand{
-    color: #771851;
-    font-size:  2rem;
+.navbar-brand {
+  color: #771851;
+  font-size: 2rem;
 }
 
 /*--hover on paw icon--*/
-.navbar-brand i:hover{
-    color: #C4D7ED;
-    background-color: #771851; 
+.navbar-brand i:hover {
+  color: #c4d7ed;
+  background-color: #771851;
 }
 
 /*--icon Hover,required so that text color doesn't change on hover--*/
-nav a:hover{
-    background-color: #C4D7ED; 
-    color: #771851;
+nav a:hover {
+  background-color: #c4d7ed;
+  color: #771851;
 }
 
 .fa-border {
-    border-radius: 50%;
-    border-color: #771851;
+  border-radius: 50%;
+  border-color: #771851;
 }
 /*--business name text under icon--*/
 #business-name {
-    font-family: 'Lora', serif;
-    font-size: 1.2rem;
-    font-style: italic ;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+  font-style: italic;
 }
 
 /*--NavBar Text styling--*/
 .navbar-text {
-    font-family: 'lora', serif;
-    font-weight: 800;
-    font-size: 1.4rem;        
+  font-family: "lora", serif;
+  font-weight: 800;
+  font-size: 1.4rem;
 }
 
-.navtitle{
-    font-size: 1.7rem;
+.navtitle {
+  font-size: 1.7rem;
 }
 
 /*--format business address for xs and sm screens only--*/
-.xs-screen-address{
-    font-size: 18px;
-    text-align: center;
+.xs-screen-address {
+  font-size: 18px;
+  text-align: center;
 }
 
 /*--End of Section for Nav/Menu-bar styling--*/
 
 /*--images on home page--*/
-.home-images {    
-    border-radius: 25%;
-    height:300px; 
-    width: 350px;
-    object-fit: cover;   
+.home-images {
+  border-radius: 25%;
+  height: 300px;
+  width: 350px;
+  object-fit: cover;
 }
 
-.image-container{
-     display:flex;
-    align-items: center;
+.image-container {
+  display: flex;
+  align-items: center;
 }
 
 /*--gallery images--*/
-.gallery-image{
-    border-radius: 10%;
-    width: 300px;
-    height:300px;
-    object-fit: cover;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.gallery-image {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /*--to align content, images and text in divs to center--*/
-.main-gallery{
-    display: flex;
-    justify-content: center;
+.main-gallery {
+  display: flex;
+  justify-content: center;
 }
 /*--Text for gallery page--*/
-.recommendations{
-    font-style: italic;
-    font-size: 100%;  
+.recommendations {
+  font-style: italic;
+  font-size: 100%;
 }
 
 /*--Services/More Info Page--*/
 
 /*--Price List table--*/
-table{
-    margin:10px;
-    border: solid 2px #8B2760;
-    background: url("../icons/cartoon-dog-bg.jpg") center center / contain no-repeat;
+table {
+  margin: 10px;
+  border: solid 2px #8b2760;
+  background: url("../icons/cartoon-dog-bg.jpg") center center / contain
+    no-repeat;
 }
 
-table tr {     
-    background-color: rgba(245, 230, 244, 0.8);  
+table tr {
+  background-color: rgba(245, 230, 244, 0.8);
 }
 
-td{
-    font-family: 'Roboto slab', serif;
-    font-weight:400;}
+td {
+  font-family: "Roboto slab", serif;
+  font-weight: 400;
+}
 
 /*--set width same on both table--*/
-.table-data-65{
-    width:65%;
+.table-data-65 {
+  width: 65%;
 }
-.table-data-35{
-    width:35%;
+.table-data-35 {
+  width: 35%;
 }
 
-.list-inline-item{
-    font-family: 'lora', serif;
-    font-size:10px;
+.list-inline-item {
+  font-family: "lora", serif;
+  font-size: 10px;
 }
 /*--style list on services page Did you know section--*/
-li{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    color: #373f47;
-    font-size: 15px;
+li {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  color: #373f47;
+  font-size: 15px;
 }
 
-.body-signals{
-    list-style: none;
+.body-signals {
+  list-style: none;
 }
 /*--to create space above element--*/
-#signals-heading{
-    padding-top:10px;
+#signals-heading {
+  padding-top: 10px;
 }
 
-.puppy-icon{
-    height:60px;
-    width:60px;
-    margin-right:20px;
+.puppy-icon {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
 }
-.badge{
-    padding:5px;
-    height:30px;
-    width:160px;
-    margin-left: 20px;
-    justify-content: end;
-    background-color: #0c616e;
-    
+.badge {
+  padding: 5px;
+  height: 30px;
+  width: 160px;
+  margin-left: 20px;
+  justify-content: end;
+  background-color: #0c616e;
 }
-.did-you-know{
-    padding-bottom: 30px;
+.did-you-know {
+  padding-bottom: 30px;
 }
 
 /* --Section to style Form-- */
-form{
-    display:inline-block;
+form {
+  display: inline-block;
 }
 
-legend{
-        width:auto;
-        margin-left: 20px;  
-        font-size: 25px;  
-        color:#8B2760;
-        font-family: 'Lora', serif;
-        font-weight: 600;    
-    }
+legend {
+  width: auto;
+  margin-left: 20px;
+  font-size: 25px;
+  color: #8b2760;
+  font-family: "Lora", serif;
+  font-weight: 600;
+}
+
+/*--
+code to change colour of checked radio button found on a stackoverflow thread. 
+Link in credits section of README
+size and colour modified
+--*/
+input[type="radio"]:checked:after {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  top: -3px;
+  left: -1px;
+  position: relative;
+  background-color: rgba(139, 39, 96, 0.8);
+  content: "";
+  display: inline-block;
+  border: 2px solid white;
+}
 
 /*--to set border colour and visibility of fieldset box on form--*/
-#field-set{
-    border: solid thin #8b2760;
-    border-radius: 2%;
-    padding : 5px;
-    margin:0; 
-     
+#field-set {
+  border: solid thin #8b2760;
+  border-radius: 2%;
+  padding: 5px;
+  margin: 0;
 }
 
 /*--contact form input boxes--*/
- textarea, #name, #email, #contact-number{
-        font: .8em;
-        min-width: 95%;
-        margin-left: 5px;}
-
- textarea{
-        height:10rem;
+textarea,
+#name,
+#email,
+#contact-number {
+  font: 0.8em;
+  min-width: 95%;
+  margin-left: 5px;
 }
 
-.details-labels{
-        color:#8B2760;
-        font-family: 'Lora', serif;
-        font-weight: 600;        
-        margin-top: 5px;
-        margin-bottom: 1px;
-        margin-left: 5px;
+textarea {
+  height: 10rem;
+}
+
+.details-labels {
+  color: #8b2760;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 1px;
+  margin-left: 5px;
 }
 
 /*--contact form reason selection text--*/
-.reason{
-        color:#373f47;
-        padding-left: 10px;
-        font-family: 'lora', serif;
-        font-weight: 500;
+.reason {
+  color: #373f47;
+  padding-left: 10px;
+  font-family: "lora", serif;
+  font-weight: 500;
 }
 
 /*--Reason for contact heading within form--*/
-fieldset h5{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 5px;
-    color:#8B2760;
-    font-family: lora, serif;
-    font-weight: 600;
+fieldset h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 5px;
+  color: #8b2760;
+  font-family: lora, serif;
+  font-weight: 600;
 }
-input[type='radio'] {
-    margin-left: 5px;
+input[type="radio"] {
+  margin-left: 5px;
 }
 
 /*stylng of button on form--*/
 #form-button {
-    border-radius:10%;
-    background-color:#8B2760 ;
-    margin-left: 5px;   
-    color: #fff;
+  border-radius: 10%;
+  background-color: #8b2760;
+  margin-left: 5px;
+  color: #fff;
 }
 
 /*--End of form Section--*/
 
 /*--contact form link section: on gallery and home pages--*/
 
-.contact-link{
-    height: 120px;
-    width:200px;
-    color: #373f47;
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    font-weight: 700;
-    background-color: #fdffb6;
-    border-radius: 35%;
-    text-align: center;
-   
+.contact-link {
+  height: 120px;
+  width: 200px;
+  color: #373f47;
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #fdffb6;
+  border-radius: 35%;
+  text-align: center;
 }
 /*--map on larger screens--*/
-iframe{
-    height:40%;
-    margin-top: 10px;
-    padding-right: 30px; 
-    align-self: center;
+iframe {
+  height: 40%;
+  margin-top: 10px;
+  padding-right: 30px;
+  align-self: center;
 }
 
-.fa-map{
-    vertical-align: middle;
-    font-size: 40px;
-    color: rgba(139,39,96,.8);
-    padding-bottom:10px;
+.fa-map {
+  vertical-align: middle;
+  font-size: 40px;
+  color: rgba(139, 39, 96, 0.8);
+  padding-bottom: 10px;
 }
 
 /*--end of services page--*/
 
 /*--footer on all pages --*/
-footer{    
-    background-color: #C4D7ED;
-    font-family: 'Lora', serif;
-    font-weight: 600;
-    color: #771851;
-    padding: 10px;   
+footer {
+  background-color: #c4d7ed;
+  font-family: "Lora", serif;
+  font-weight: 600;
+  color: #771851;
+  padding: 10px;
 }
 
-.social-links {     
-    display: flex;
-    justify-content: flex-end;
+.social-links {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .social-links a {
-    font-size: 1.3rem;
-    color: #771851;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 50%;
+  font-size: 1.3rem;
+  color: #771851;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50%;
 }
 
-.social-links a:hover{
-    background-color: #771851;
-    color: #C4D7ED;
+.social-links a:hover {
+  background-color: #771851;
+  color: #c4d7ed;
 }
 
-.footer-text{
-    font-style: italic;
-    font-size:1rem;
+.footer-text {
+  font-style: italic;
+  font-size: 1rem;
 }
 /*--to give some spacing on address in footer--*/
-.footer-address{margin-left: 50px;}
-
+.footer-address {
+  margin-left: 50px;
+}

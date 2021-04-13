@@ -8,6 +8,8 @@ Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone 
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
 
+[Link to live site](https://lisahackett97.github.io/MS1-Dog-Daycare/)
+
 ## Table of Contents
 
 - [UX](#ux)
@@ -291,6 +293,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 
 - Be able to view the site on mobile/desktop/tablet.
   - User can view the site on mobile/tablet/laptop/desktop screensizes without issues.
+  - I have added some line breaks within the paragraphs of content. This enables user to more easily view content, especially on smaller mobile devices.
 
 - Be able to access all pages and navigate without confusion, without too many clicks.
 
@@ -323,6 +326,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 
 - Be able to enquire/book services online.
   - A contact form is provided on the services/more info page, with links to the form provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
+  - Social media links are also provided in the footer, which would enable user to contact business through these sites. 
 
 - Look at pictures of dogs in the day care.
   - Three images are provided on the home pages, aligned with each section of content.
@@ -443,11 +447,15 @@ Home page looks visually better, and structure makes more sense.
 - Fieldset too narrow in landscape mode, elements were overflowing.
   - Resolved by setting bootstrap columns to 8 on small screen sizes and removing max-width property from css rule.
 
+- Lighthouse report on services page showing an issue where the tap target is not appropriately sized for mobiles. This is the radio list on the contact form
+- Prechecked button on form is showing as default colour.
+  - Both these issues were resolved bu changing css styles on the input[type="radio"]:checked:after. Solution was found on stackoverflow.
+
 [Back to table of contents](#table-of-contents)
 
 #### Bugs not Fixed
 
-Lighthouse report on services page showing an issue where the tap target is not appropriately sized for mobiles. This is the radio list on the contact form
+
 
 [Back to table of contents](#table-of-contents)
 
@@ -477,7 +485,7 @@ Scores reviewed in lighthouse.
   - There is an alert across the three pages. This in relation to adjacent links going to same url. These are the two links in the nav bar, which user can click to go to home page. Icon set to go to home page, and Home item in menu bar.
   - No other WAVE errors or alerts
 
-  [WAVE reports](readme-assets/WAVE-results.png)
+ ![WAVE reports](readme-assets/WAVE-results.png)
 
   [Back to table of contents](#table-of-contents)
 
@@ -618,6 +626,7 @@ Color picker then used and adjust and pick colours which I felt worked with the 
 - How to link to id on another page: Tutorial html links on [quackit.com](https://www.quackit.com/)
 - Code for animations from article on [geeksforgeeks.org](https://www.geeksforgeeks.org/how-to-create-fade-in-effect-on-page-load-using-css)
 - Code for nav bar and burger menu taken from bootstrap documentation and customized for the site.
+- CSS code solution to change colour of radio buttons found on a thread on stackoverflow. (https://stackoverflow.com/questions/4253920/how-do-i-change-the-color-of-radio-buttons)
 
 ### Map
 
@@ -637,3 +646,5 @@ I referred to the following to add to my knowledge and for help.
 - Stackoverflow.com - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
 
 [Back to table of contents](#table-of-contents)
+
+This site was developed for Educational purposes.
