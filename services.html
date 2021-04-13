@@ -271,17 +271,19 @@
                             placeholder="email address">
                         <br>
                         <label for="contact-number" class="details-labels">Contact number</label>
+                        <!--min lentgth on phone number of 7 digits-->
                         <input type="tel" name="contact-number" id="contact-number" required aria-required="true"
-                            placeholder="Phone number">
+                            placeholder="Phone number" minlength="7">
                         <br>
 
                         <!--reason for contact section-->
                         <h5>Reason for contact</h5>
-                        <input id="booking" name="contact-reason" value="booking" type="radio">
+                        <!--booked option is pre-checked-->
+                        <input id="booking" name="contact-reason" value="booking" type="radio" aria-checked="true" checked>
                         <label for="booking" class="reason align-items-center">Book Day Care</label>
                         <br>
                         <input id="assessment" name="contact-reason" value="assessment" type="radio">
-                        <label for="assessment" class="reason">Book assessment</label>
+                        <label for="assessment" class="reason">Book Assessment</label>
                         <br>
                         <input id="query" name="contact-reason" value="query" type="radio">
                         <label for="query" class="reason">Ask us about our services</label>
@@ -290,8 +292,7 @@
                         <label for="other" class="reason">Other</label>
                         <div></div>
 
-                        <textarea placeholder="Please enter any other infomation here"  aria-label="textarea for additional information">
-                        </textarea>
+                        <textarea placeholder="Please enter any additional information here."  aria-label="textarea for additional information"></textarea>
                         <button class="btn form-button" type="submit" id="form-button">Send Form                            
                         </button>
                     </fieldset>

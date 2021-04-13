@@ -154,6 +154,7 @@ contains the following:
   - Allows user to click and go to the contact form, contained on the services page.
   - It is included at top of services/more info page, so that user does not have to scroll through all the content on the page,
       if their goal is simply to contact the business.
+  - The CTA button is included at the bottom of the home and gallery pages.
 
 ***Above features are consistent across all three pages***
 
@@ -276,8 +277,10 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 - Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/). Browsers checked included firefox, opera, firefox and safari.
   - Site displaying as expected.
 
+[Back to table of contents](#table-of-contents)
 ### User stories Testing
 
+[Back to table of contents](#table-of-contents)
 ### Issues during development
 
 At the beginning of the project I had issues using bootstrap to make the pages responsive on different screens. I needed to look again at bootstrap videos to aid my understanding.
@@ -323,6 +326,8 @@ It was appearing too large in comparison to the menu text on some medium screens
 
 - Links in footer were showing as accessibility errors with WAVE. Added sr class with details to resolve. Footer appearing as expected.
 
+- Placeholder text was not appearing. Resolved by putting the closing textarea tag on same line.
+
 **HTML Code Validation Bugs**
 
 - Review of image attributes:
@@ -357,11 +362,14 @@ It was appearing too large in comparison to the menu text on some medium screens
 - Fieldset too narrow in landscape mode, elements were overflowing.
   - Resolved by setting bootstrap columns to 8 on small screen sizes and removing max-width property from css rule.
 
+[Back to table of contents](#table-of-contents)
 #### Bugs not Fixed
+TO BE UPDATED IF REQUIRED**
 
+[Back to table of contents](#table-of-contents)
 ### Performance and accessibility Testing
 
-Lighthouse testing
+**Lighthouse testing**
 
 - First report run showed issued with images on home page. These were re-optimized and uploaded
 - rel attribute added to footer links and meta description added to all 3 pages
@@ -370,7 +378,7 @@ Lighthouse testing
 
 Attached are the audit reports [lighthouse-reports](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
 
-Accessibility
+**Accessibility**
 
 Scores reviewed in lighthouse.
 
@@ -382,6 +390,9 @@ Scores reviewed in lighthouse.
   - There is an alert across the three pages. This in relation to adjacent links going to same url. These are the two links in the nav bar, which user can click to go to home page. Icon set to go to home page, and Home item in menu bar.
   - No other WAVE errors or alerts
 
+  [WAVE reports](readme-assets/WAVE-results.png)
+
+  [Back to table of contents](#table-of-contents)
 ### Code Validation
 
 I used the following to validate code by direct input:
@@ -417,6 +428,8 @@ Re-run file through validator: no errors.
 [Back to table of contents](#table-of-contents)
 
 ## Deployment
+
+[Back to table of contents](#table-of-contents)
 
 ## Credits
 
