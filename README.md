@@ -4,8 +4,6 @@ Code Institute User Centric Module: Milestone Project MS1
 
 ![Site-Mockup](readme-assets/MS1-Mockup.png)
 
-
-
 Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone who wants to socialise their dog and provide company so dog is not alone. Focus is on small dogs and puppies.
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
@@ -91,9 +89,9 @@ These were built using balsamiq.
 
 The main colours I used are:
 
-- Main text content  #373f47
+- Main text content #373f47
 - Other text was #771851.
-- Background of pages  rgba(221, 229, 240, 0.6)
+- Background of pages rgba(221, 229, 240, 0.6)
 - Other background #C4D7ED
 - Table background rgba(245, 230, 244, 0.8)
 - Hover on menu items #C4D7ED, with background #771851.
@@ -118,7 +116,7 @@ The number of images and decision to hide or not on smaller screens changed duri
 
 The site consists of three pages accessible from a navigation menu. Home/Gallery/More Info (services)
 
-***Website has the following features***
+**_Website has the following features_**
 
 ### Header
 
@@ -153,10 +151,10 @@ contains the following:
 
   - Allows user to click and go to the contact form, contained on the services page.
   - It is included at top of services/more info page, so that user does not have to scroll through all the content on the page,
-      if their goal is simply to contact the business.
+    if their goal is simply to contact the business.
   - The CTA button is included at the bottom of the home and gallery pages.
 
-***Above features are consistent across all three pages***
+**_Above features are consistent across all three pages_**
 
 ### Home page
 
@@ -182,7 +180,7 @@ Allow the user to read more about the business and what it does.
 
 ### Services page
 
- This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
+This page is called More Info in the Navigation menu, as I felt it would be more intuitve for a user.The page gives additional information as well as list of prices/times.
 
 #### Tables
 
@@ -190,6 +188,7 @@ Allow the user to read more about the business and what it does.
 - Allows user to view drop off/pick up times.
 
 #### CTA button is included near top of page
+
 #### Contact form
 
 - Allows user to get contact, with options for why they are getting in contact. Submit button will bring user back to home page. Name/email/phone number are required.
@@ -218,7 +217,7 @@ Allow the user to read more about the business and what it does.
 - [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Use as a framework for layout and responsiveness.
 - [Font Awesome](https://fontawesome.com/) -used to provide icons across the site.
 - [Google fonts](https://fonts.google.com/) -used to select and provide typography.
-- [Github](https://github.com/)-  software hosting platform to keep project in a remote location
+- [Github](https://github.com/)- software hosting platform to keep project in a remote location
 - [Gitpod](https://gitpod.io/) - a development hosting platform
 - Git - used for version-control.
 - [Balsamiq](https://balsamiq.com/) - used to build wireframes. Downloaded software to use.
@@ -240,36 +239,43 @@ Allow the user to read more about the business and what it does.
 Site was viewed in xs, small, medium, large and extra large sizes on Chrome and Edge browsers, using dev tools.
 
 - One image not displaying. Issue resolved by correcting file path.
+
   - Site now rendering as expected.
   - Testing made 1 bug clear: active menu item is not showing as expected. Documented in Bugs section. Not a browser issue.
 
 - Site then viewed in landscape mode on xs, small, medium, large and extra large sizes on chrome and edge.
-  - One issue: fieldset was showing too  narrow in landscape, with elements overflowing.
+
+  - One issue: fieldset was showing too narrow in landscape, with elements overflowing.
   - Resolved by changing the bootstrap class on fieldset to col-sm-8 and removing the max-width css property.
 
 - Menu/Nav bar items manually tested on all pages
+
   - Paw/business icon on left: click and will brings user back to home page
   - Home menu item: click and will brings user back to home page
   - Gallery menu item: click and will brings user to gallery page
   - More Info menu item: click and will brings user services/more info page.
 
 - Footer social media links tested on all pages.
+
   - Click and each opens to the correct web page, and opens in a new tab.
 
 - Contact Us button on all pages.
+
   - Click and brings user to the contact form on the services page.
 
 - Four links to external animal charities on services page, only on larger sized screens
+
   - Click and each opens to the correct web page, and in a new tab.
 
 - Form on services page.
+
   - Negative testing by clicking Send Form button without fields being updated.
   - Form will not "send" unless Name, Email and Phone Number are updated.
   - Once these are updated, by clicking send form, user will be brought back to the home page.
     - "reason for contact" is not yet a required field.
 
 - Link under Iframes map: this is an alternative for user where the map does not load.
-  - Link was opening in same page as site. target="_blank" added to link. Issue resolved.
+  - Link was opening in same page as site. target="\_blank" added to link. Issue resolved.
 
 ### Compatibility Testing
 
@@ -278,9 +284,75 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   - Site displaying as expected.
 
 [Back to table of contents](#table-of-contents)
+
 ### User stories Testing
 
+#### As a prospective user, I want to
+
+- Be able to view the site on mobile/desktop/tablet.
+ > User can view the site on mobile/tablet/laptop/desktop screensizes without issues.
+
+- Be able to access all pages and navigate without confusion, without too many clicks.
+  > User can click on menu, which is fixed to top of all pages, to access the 3 pages of the site.
+  > Business icon can be clicked to bring user back to home page.
+  > Two clicks will bring user to contact form.
+  > One to click to access any of the pages on the site
+
+- Be able to find information about services offered.
+  > Services page is labelled "more info" in the menu bar, which user can navigate to for further information which is not provided on the home page.
+  > A Contact form is provided, if a user has questions which are not answered on the site.
+
+- Find out where the business is located.
+  > Address and phone number are provided in the header on all three pages on medium screen size and above
+  > Contact phone number is provided in the footer on all three pages, on all screen sizes
+  > On large screen sizes, a map showing the business location is provided on the "more info" page
+  > On medium and smaller sized screens, a link to the map is provided below the contact form.
+
+- How my dog is cared for.
+  > Home page gives on overview of what happens in dog daycare and the staff involved
+  > The more info page provides the following sections
+    > Your dogs day: which gives details on the days structure
+    > About Us: gives further details on the staff training.
+
+- Opening hours and prices, so I can make informed decision.
+  > At the top of the More Info page, two tables are provided, giving prices and also times for drop-offs and pickups.
+
+- Be able to enquire/book services online.
+  > A contact form is provided on the services/more info page, with links to the form provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
+
+- Look at pictures of dogs in the day care.
+  > Three images are provided on the home pages, aligned with each section of content.
+  > Gallery page is provided for users to eacily access with one click. This page shows images of dogs, along with three recommendations.
+
+  #### As site owner I want
+
+- Users to contact us: either online or telephone.
+  > User can access the contact form on the More info page, either by selecting the Contact Us button provided on each page, or by scrolling down on the more info page.
+  > Phone number is provided in the footer on all three pages.
+
+- Users to contact us to book 1 or more dogs into the day care.
+  > Users can contact the business by phoning or using the contact form. Contact form has a booking option provided.
+  > Table containing prices at top of more info/services page, provides details of cost for a 2nd dog.
+
+- Users to be able to view recommendations.
+  > Recommendations can be viewed on the gallery page, between each section of images.
+
+- To increase business/bookings.
+  > Site provides a "why dog daycare" section on the home page. This section is intended to give users more information around dog daycare, with the aim of increasing business for users who mya not have been aware of the advantages of the business.
+
+- Showcase dogs having fun in a safe friendly environment.
+  > Images are provided on home and gallery pages showing happy, playful small dogs.
+
+- To show where business is located and show services offered.
+  > Address provided in header on all three pages, on medium screen sizes and above.
+  > Location map is provided on large screen size, on the more info/services page.
+  > Link to location map is provided on medium and smaller sized screens, below the contact form
+  > Table are provided at top of the more info page giving details of service and prices.
+  > Contact form will also enable a user to get in touch if they have further questions on services.
+
+
 [Back to table of contents](#table-of-contents)
+
 ### Issues during development
 
 At the beginning of the project I had issues using bootstrap to make the pages responsive on different screens. I needed to look again at bootstrap videos to aid my understanding.
@@ -320,7 +392,8 @@ Home page looks visually better, and structure makes more sense.
 [Screenshots](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf) for above Bugs.
 
 - Inspection of site of diff browser sizes showed that the bottom border on active menu bar was not responsive, when menu collapsed.
-It was appearing too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
+  It was appearing too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
+
   - resolved by changing div containing menu anchor elements from col-3 col-md-4 to col-3 col-md-2 col-lg-4
     col-3 col-md-4
 
@@ -328,20 +401,23 @@ It was appearing too large in comparison to the menu text on some medium screens
 
 - Placeholder text was not appearing. Resolved by putting the closing textarea tag on same line.
 
-**HTML Code Validation Bugs**
+#### HTML Code Validation Bugs
 
 - Review of image attributes:
-    Updated the alt attributes to be more descriptive
+  Updated the alt attributes to be more descriptive
 
 - Image names: I had spaces in names of images. These showed as errors on the W3 validator check.
+
   - Removed spaces from image names and updated file path in the index.html page.
   - Reviewed names of images on gallery page before running validator. Two of these images had spaces. Replaced space with hyphen and updated file paths on the gallery.html page.
   - Checked all images to ensure they were still displaying correctly.
 
 - Element smaller was used on text in the heading and caused a validation error.
-  - The element was not changing anything on the text and as text looked ok, I removed the ***smaller*** tag.
+
+  - The element was not changing anything on the text and as text looked ok, I removed the **_smaller_** tag.
 
 - Stray script error on index.html: Was caused by my two scripts being outside body of html. Once I moved these inside the closing body tag, it corrected the validation error.
+
   - Moved scripts on gallery.html and services.html. Tested burger menu, and it is still working as expected.
 
 - Iframes validation error showing if there is text between the iframe tags. I had included text to cover if map did not load.
@@ -354,22 +430,26 @@ It was appearing too large in comparison to the menu text on some medium screens
 
 [Validation of HTML](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf)
 
-**Bugs when viewing in Chrome and Edge Browsers**
+#### Bugs when viewing in Chrome and Edge Browsers
 
 - One image not displaying on live site in Edge. checked and was the same issue in Chrome.
+
   - Resolved as file path was not correct.
 
 - Fieldset too narrow in landscape mode, elements were overflowing.
   - Resolved by setting bootstrap columns to 8 on small screen sizes and removing max-width property from css rule.
 
 [Back to table of contents](#table-of-contents)
+
 #### Bugs not Fixed
-TO BE UPDATED IF REQUIRED**
+
+TO BE UPDATED IF REQUIRED\*\*
 
 [Back to table of contents](#table-of-contents)
+
 ### Performance and accessibility Testing
 
-**Lighthouse testing**
+#### Lighthouse testing
 
 - First report run showed issued with images on home page. These were re-optimized and uploaded
 - rel attribute added to footer links and meta description added to all 3 pages
@@ -378,7 +458,7 @@ TO BE UPDATED IF REQUIRED**
 
 Attached are the audit reports [lighthouse-reports](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
 
-**Accessibility**
+#### Accessibility
 
 Scores reviewed in lighthouse.
 
@@ -393,6 +473,7 @@ Scores reviewed in lighthouse.
   [WAVE reports](readme-assets/WAVE-results.png)
 
   [Back to table of contents](#table-of-contents)
+
 ### Code Validation
 
 I used the following to validate code by direct input:
@@ -414,12 +495,13 @@ Ran the three html pages through the validator again and no issues.
 
 Re-run file through validator: no errors.
 
-- Contrast Checker  <https://webaim.org/resources/contrastchecker/>
+- Contrast Checker <https://webaim.org/resources/contrastchecker/>
 
   - Contrast between content text and background: no issue.
   - Contrast between headings colours and background: no issue.
   - Contrast between navbar elements and navbar background: Some fails on contrastchecker. (same applied to footers)
   - Contrast colours on charity links buttons had some fails on contrastchecker.
+
 - For the fails, I used lightness adjuster on the contrast checker to select colors that contrasted better and updated CSS code.
 - I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
@@ -430,6 +512,7 @@ Re-run file through validator: no errors.
 ## Deployment
 
 The project was deployed to GitHub pages using the following steps:
+
 1. Log into GitHub and select the repo.
 2. Go to settings
 3. Select Pages from vertical menu on left
@@ -440,6 +523,7 @@ The project was deployed to GitHub pages using the following steps:
 ![Deployment of live site screenshot](readme-assets/Deployment.png)
 
 To download and run locally, follow the below steps:
+
 1. Log into GitHub and select the repository, MS1-Dog-Daycare
 2. Select Code
 3. Click Download Zip
@@ -448,24 +532,24 @@ To download and run locally, follow the below steps:
 Select this file for screenshot [Run Locally](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/run-project-locally.png)
 
 To Clone, follow the below steps:
-1.  Log into GitHub and select the repository, MS1-Dog-Daycare
-2.  Select Code
-3.  Click https and copy the link
-4.  Open git bash
-5.  Change the working directory to where you want the cloned directory
-6.  Use command git clone and the copied URL
-7.  Press enter
+
+1. Log into GitHub and select the repository, MS1-Dog-Daycare
+2. Select Code
+3. Click https and copy the link
+4. Open git bash
+5. Change the working directory to where you want the cloned directory
+6. Use command git clone and the copied URL
+7. Press ente
 
 Select this file for screenshot [Clone repo](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/clone-project.png)
 
 Forking the repository:
+
 1. Log into GitHub and select the repository, MS1-Dog-Daycare
 2. Select Fork on top right hand corner.
 3. A copy should be created in your github profile and pull requests submitted.
 
 GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop#forking-a-repository)
-
-
 
 [Back to table of contents](#table-of-contents)
 
@@ -482,24 +566,24 @@ GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contr
 
 [Pexels Images](https://pexels.com)
 
-Image Name | Photo credit
----------- | ------------
-dog in cup | Photo: Pixabay
-gallery small dog playing | Pixabay
-two dogs  | Sebastian Coman Travel
-Gallery dog and paw | Karolina Grabowska
+| Image Name                | Photo credit           |
+| ------------------------- | ---------------------- |
+| dog in cup                | Photo: Pixabay         |
+| gallery small dog playing | Pixabay                |
+| two dogs                  | Sebastian Coman Travel |
+| Gallery dog and paw       | Karolina Grabowska     |
 
 [Unsplash Images](https://unsplash.com)
 
-Image Name | Photo credit
-----------|------------
-g2-dog and woman|Photo by Tamas Pap
-g2-white-dog-running  | Joe Caione
-gallery-dog-on-grass  | ana minella
-gallery-dog-run | arjan_stalpers
-gallery-dogs-sleeping | Bruno Emmanuelle
-gallery-pug-yawning  | Charles Deluvio
-human and dog  | Anna Dudkova
+| Image Name            | Photo credit       |
+| --------------------- | ------------------ |
+| g2-dog and woman      | Photo by Tamas Pap |
+| g2-white-dog-running  | Joe Caione         |
+| gallery-dog-on-grass  | ana minella        |
+| gallery-dog-run       | arjan_stalpers     |
+| gallery-dogs-sleeping | Bruno Emmanuelle   |
+| gallery-pug-yawning   | Charles Deluvio    |
+| human and dog         | Anna Dudkova       |
 
 Image called "gallery Freya1" my own photo.
 
