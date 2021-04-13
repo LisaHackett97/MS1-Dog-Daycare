@@ -290,68 +290,70 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 #### As a prospective user, I want to
 
 - Be able to view the site on mobile/desktop/tablet.
- > User can view the site on mobile/tablet/laptop/desktop screensizes without issues.
+  - User can view the site on mobile/tablet/laptop/desktop screensizes without issues.
 
 - Be able to access all pages and navigate without confusion, without too many clicks.
-  > User can click on menu, which is fixed to top of all pages, to access the 3 pages of the site.
-  > Business icon can be clicked to bring user back to home page.
-  > Two clicks will bring user to contact form.
-  > One to click to access any of the pages on the site
+
+  - User can click on menu, which is fixed to top of all pages, to access the 3 pages of the site.
+  - Business icon can be clicked to bring user back to home page.
+  - Two clicks will bring user to contact form.
+  - One to click to access any of the pages on the site
 
 - Be able to find information about services offered.
-  > Services page is labelled "more info" in the menu bar, which user can navigate to for further information which is not provided on the home page.
-  > A Contact form is provided, if a user has questions which are not answered on the site.
+  
+  - Services page is labelled "more info" in the menu bar, which user can navigate to for further information which is not provided on the home page.
+  - A Contact form is provided, if a user has questions which are not answered on the site.
 
 - Find out where the business is located.
-  > Address and phone number are provided in the header on all three pages on medium screen size and above
-  > Contact phone number is provided in the footer on all three pages, on all screen sizes
-  > On large screen sizes, a map showing the business location is provided on the "more info" page
-  > On medium and smaller sized screens, a link to the map is provided below the contact form.
-  > On xs and small screens, only business address is displayed
 
-- How my dog is cared for.
-  > Home page gives on overview of what happens in dog daycare and the staff involved
-  > The more info page provides the following sections
-    > Your dogs day: which gives details on the days structure
-    > About Us: gives further details on the staff training.
+  - Address and phone number are provided in the header on all three pages on medium screen size and above
+  - Contact phone number is provided in the footer on all three pages, on all screen sizes
+  - On large screen sizes, a map showing the business location is provided on the "more info" page.
+  - On medium and smaller sized screens, a link to the map is provided below the contact form.
+  - On xs and small screens, only business address is displayed.
+  
+- Find out how my dog is cared for.
+  - Home page gives on overview of what happens in dog daycare and the staff involved
+  - The more info page provides the following sections
+    - Your dogs day: which gives details on the days structure
+    - About Us: gives further details on the staff training.
 
-- Opening hours and prices, so I can make informed decision.
-  > At the top of the More Info page, two tables are provided, giving prices and also times for drop-offs and pickups.
+- Find out what are the opening hours and prices, so I can make informed decision.
+  - At the top of the More Info page, two tables are provided, giving prices and also times for drop-offs and pickups.
 
 - Be able to enquire/book services online.
-  > A contact form is provided on the services/more info page, with links to the form provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
+  - A contact form is provided on the services/more info page, with links to the form provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
 
 - Look at pictures of dogs in the day care.
-  > Three images are provided on the home pages, aligned with each section of content.
-  > Gallery page is provided for users to eacily access with one click. This page shows images of dogs, along with three recommendations.
+  - Three images are provided on the home pages, aligned with each section of content.
+  - Gallery page is provided for users to eacily access with one click. This page shows images of dogs, along with three recommendations.
 
-  #### As site owner I want
+#### As site owner I want
 
 - Users to contact us: either online or telephone.
-  > User can access the contact form on the More info page, either by selecting the Contact Us button provided on each page, or by scrolling down on the more info page.
-  > Phone number is provided in the footer on all three pages.
+  - User can access the contact form on the More info page, either by selecting the Contact Us button provided on each page, or by scrolling down on the more info page.
+  - Phone number is provided in the footer on all three pages.
 
 - Users to contact us to book 1 or more dogs into the day care.
-  > Users can contact the business by phoning or using the contact form. Contact form has a booking option provided.
-  > Table containing prices at top of more info/services page, provides details of cost for a 2nd dog.
+  - Users can contact the business by phoning or using the contact form. Contact form has a booking option provided.
+  - Table containing prices at top of more info/services page, provides details of cost for a 2nd dog.
 
 - Users to be able to view recommendations.
-  > Recommendations can be viewed on the gallery page, between each section of images.
+  - Recommendations can be viewed on the gallery page, between each section of images.
 
 - To increase business/bookings.
-  > Site provides a "why dog daycare" section on the home page. This section is intended to give users more information around dog daycare, with the aim of increasing business for users who mya not have been aware of the advantages of the business.
+  - Site provides a "why dog daycare" section on the home page. This section is intended to give users more information around dog daycare, with the aim of increasing business for users who mya not have been aware of the advantages of the business.
 
 - Showcase dogs having fun in a safe friendly environment.
-  > Images are provided on home and gallery pages showing happy, playful small dogs.
+  - Images are provided on home and gallery pages showing happy, playful small dogs.
 
 - To show where business is located and show services offered.
-  > Address provided in header on all three pages, on medium screen sizes and above.
-  > Location map is provided on large screen size, on the more info/services page.
-  > Link to location map is provided on medium and smaller sized screens, below the contact form
-  > On xs and small screens, only business address is displayed in header.
-  > Table are provided at top of the more info page giving details of service and prices.
-  > Contact form will also enable a user to get in touch if they have further questions on services.
-
+  - Address provided in header on all three pages, on medium screen sizes and above.
+  - Location map is provided on large screen size, on the more info/services page.
+  - Link to location map is provided on medium and smaller sized screens, below the contact form.
+  - On xs and small screens, only business address is displayed in header.
+  - Table are provided at top of the more info page giving details of service and prices.
+  - Contact form will also enable a user to get in touch if they have further questions on services.
 
 [Back to table of contents](#table-of-contents)
 
@@ -445,7 +447,7 @@ Home page looks visually better, and structure makes more sense.
 
 #### Bugs not Fixed
 
-TO BE UPDATED IF REQUIRED\*\*
+Lighthouse report on services page showing an issue where the tap target is not appropriately sized for mobiles. This is the radio list on the contact form
 
 [Back to table of contents](#table-of-contents)
 
@@ -459,6 +461,9 @@ TO BE UPDATED IF REQUIRED\*\*
   - unload listener/runtime error when testing/issues with cookies: I do not currently have the knowledge to fix these issues. Score for page is 80. However when report is re-run at a later time, issue is resolved and score is higher.
 
 Attached are the audit reports [lighthouse-reports](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
+
+- Reports re-run after user stories were tested.
+  - sr class added to links to services page in menu bar. This is because  the .html file is called services, while it is called More info on the screen, to a more intuitive experience for the end user.
 
 #### Accessibility
 
