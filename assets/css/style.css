@@ -114,6 +114,9 @@ nav .active {
   width: auto;
 }
 
+.navbar-Nav{
+  font-size:100px;
+}
 /*--styling of burger icon for smaller screens--*/
 .navbar-toggler-icon {
   display: inline;
@@ -126,9 +129,10 @@ nav .active {
 #navbarNav {
   margin-right: 15%;
   padding-left: 0;
-  padding-right: 5px;
+  padding-right: 15px;
   padding-bottom: 10px;
 }
+
 
 /* .nav-link{
    font-size: 20px;

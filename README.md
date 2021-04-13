@@ -455,6 +455,8 @@ Home page looks visually better, and structure makes more sense.
 
 #### Bugs not Fixed
 
+- When viewing pages for different devices using chrom dev tools, sometimes the menu bar is showing as overflowing the screen. Last test this happened only on ipad pro device. Screen view for this device was then checked on lambdatest, and was displaying correctly. A smiliar issue had occurred for me previously, but had corrected itself next time I logged on.
+
 
 
 [Back to table of contents](#table-of-contents)
