@@ -447,9 +447,9 @@ Home page looks visually better, and structure makes more sense.
 - Fieldset too narrow in landscape mode, elements were overflowing.
   - Resolved by setting bootstrap columns to 8 on small screen sizes and removing max-width property from css rule.
 
-- Lighthouse report on services page showing an issue where the tap target is not appropriately sized for mobiles. This is the radio list on the contact form
+- Lighthouse report on services page showing an issue where the tap target is not appropriately sized for mobiles. This is the radio list on the contact form. 
 - Prechecked button on form is showing as default colour.
-  - Both these issues were resolved bu changing css styles on the input[type="radio"]:checked:after. Solution was found on stackoverflow.
+  - Both these issues were resolved by changing css styles on the input[type="radio"]:checked:after. Solution was found on stackoverflow.
 
 [Back to table of contents](#table-of-contents)
 
