@@ -301,11 +301,12 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   - Business icon can be clicked to bring user back to home page.
   - Two clicks will bring user to contact form.
   - One to click to access any of the pages on the site
+  - One click to go to contact form
 
 - Be able to find information about services offered.
   
   - Services page is labelled "more info" in the menu bar, which user can navigate to for further information which is not provided on the home page.
-  - A Contact form is provided, if a user has questions which are not answered on the site.
+  - A Contact form is provided, if a user has questions which are not answered on the site.Link to this is included in the menu bar.
 
 - Find out where the business is located.
 
@@ -335,7 +336,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 #### As site owner I want
 
 - Users to contact us: either online or telephone.
-  - User can access the contact form on the More info page, either by selecting the Contact Us button provided on each page, or by scrolling down on the more info page.
+  - User can access the contact form on the More info page, either by selecting the Contact menu item, the contact Us button provided on each page, or by scrolling down on the more info page.
   - Phone number is provided in the footer on all three pages.
 
 - Users to contact us to book 1 or more dogs into the day care.

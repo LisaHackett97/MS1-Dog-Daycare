@@ -47,14 +47,18 @@ h5 {
   color: #771851;
   font-size: 1.2rem;
 }
-
+/* h6{
+  color: #0c616e;
+} */
 /*--end of main header styling section--*/
 
 /*--Section for motto below heading all pages--*/
 
-/*--change colour of text on motto--*/
+/*--change colour and position of text on motto--*/
 #main-section #motto {
   color: #771851;
+  text-align: center;
+  padding-top: 20px;
 }
 /*--style font and animation on motto--*/
 #motto {
@@ -91,10 +95,10 @@ nav {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
+/*--color and size of menu items--*/
 .navbar-style {
   color: #771851;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 
 /*--round the corners on menu items--*/
@@ -114,9 +118,7 @@ nav .active {
   width: auto;
 }
 
-.navbar-Nav{
-  font-size:100px;
-}
+
 /*--styling of burger icon for smaller screens--*/
 .navbar-toggler-icon {
   display: inline;
@@ -133,10 +135,6 @@ nav .active {
   padding-bottom: 10px;
 }
 
-
-/* .nav-link{
-   font-size: 20px;
-} */
 
 /*--Nav Icon styling Left side--*/
 .navbar-brand {
@@ -171,7 +169,7 @@ nav a:hover {
 .navbar-text {
   font-family: "lora", serif;
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .navtitle {
