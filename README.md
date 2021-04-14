@@ -476,6 +476,10 @@ Attached are the audit reports [lighthouse-reports](https://github.com/LisaHacke
 - Reports re-run after user stories were tested.
   - sr class added to links to services page in menu bar. This is because  the .html file is called services, while it is called More info on the screen, to a more intuitive experience for the end user.
 
+-Below are final lighthouse scores on mobile
+
+   ![Lighthouse final mobile reports](readme-assets/lighthouse-reports-final.png)
+
 #### Accessibility
 
 Scores reviewed in lighthouse.
@@ -524,6 +528,9 @@ Re-run file through validator: no errors.
 - I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
 - [Screenshots for CSS and Color contrast checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf)
+
+- Below are the final validation reports
+ ![Final validation reports](readme-assets/html-css-validation-final.png)
 
 [Back to table of contents](#table-of-contents)
 
