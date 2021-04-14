@@ -126,7 +126,7 @@ contains the following:
 
 - Icon for business, which is a clickable link to bring user back to home page.
 - Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
-- Navigation menu. Allows user to navigate to all pages on the site.
+- Navigation menu. Allows user to navigate to all pages on the site, and to the contact form.
 
 ### Navigation menu
 
@@ -135,6 +135,7 @@ contains the following:
 - Gallery: allows user to click and go to gallery page to view images.
 - More Info: This page was renamed more info on the nav menu, to be more intuive for users.
 - The html page which the more info menu item is linked to, is called services.
+- Contact option on the menu will bring user to to the contact form on the services page.
 
 ### Footer
 
@@ -193,11 +194,13 @@ This page is called More Info in the Navigation menu, as I felt it would be more
 
 #### Contact form
 
-- Allows user to get contact, with options for why they are getting in contact. Submit button will bring user back to home page. Name/email/phone number are required.
+- Allows user to get contact, with options for why they are getting in contact. Submit button will bring user back to home page. Name/email/phone number are required. Booking option is prechecked.
 
 #### Iframes
 
 - google map to business location. Map used is my local town/beach. It is only visible on large screens.
+- a link is included below the iframe so that if browser doesn't support the iframe, data can still be retrieved by user.
+- Link to google maps is included in small and medium sized screens.
 
 #### External Links
 
@@ -207,7 +210,6 @@ This page is called More Info in the Navigation menu, as I felt it would be more
 
 - Modal pop up when form submitted.
 - Gallery: Images are clickable and recommendation pop up when each clicked.
-- Contact Form: Make reason for booking (radio items) required so that user must select one option.
 - Pop up modal when phone number in header and footer selected.
 
 [Back to table of contents](#table-of-contents)
