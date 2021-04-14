@@ -47,12 +47,7 @@ h5 {
   color: #771851;
   font-size: 1.2rem;
 }
-/* h6{
-  color: #0c616e;
-} */
 /*--end of main header styling section--*/
-
-/*--Section for motto below heading all pages--*/
 
 /*--change colour and position of text on motto--*/
 #main-section #motto {
@@ -95,6 +90,7 @@ nav {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 /*--color and size of menu items--*/
 .navbar-style {
   color: #771851;
@@ -118,7 +114,6 @@ nav .active {
   width: auto;
 }
 
-
 /*--styling of burger icon for smaller screens--*/
 .navbar-toggler-icon {
   display: inline;
@@ -134,7 +129,6 @@ nav .active {
   padding-right: 15px;
   padding-bottom: 10px;
 }
-
 
 /*--Nav Icon styling Left side--*/
 .navbar-brand {
@@ -216,6 +210,7 @@ nav a:hover {
   font-style: italic;
   font-size: 100%;
 }
+
 
 /*--Services/More Info Page--*/
 
@@ -404,9 +399,9 @@ iframe {
 }
 
 /*--to style map link beneath iframe--*/
-.map-link{
- color: #771851;
- font-weight: 700;
+.map-link {
+  color: #771851;
+  font-weight: 700;
 }
 
 /*--end of services page--*/
@@ -446,3 +441,5 @@ footer {
 .footer-address {
   margin-left: 50px;
 }
+
+/*--end of footer section--*/
