@@ -403,6 +403,12 @@ iframe {
   padding-bottom: 10px;
 }
 
+/*--to style map link beneath iframe--*/
+.map-link{
+ color: #771851;
+ font-weight: 700;
+}
+
 /*--end of services page--*/
 
 /*--footer on all pages --*/
