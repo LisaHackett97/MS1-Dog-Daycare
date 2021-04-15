@@ -7,6 +7,7 @@ Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone 
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
 
+To open any links in a new tab, please press Ctrl + click
 
 
 ## Table of Contents
@@ -282,7 +283,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 
 ### Compatibility Testing
 
-- Site was manually tested on google chrome, microsoft edge and IW on windows 10. No issues.
+- Site was manually tested on google chrome, microsoft edge and IE on windows 10. No issues.
 - Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari.
   - Site displaying as expected.
 
