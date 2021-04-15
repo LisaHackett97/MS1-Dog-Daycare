@@ -94,7 +94,7 @@ nav {
 /*--color and size of menu items--*/
 .navbar-style {
   color: #771851;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 /*--round the corners on menu items--*/
@@ -164,20 +164,6 @@ a .active {
   width:70px;
   border-bottom: 2px solid #771851;
   border-radius: 10%;
-}
-
-/*--NavBar Text styling--*/
-.navbar-text {
-  font-family: "lora", serif;
-  font-weight: 800;
-  font-size: 1.2rem;
-  padding-right: 10px;
-}
-
-/*--format business address for xs and sm screens only--*/
-.xs-screen-address {
-  font-size: 18px;
-  text-align: center;
 }
 
 /*--End of Section for Nav/Menu-bar styling--*/
