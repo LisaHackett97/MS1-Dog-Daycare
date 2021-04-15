@@ -586,7 +586,7 @@ GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contr
 
 #### Icons used
 
-- Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency/?target="_blank")
+- Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency"){:target="_blank" rel="noopener"}
 - All other icons, including burger menu icon,taken from fontawesome.
 
 #### Images used
