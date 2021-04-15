@@ -1,6 +1,5 @@
-# Freyas Dog Daycare
+# [Freyas Dog Daycare](https://lisahackett97.github.io/MS1-Dog-Daycare/?target="_blank">)
 
-Code Institute User Centric Module: Milestone Project MS1
 
 ![Site-Mockup](readme-assets/MS1-Mockup.png)
 
@@ -8,7 +7,7 @@ Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone 
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
 
-[Link to live site](https://lisahackett97.github.io/MS1-Dog-Daycare/)
+
 
 ## Table of Contents
 
@@ -284,7 +283,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 ### Compatibility Testing
 
 - Site was manually tested on google chrome, microsoft edge and IW on windows 10. No issues.
-- Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/?target="_blank") Browsers checked included firefox, opera, firefox and safari.
+- Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari.
   - Site displaying as expected.
 
 [Back to table of contents](#table-of-contents)
@@ -400,7 +399,7 @@ Home page looks visually better, and structure makes more sense.
 - Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
 - There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
 
-[Screenshots](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf/?target="_blank") for above Bugs.
+[Screenshots](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/bugs-screenshots.pdf/) for above Bugs.
 
 - Inspection of site of diff browser sizes showed that the bottom border on active menu bar was not responsive, when menu collapsed.
   It was appearing too large in comparison to the menu text on some medium screens, and too small on smaller screen sizes.
@@ -439,7 +438,7 @@ Home page looks visually better, and structure makes more sense.
   - Removed input element and added class and type to the button.
   - Had to add id to the element in order for it to style as required
 
-[Validation of HTML](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf/?target="_blank")
+[Validation of HTML](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/Html-validation-checks.pdf/)
 
 #### Bugs when viewing in Chrome and Edge Browsers
 
@@ -473,7 +472,7 @@ Home page looks visually better, and structure makes more sense.
 - Unresolved Issues affecting Best Practice score
   - unload listener/runtime error when testing/issues with cookies: I do not currently have the knowledge to fix these issues. Score for page is 80. However when report is re-run at a later time, issue is resolved and score is higher.
 
-Attached are the audit reports [lighthouse-reports](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf/?target="_blank")
+Attached are the audit reports [lighthouse-reports](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/lighthouse-reports.pdf)
 
 - Reports re-run after user stories were tested.
   - sr class added to links to services page in menu bar. This is because  the .html file is called services, while it is called More info on the screen, to a more intuitive experience for the end user.
@@ -502,7 +501,7 @@ Scores reviewed in lighthouse.
 
 I used the following to validate code by direct input:
 
-- html <https://validator.w3.org/?target="_blank">
+- html <https://validator.w3.org/>
 
   - index.html validation. Errors/bugs found and corrected. documented in bugs section. Errors also applied to gallery and services pages.
   - gallery.html valiation. No errors.
@@ -510,7 +509,7 @@ I used the following to validate code by direct input:
 
 Ran the three html pages through the validator again and no issues.
 
-- css <http://jigsaw.w3.org/css-validator/?target="_blank">
+- css <http://jigsaw.w3.org/css-validator/>
 
   - three errors: font-style rule and overflow rule removed. Not required. Font-family error needed a comma after first font-family was declared
   - Two warnings:
@@ -519,7 +518,7 @@ Ran the three html pages through the validator again and no issues.
 
 Re-run file through validator: no errors.
 
-- Contrast Checker <https://webaim.org/resources/contrastchecker/?target="_blank">
+- Contrast Checker <https://webaim.org/resources/contrastchecker/>
 
   - Contrast between content text and background: no issue.
   - Contrast between headings colours and background: no issue.
@@ -529,7 +528,7 @@ Re-run file through validator: no errors.
 - For the fails, I used lightness adjuster on the contrast checker to select colors that contrasted better and updated CSS code.
 - I installed the WAVE extension and rechecked contrast on all three pages. No issues
 
-- [Screenshots for CSS and Color contrast checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf/?target="_blank")
+- [Screenshots for CSS and Color contrast checks](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/CSS-validation-and-contrast-Checks.pdf/)
 
 - Below are the final validation reports
  ![Final validation reports](readme-assets/html-css-validation-final.png)
@@ -544,7 +543,7 @@ The project was deployed to GitHub pages using the following steps:
 2. Go to settings
 3. Select Pages from vertical menu on left
 4. On Source, select Master Branch and click save.
-5. Website is now live and the URL will be displayed. [Link to live site](https://lisahackett97.github.io/MS1-Dog-Daycare/?target="_blank")
+5. Website is now live and the URL will be displayed. [Link to live site](https://lisahackett97.github.io/MS1-Dog-Daycare/)
 6. When updates are commited and pushed to GitHub, live site will be updated.
 
 ![Deployment of live site screenshot](readme-assets/Deployment.png)
@@ -568,7 +567,7 @@ To Clone, follow the below steps:
 6. Use command git clone and the copied URL
 7. Press ente
 
-Select this file for screenshot [Clone repo](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/clone-project.png/?target="_blank")
+Select this file for screenshot [Clone repo](https://github.com/LisaHackett97/MS1-Dog-Daycare/blob/master/readme-assets/clone-project.png/)
 
 Forking the repository:
 
@@ -576,7 +575,7 @@ Forking the repository:
 2. Select Fork on top right hand corner.
 3. A copy should be created in your github profile and pull requests submitted.
 
-GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop#forking-a-repository/?target="_blank")
+GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/cloning-and-forking-repositories-from-github-desktop#forking-a-repository/)
 
 [Back to table of contents](#table-of-contents)
 
@@ -586,12 +585,12 @@ GitHub docs link [Forking a repository](https://docs.github.com/en/desktop/contr
 
 #### Icons used
 
-- Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency"){:target="_blank" rel="noopener"}
+- Puppy icon: credit [Creaticca-Flaticon.com](https://www.flaticon.com/authors/creaticca-creative-agency")
 - All other icons, including burger menu icon,taken from fontawesome.
 
 #### Images used
 
-[Pexels Images](https://pexels.com/?target="_blank")
+[Pexels Images](https://pexels.com/)
 
 | Image Name                | Photo credit           |
 | ------------------------- | ---------------------- |
