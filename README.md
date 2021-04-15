@@ -7,7 +7,7 @@ Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone 
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
 Primary goal of the site owner to encourage visitors to make contact and book services for their small dog or puppy.
 
-To open any links in a new tab, please press Ctrl + click
+**To open any links in a new tab, please press Ctrl + click**
 
 
 ## Table of Contents
@@ -92,11 +92,12 @@ These were built using balsamiq.
 The main colours I used are:
 
 - Main text content #373f47
-- Other text was #771851.
+- Other text, including header and footer content #771851.
 - Background of pages rgba(221, 229, 240, 0.6)
-- Other background #C4D7ED
+- Other background #c4d7ed
 - Table background rgba(245, 230, 244, 0.8)
-- Hover on menu items #C4D7ED, with background #771851.
+- Hover on menu items #c4d7ed, with background #771851.
+- Header and footer background #c4d7ed
 
 #### Typography
 
@@ -124,14 +125,12 @@ The site consists of three pages accessible from a navigation menu. Home/Gallery
 
 contains the following:
 
-- Icon for business, which is a clickable link to bring user back to home page.
-- Address and phone number for business, which is hidden on some screen sizes. Allows user to quickly view where business is located.
-- Navigation menu. Allows user to navigate to all pages on the site, and to the contact form.
+- Business icon and name: a clickable link to bring user back to home page.
+- Menu bar: Allows user to navigate to gallery and services pages, and to the contact form.
 
 ### Navigation menu
 
-- Contains links to all three pages of site. collapses to a burger menu icon on smaller screens.
-- Home: allows user to click and go to the main home page.
+- Contains links to all gallery and services pages of site. collapses to a burger menu icon on smaller screens.(Home page is accessed by clicking icon on left side)
 - Gallery: allows user to click and go to gallery page to view images.
 - More Info: This page was renamed more info on the nav menu, to be more intuive for users.
 - The html page which the more info menu item is linked to, is called services.
@@ -139,8 +138,8 @@ contains the following:
 
 ### Footer
 
-- Contains business phone number and links to social media sites. Link for youtube hidden on xs small screen sizes.
-- A short message is included on large screens.
+- Contains business phone number and links to social media sites.
+- Contains business name and address.
 - Users can click on social media links for the business (generic websites used.).
 - Links will open in seperate pages.
 
@@ -204,7 +203,7 @@ This page is called More Info in the Navigation menu, as I felt it would be more
 
 #### External Links
 
-- Links to animal charities included, with dog icon to left of text for visual appeal. It is only visible on large screens.Links will open in seperate pages.
+- Links to animal charities included, with dog icon to left of text for visual appeal. It is only visible on large screens. Links will open in seperate pages.
 
 ### Future Features
 
@@ -255,9 +254,9 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 - Menu/Nav bar items manually tested on all pages
 
   - Paw/business icon on left: click and will brings user back to home page
-  - Home menu item: click and will brings user back to home page
   - Gallery menu item: click and will brings user to gallery page
   - More Info menu item: click and will brings user services/more info page.
+  - Contact menu items: click and will bring user to the contact form.
 
 - Footer social media links tested on all pages.
 
@@ -274,7 +273,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 - Form on services page.
 
   - Negative testing by clicking Send Form button without fields being updated.
-  - Form will not "send" unless Name, Email and Phone Number are updated.
+  - Form will not "send" unless Name, Email and Phone Number are updated. Phone number must also be numeric
   - Once these are updated, by clicking send form, user will be brought back to the home page.
   - Reason for contact is a prechecked field.
 
@@ -284,7 +283,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 ### Compatibility Testing
 
 - Site was manually tested on google chrome, microsoft edge and IE on windows 10. No issues.
-- Site was also checked on other browsers using [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari.
+- Site was also checked on other browsers using the following site [lambatest](https://www.lambdatest.com/) Browsers checked included firefox, opera, firefox and safari.
   - Site displaying as expected.
 
 [Back to table of contents](#table-of-contents)
@@ -299,24 +298,22 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
 
 - Be able to access all pages and navigate without confusion, without too many clicks.
 
-  - User can click on menu, which is fixed to top of all pages, to access the 3 pages of the site.
+  - User can click on menu, which is fixed to top of all pages, to access the pages of the site.
   - Business icon can be clicked to bring user back to home page.
-  - Two clicks will bring user to contact form.
   - One to click to access any of the pages on the site
   - One click to go to contact form
 
 - Be able to find information about services offered.
   
   - Services page is labelled "more info" in the menu bar, which user can navigate to for further information which is not provided on the home page.
-  - A Contact form is provided, if a user has questions which are not answered on the site.Link to this is included in the menu bar.
+  - A Contact form is provided, if a user has questions which are not answered on the site. Link to this is included in the menu bar.
 
 - Find out where the business is located.
 
-  - Address and phone number are provided in the header on all three pages on medium screen size and above
-  - Contact phone number is provided in the footer on all three pages, on all screen sizes
+  - Address and phone number are provided in the footer on all three pages. Decision to include in footer so that it did not have to be hidden on smaller screen sizes.
   - On large screen sizes, a map showing the business location is provided on the "more info" page.
   - On medium and smaller sized screens, a link to the map is provided below the contact form.
-  - On xs and small screens, only business address is displayed.
+
   
 - Find out how my dog is cared for.
   - Home page gives on overview of what happens in dog daycare and the staff involved
@@ -328,7 +325,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   - At the top of the More Info page, two tables are provided, giving prices and also times for drop-offs and pickups.
 
 - Be able to enquire/book services online.
-  - A contact form is provided on the services/more info page, with links to the form provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
+  - A contact form is provided on the services/more info page, which can be access through menu bar and cta buttons provided on all pages, for quick and easy access. This form requires users to give a reason for contact: booking a service/asking a question/other. Space is provided for user to give more details on the query.
   - Social media links are also provided in the footer, which would enable user to contact business through these sites. 
 
 - Look at pictures of dogs in the day care.
@@ -355,10 +352,9 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   - Images are provided on home and gallery pages showing happy, playful small dogs.
 
 - To show where business is located and show services offered.
-  - Address provided in header on all three pages, on medium screen sizes and above.
+  - Address provided in footer on all three pages.
   - Location map is provided on large screen size, on the more info/services page.
   - Link to location map is provided on medium and smaller sized screens, below the contact form.
-  - On xs and small screens, only business address is displayed in header.
   - Table are provided at top of the more info page giving details of service and prices.
   - Contact form will also enable a user to get in touch if they have further questions on services.
 
@@ -396,7 +392,7 @@ Home page looks visually better, and structure makes more sense.
 
 - I did a manual review of css code. The hover of the brand icon was not sorking as expected. background colour was not changing. I has a linear gradient defined inthe rule. Once this was removed, and background colour set to the #8B2760, icon displays as expected on hover.
 
-- After adding a 4th social media icon to the footer, there was overlap of elements on xs screen sizes. I have hidden the youtube icon link on these screen sizes.
+- After adding a 4th social media icon to the footer, there was overlap of elements on xs screen sizes. Spacing between social media icons needed to be reduced.
 - Contact number was wrapping on screens under 329px. Corrected this by removing font size rule from footer element.
 - There was a gap showing at right side of footer on some screens. Changed footer container to container-fluid.
 
@@ -458,7 +454,7 @@ Home page looks visually better, and structure makes more sense.
 
 #### Bugs not Fixed
 
-- When viewing pages for different devices using chrom dev tools, sometimes the menu bar is showing as overflowing the screen. Last test this happened only on ipad pro device. Screen view for this device was then checked on lambdatest, and was displaying correctly. A smiliar issue had occurred for me previously, but had corrected itself next time I logged on.
+- When viewing pages for different devices using chrome dev tools, sometimes the menu bar is showing as overflowing the screen. Last test this happened only on ipad pro device. Screen view for this device was then checked on lambdatest, and was displaying correctly. A smiliar issue had occurred for me previously, but had corrected itself next time I logged on.
 
 
 
@@ -656,6 +652,8 @@ I referred to the following to add to my knowledge and for help.
 - [Inspiration and help for gallery layout](https://bootsnipp.com/search?q=gallery)
 - Slack Community - I searched for a topic and usually someone else had the same question. This has been a great help in developing my understanding.
 - Stackoverflow.com - I had an issue with a button not working with link, was ableto find where people had previously asked and answered this query.
+
+- Thank you to my mentor Adegbenga Adeye
 
 [Back to table of contents](#table-of-contents)
 

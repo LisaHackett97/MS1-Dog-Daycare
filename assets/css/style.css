@@ -159,7 +159,7 @@ nav a:hover {
   font-style: italic;
 }
 
-/*--indicator on home page icon text--*/
+/*--Active indicator on home page icon text--*/
 a .active {
   width:70px;
   border-bottom: 2px solid #771851;
@@ -427,10 +427,6 @@ footer {
   font-style: italic;
   font-size: 1rem;
   margin-top: 12px;
-}
-/*--to give some spacing on address in footer--*/
-.footer-address {
-  margin-left: 50px;
 }
 
 /*--end of footer section--*/
