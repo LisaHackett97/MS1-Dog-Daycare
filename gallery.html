@@ -22,14 +22,18 @@
                 <div id="business-name">Freya's</div>
             </a>
 
+            <div class="col-7"></div>
             <!--Menu-Collapse for medium screens and under-->
             <button class="navbar-toggler my-icon" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <!--Code for nav bar and burger menu taken from bootstrap documentation and customized for the site.-->
                 <span class="navbar-toggler-icon"><i class="fa fa-bars navbar-style my-icon"></i></span>
             </button>
-            <!--columns so that menu items on mobile and medium screens do not appear expanded on active-->
-            <div class="collapse navbar-collapse col-3 col-md-2 col-lg-6 offset-5 text-center" id="navbarNav">
+            <!--
+                columns so that menu items on mobile and medium screens do not appear expanded on active
+            offset so that dropdown menu on smaller screens are not appearing to left
+        -->
+        <div class="collapse navbar-collapse col-4 offset-4 offset-sm-5 col-md-2 col-lg-4 offset-lg-0 text-center" id="navbarNav">
                 <div class="navbar-nav ml-auto">
                     <!--links to two pages on site. Home page accessed through icon-->
                     <a class="nav-link navbar-style active" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
