@@ -276,7 +276,7 @@ Site was viewed in xs, small, medium, large and extra large sizes on Chrome and 
   - Negative testing by clicking Send Form button without fields being updated.
   - Form will not "send" unless Name, Email and Phone Number are updated.
   - Once these are updated, by clicking send form, user will be brought back to the home page.
-    - "reason for contact" is not yet a required field.
+  - Reason for contact is a prechecked field.
 
 - Link under Iframes map: this is an alternative for user where the map does not load.
   - Link was opening in same page as site. target="\_blank" added to link. Issue resolved.

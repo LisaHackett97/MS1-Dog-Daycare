@@ -288,9 +288,10 @@
                             placeholder="email address">
                         <br>
                         <label for="contact-number" class="details-labels">Contact number</label>
-                        <!--min lentgth on phone number of 7 digits-->
-                        <input type="tel" name="contact-number" id="contact-number" required aria-required="true"
-                            placeholder="Phone number" minlength="7">
+                        <!--Contact number restricted to numeric characters, no spaces-->
+                        <input type="tel" pattern="[0-9]*" title="Contact number must have no spaces eg, 0861234567" name="contact-number" id="contact-number" required aria-required="true"
+                            placeholder="Phone Number" >
+                          
                         <br>
 
                         <!--reason for contact section-->
