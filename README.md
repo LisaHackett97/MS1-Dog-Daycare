@@ -476,7 +476,7 @@ Attached are the audit reports [lighthouse-reports](https://github.com/LisaHacke
 
 -Below are final lighthouse scores on mobile
 
-   ![Lighthouse final mobile reports](readme-assets/lighthouse-reports-final.png)
+   ![Lighthouse final mobile reports](readme-assets/final-lighthouse-reports.png)
 
 #### Accessibility
 
