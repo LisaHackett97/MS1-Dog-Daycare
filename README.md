@@ -1,7 +1,7 @@
 # [Freyas Dog Daycare](https://lisahackett97.github.io/MS1-Dog-Daycare/?target="_blank">)
 
 
-![Site-Mockup](readme-assets/MS1-Mockup.png)
+![Site-Mockup](readme-assets/mock-up.png)
 
 Freyas Dog Daycare name is a fictional site for a dog cay care site, for anyone who wants to socialise their dog and provide company so dog is not alone. Focus is on small dogs and puppies.
 Primary goal of the site for a user to find out details of the service offered, including opening hrs, prices and staff experience.
