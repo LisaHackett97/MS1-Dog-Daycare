@@ -161,9 +161,9 @@ nav a:hover {
 
 /*--indicator on home page icon text--*/
 a .active {
-  width: 60px;
-  color: #771851;
-  border-radius: 25%;
+  width:70px;
+  border-bottom: 2px solid #771851;
+  border-radius: 10%;
 }
 
 /*--NavBar Text styling--*/
