@@ -163,11 +163,8 @@ nav a:hover {
 .navbar-text {
   font-family: "lora", serif;
   font-weight: 800;
-  font-size: 1.3rem;
-}
-
-.navtitle {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
+  padding-right: 10px;
 }
 
 /*--format business address for xs and sm screens only--*/
