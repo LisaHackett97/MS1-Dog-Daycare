@@ -159,6 +159,13 @@ nav a:hover {
   font-style: italic;
 }
 
+/*--indicator on home page icon text--*/
+a .active {
+  width: 60px;
+  color: #771851;
+  border-radius: 25%;
+}
+
 /*--NavBar Text styling--*/
 .navbar-text {
   font-family: "lora", serif;
