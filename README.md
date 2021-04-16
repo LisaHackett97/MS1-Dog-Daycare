@@ -484,10 +484,10 @@ Scores reviewed in lighthouse.
 
 - WAVE extension for further accessibility testing.
 
-  - aria labels added to textare of form and to the alternative link provided for google maps loction.
+  - aria labels added to textarea of form and to the alternative link provided for google maps loction.
   - heading levels used on services page restrucutred.
-  - As I heading levels were restructures, it made more sense for the reader to be shown charity links under h5 heading, and more info for dog body signals under h6, as this is providing more information if a user is interested. It might be more important to a user to see charity links first.
-  - There is an alert across the three pages. This in relation to adjacent links going to same url. These are the two links in the nav bar, which user can click to go to home page. Icon set to go to home page, and Home item in menu bar.
+  - As I heading levels were restructured, it made more sense for the reader to be shown charity links under h5 heading, and more info for dog body signals under h6, as this is providing more information if a user is interested. It might be more important to a user to see charity links first.
+  - The two alerts on the services/more info page, are coming from the google maps links. There are two links set up, depending on screensize and if iframe is visible or not. The alert on home page is due to the fact that the last link in menu bar is to contact form, and next link further down on the page, is also to the contact form. 
   - No other WAVE errors or alerts
 
  ![WAVE reports](readme-assets/WAVE-results.png)
